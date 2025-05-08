@@ -45,6 +45,7 @@ func buildTreeBFS(target string, result map[string][][]string, root *TreeNode) {
 		currentNode := queue[0]
 		queue = queue[1:] // Dequeue
 
+		// iterasi item1
 		if _, found := memo[currentNode.Item1]; !found {
 			// Cari resep untuk target node saat ini
 			recipes1, ok := result[currentNode.Item1]
@@ -66,12 +67,44 @@ func buildTreeBFS(target string, result map[string][][]string, root *TreeNode) {
 	
 				currentNode.Children = append(currentNode.Children, newNode)
 	
+				// mencegah loop
 				if (val[0] != target && val[1] != target) {
 					queue = append(queue, newNode)
 				}
 	
 			}
 			memo[currentNode.Item1] = currentNode
+		}
+
+		// iterasi item2
+		if _, found := memo[currentNode.Item2]; !found {
+			// Cari resep untuk target node saat ini
+			recipes2, ok := result[currentNode.Item2]
+			if !ok {
+				continue
+			}
+			// Iterasi melalui semua pasangan resep1
+			for _, val := range recipes2 {
+				newNode := &TreeNode{
+					Item1: val[0],
+					Item2: val[1],
+				}
+				// time.Sleep(time.Second)
+				// fmt.Printf("%s : %s - %s\n", currentNode.Item1, val[0], val[1])
+				
+				if (isLeaf(*newNode)) {
+					continue;
+				}
+	
+				currentNode.Children = append(currentNode.Children, newNode)
+	
+				// mencegah loop
+				if (val[0] != target && val[1] != target) {
+					queue = append(queue, newNode)
+				}
+	
+			}
+			memo[currentNode.Item2] = currentNode
 		}
 	}
 }
