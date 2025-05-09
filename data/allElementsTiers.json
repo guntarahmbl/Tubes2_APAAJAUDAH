@@ -1,0 +1,2878 @@
+[
+  {
+    "nama": "Air",
+    "tier": 0
+  },
+  {
+    "nama": "Earth",
+    "tier": 0
+  },
+  {
+    "nama": "Fire",
+    "tier": 0
+  },
+  {
+    "nama": "Water",
+    "tier": 0
+  },
+  {
+    "nama": "Dust",
+    "tier": 1
+  },
+  {
+    "nama": "Energy",
+    "tier": 1
+  },
+  {
+    "nama": "Land",
+    "tier": 1
+  },
+  {
+    "nama": "Lava",
+    "tier": 1
+  },
+  {
+    "nama": "Mist",
+    "tier": 1
+  },
+  {
+    "nama": "Mud",
+    "tier": 1
+  },
+  {
+    "nama": "Pressure",
+    "tier": 1
+  },
+  {
+    "nama": "Puddle",
+    "tier": 1
+  },
+  {
+    "nama": "Smoke",
+    "tier": 1
+  },
+  {
+    "nama": "Steam",
+    "tier": 1
+  },
+  {
+    "nama": "Brick",
+    "tier": 2
+  },
+  {
+    "nama": "Continent",
+    "tier": 2
+  },
+  {
+    "nama": "Earthquake",
+    "tier": 2
+  },
+  {
+    "nama": "Eruption",
+    "tier": 2
+  },
+  {
+    "nama": "Geyser",
+    "tier": 2
+  },
+  {
+    "nama": "Granite",
+    "tier": 2
+  },
+  {
+    "nama": "Gunpowder",
+    "tier": 2
+  },
+  {
+    "nama": "Heat",
+    "tier": 2
+  },
+  {
+    "nama": "Obsidian",
+    "tier": 2
+  },
+  {
+    "nama": "Pond",
+    "tier": 2
+  },
+  {
+    "nama": "Stone",
+    "tier": 2
+  },
+  {
+    "nama": "Volcano",
+    "tier": 2
+  },
+  {
+    "nama": "Wind",
+    "tier": 2
+  },
+  {
+    "nama": "Chimney",
+    "tier": 3
+  },
+  {
+    "nama": "Clay",
+    "tier": 3
+  },
+  {
+    "nama": "Explosion",
+    "tier": 3
+  },
+  {
+    "nama": "Lake",
+    "tier": 3
+  },
+  {
+    "nama": "Metal",
+    "tier": 3
+  },
+  {
+    "nama": "Mountain",
+    "tier": 3
+  },
+  {
+    "nama": "Planet",
+    "tier": 3
+  },
+  {
+    "nama": "Plasma",
+    "tier": 3
+  },
+  {
+    "nama": "Sand",
+    "tier": 3
+  },
+  {
+    "nama": "Tornado",
+    "tier": 3
+  },
+  {
+    "nama": "Wall",
+    "tier": 3
+  },
+  {
+    "nama": "Warmth",
+    "tier": 3
+  },
+  {
+    "nama": "Atmosphere",
+    "tier": 4
+  },
+  {
+    "nama": "Atomic Bomb",
+    "tier": 4
+  },
+  {
+    "nama": "Avalanche",
+    "tier": 4
+  },
+  {
+    "nama": "Beach",
+    "tier": 4
+  },
+  {
+    "nama": "Blade",
+    "tier": 4
+  },
+  {
+    "nama": "Boiler",
+    "tier": 4
+  },
+  {
+    "nama": "Bullet",
+    "tier": 4
+  },
+  {
+    "nama": "Dam",
+    "tier": 4
+  },
+  {
+    "nama": "Desert",
+    "tier": 4
+  },
+  {
+    "nama": "Dune",
+    "tier": 4
+  },
+  {
+    "nama": "Firewall",
+    "tier": 4
+  },
+  {
+    "nama": "Glass",
+    "tier": 4
+  },
+  {
+    "nama": "Gold",
+    "tier": 4
+  },
+  {
+    "nama": "Grenade",
+    "tier": 4
+  },
+  {
+    "nama": "House",
+    "tier": 4
+  },
+  {
+    "nama": "Mercury",
+    "tier": 4
+  },
+  {
+    "nama": "Moon",
+    "tier": 4
+  },
+  {
+    "nama": "Mountain Range",
+    "tier": 4
+  },
+  {
+    "nama": "Plow",
+    "tier": 4
+  },
+  {
+    "nama": "River",
+    "tier": 4
+  },
+  {
+    "nama": "Rust",
+    "tier": 4
+  },
+  {
+    "nama": "Sandstone",
+    "tier": 4
+  },
+  {
+    "nama": "Sandstorm",
+    "tier": 4
+  },
+  {
+    "nama": "Sea",
+    "tier": 4
+  },
+  {
+    "nama": "Solar System",
+    "tier": 4
+  },
+  {
+    "nama": "Sun",
+    "tier": 4
+  },
+  {
+    "nama": "Venus",
+    "tier": 4
+  },
+  {
+    "nama": "Waterfall",
+    "tier": 4
+  },
+  {
+    "nama": "Wave",
+    "tier": 4
+  },
+  {
+    "nama": "Aquarium",
+    "tier": 5
+  },
+  {
+    "nama": "Aurora",
+    "tier": 5
+  },
+  {
+    "nama": "Bank",
+    "tier": 5
+  },
+  {
+    "nama": "Black Hole",
+    "tier": 5
+  },
+  {
+    "nama": "Blender",
+    "tier": 5
+  },
+  {
+    "nama": "Bridge",
+    "tier": 5
+  },
+  {
+    "nama": "Cloud",
+    "tier": 5
+  },
+  {
+    "nama": "Current",
+    "tier": 5
+  },
+  {
+    "nama": "Eclipse",
+    "tier": 5
+  },
+  {
+    "nama": "Factory",
+    "tier": 5
+  },
+  {
+    "nama": "Field",
+    "tier": 5
+  },
+  {
+    "nama": "Fireworks",
+    "tier": 5
+  },
+  {
+    "nama": "Flood",
+    "tier": 5
+  },
+  {
+    "nama": "Galaxy",
+    "tier": 5
+  },
+  {
+    "nama": "Glasses",
+    "tier": 5
+  },
+  {
+    "nama": "Gun",
+    "tier": 5
+  },
+  {
+    "nama": "Hourglass",
+    "tier": 5
+  },
+  {
+    "nama": "Hurricane",
+    "tier": 5
+  },
+  {
+    "nama": "Island",
+    "tier": 5
+  },
+  {
+    "nama": "Katana",
+    "tier": 5
+  },
+  {
+    "nama": "Mars",
+    "tier": 5
+  },
+  {
+    "nama": "Meteoroid",
+    "tier": 5
+  },
+  {
+    "nama": "Mirror",
+    "tier": 5
+  },
+  {
+    "nama": "Oasis",
+    "tier": 5
+  },
+  {
+    "nama": "Ocean",
+    "tier": 5
+  },
+  {
+    "nama": "Primordial Soup",
+    "tier": 5
+  },
+  {
+    "nama": "Pyramid",
+    "tier": 5
+  },
+  {
+    "nama": "Rainbow",
+    "tier": 5
+  },
+  {
+    "nama": "Rocket",
+    "tier": 5
+  },
+  {
+    "nama": "Safe",
+    "tier": 5
+  },
+  {
+    "nama": "Salt",
+    "tier": 5
+  },
+  {
+    "nama": "Scissors",
+    "tier": 5
+  },
+  {
+    "nama": "Sky",
+    "tier": 5
+  },
+  {
+    "nama": "Solar Cell",
+    "tier": 5
+  },
+  {
+    "nama": "Sound",
+    "tier": 5
+  },
+  {
+    "nama": "Space Station",
+    "tier": 5
+  },
+  {
+    "nama": "Supernova",
+    "tier": 5
+  },
+  {
+    "nama": "Swimming Pool",
+    "tier": 5
+  },
+  {
+    "nama": "Sword",
+    "tier": 5
+  },
+  {
+    "nama": "Telescope",
+    "tier": 5
+  },
+  {
+    "nama": "Tide",
+    "tier": 5
+  },
+  {
+    "nama": "Tsunami",
+    "tier": 5
+  },
+  {
+    "nama": "Village",
+    "tier": 5
+  },
+  {
+    "nama": "Windmill",
+    "tier": 5
+  },
+  {
+    "nama": "Acid Rain",
+    "tier": 6
+  },
+  {
+    "nama": "Archipelago",
+    "tier": 6
+  },
+  {
+    "nama": "Barn",
+    "tier": 6
+  },
+  {
+    "nama": "Bayonet",
+    "tier": 6
+  },
+  {
+    "nama": "Bell",
+    "tier": 6
+  },
+  {
+    "nama": "Binoculars",
+    "tier": 6
+  },
+  {
+    "nama": "City",
+    "tier": 6
+  },
+  {
+    "nama": "Day",
+    "tier": 6
+  },
+  {
+    "nama": "Double Rainbow!",
+    "tier": 6
+  },
+  {
+    "nama": "Electricity",
+    "tier": 6
+  },
+  {
+    "nama": "Excalibur",
+    "tier": 6
+  },
+  {
+    "nama": "Fence",
+    "tier": 6
+  },
+  {
+    "nama": "Flamethrower",
+    "tier": 6
+  },
+  {
+    "nama": "Fog",
+    "tier": 6
+  },
+  {
+    "nama": "Galaxy Cluster",
+    "tier": 6
+  },
+  {
+    "nama": "Hangar",
+    "tier": 6
+  },
+  {
+    "nama": "Horizon",
+    "tier": 6
+  },
+  {
+    "nama": "Jupiter",
+    "tier": 6
+  },
+  {
+    "nama": "Life",
+    "tier": 6
+  },
+  {
+    "nama": "Light Sword",
+    "tier": 6
+  },
+  {
+    "nama": "Lightning",
+    "tier": 6
+  },
+  {
+    "nama": "Meteor",
+    "tier": 6
+  },
+  {
+    "nama": "Night",
+    "tier": 6
+  },
+  {
+    "nama": "Paint",
+    "tier": 6
+  },
+  {
+    "nama": "Park",
+    "tier": 6
+  },
+  {
+    "nama": "Prism",
+    "tier": 6
+  },
+  {
+    "nama": "Rain",
+    "tier": 6
+  },
+  {
+    "nama": "Ruins",
+    "tier": 6
+  },
+  {
+    "nama": "Safety Glasses",
+    "tier": 6
+  },
+  {
+    "nama": "Skyscraper",
+    "tier": 6
+  },
+  {
+    "nama": "Space",
+    "tier": 6
+  },
+  {
+    "nama": "Storm",
+    "tier": 6
+  },
+  {
+    "nama": "Stun Gun",
+    "tier": 6
+  },
+  {
+    "nama": "Sunglasses",
+    "tier": 6
+  },
+  {
+    "nama": "Swim Goggles",
+    "tier": 6
+  },
+  {
+    "nama": "Water Gun",
+    "tier": 6
+  },
+  {
+    "nama": "Alien",
+    "tier": 7
+  },
+  {
+    "nama": "Animal",
+    "tier": 7
+  },
+  {
+    "nama": "Bacteria",
+    "tier": 7
+  },
+  {
+    "nama": "Clock",
+    "tier": 7
+  },
+  {
+    "nama": "Darkness",
+    "tier": 7
+  },
+  {
+    "nama": "Dawn",
+    "tier": 7
+  },
+  {
+    "nama": "Death",
+    "tier": 7
+  },
+  {
+    "nama": "Farm",
+    "tier": 7
+  },
+  {
+    "nama": "Human",
+    "tier": 7
+  },
+  {
+    "nama": "Light Bulb",
+    "tier": 7
+  },
+  {
+    "nama": "Magic",
+    "tier": 7
+  },
+  {
+    "nama": "Ozone",
+    "tier": 7
+  },
+  {
+    "nama": "Phoenix",
+    "tier": 7
+  },
+  {
+    "nama": "Plankton",
+    "tier": 7
+  },
+  {
+    "nama": "Robot",
+    "tier": 7
+  },
+  {
+    "nama": "Smog",
+    "tier": 7
+  },
+  {
+    "nama": "Snow",
+    "tier": 7
+  },
+  {
+    "nama": "Soil",
+    "tier": 7
+  },
+  {
+    "nama": "Spaceship",
+    "tier": 7
+  },
+  {
+    "nama": "Star",
+    "tier": 7
+  },
+  {
+    "nama": "Twilight",
+    "tier": 7
+  },
+  {
+    "nama": "Universe",
+    "tier": 7
+  },
+  {
+    "nama": "Wind Turbine",
+    "tier": 7
+  },
+  {
+    "nama": "Wire",
+    "tier": 7
+  },
+  {
+    "nama": "Alarm Clock",
+    "tier": 8
+  },
+  {
+    "nama": "Alchemist",
+    "tier": 8
+  },
+  {
+    "nama": "Allergy",
+    "tier": 8
+  },
+  {
+    "nama": "Antarctica",
+    "tier": 8
+  },
+  {
+    "nama": "Archeologist",
+    "tier": 8
+  },
+  {
+    "nama": "Astronaut",
+    "tier": 8
+  },
+  {
+    "nama": "Astronomer",
+    "tier": 8
+  },
+  {
+    "nama": "Beaver",
+    "tier": 8
+  },
+  {
+    "nama": "Bird",
+    "tier": 8
+  },
+  {
+    "nama": "Blizzard",
+    "tier": 8
+  },
+  {
+    "nama": "Blood",
+    "tier": 8
+  },
+  {
+    "nama": "Butterfly",
+    "tier": 8
+  },
+  {
+    "nama": "Cable Car",
+    "tier": 8
+  },
+  {
+    "nama": "Camel",
+    "tier": 8
+  },
+  {
+    "nama": "Cat",
+    "tier": 8
+  },
+  {
+    "nama": "Chain",
+    "tier": 8
+  },
+  {
+    "nama": "Cold",
+    "tier": 8
+  },
+  {
+    "nama": "Constellation",
+    "tier": 8
+  },
+  {
+    "nama": "Corpse",
+    "tier": 8
+  },
+  {
+    "nama": "Crystal Ball",
+    "tier": 8
+  },
+  {
+    "nama": "Cyborg",
+    "tier": 8
+  },
+  {
+    "nama": "Dew",
+    "tier": 8
+  },
+  {
+    "nama": "Domestication",
+    "tier": 8
+  },
+  {
+    "nama": "Dynamite",
+    "tier": 8
+  },
+  {
+    "nama": "Egg",
+    "tier": 8
+  },
+  {
+    "nama": "Electrician",
+    "tier": 8
+  },
+  {
+    "nama": "Family",
+    "tier": 8
+  },
+  {
+    "nama": "Farmer",
+    "tier": 8
+  },
+  {
+    "nama": "Firefighter",
+    "tier": 8
+  },
+  {
+    "nama": "Fish",
+    "tier": 8
+  },
+  {
+    "nama": "Force Knight",
+    "tier": 8
+  },
+  {
+    "nama": "Frog",
+    "tier": 8
+  },
+  {
+    "nama": "Glacier",
+    "tier": 8
+  },
+  {
+    "nama": "Gravestone",
+    "tier": 8
+  },
+  {
+    "nama": "Hacker",
+    "tier": 8
+  },
+  {
+    "nama": "Hero",
+    "tier": 8
+  },
+  {
+    "nama": "Horse",
+    "tier": 8
+  },
+  {
+    "nama": "Idea",
+    "tier": 8
+  },
+  {
+    "nama": "Igloo",
+    "tier": 8
+  },
+  {
+    "nama": "Lamp",
+    "tier": 8
+  },
+  {
+    "nama": "Light",
+    "tier": 8
+  },
+  {
+    "nama": "Livestock",
+    "tier": 8
+  },
+  {
+    "nama": "Lizard",
+    "tier": 8
+  },
+  {
+    "nama": "Love",
+    "tier": 8
+  },
+  {
+    "nama": "Meat",
+    "tier": 8
+  },
+  {
+    "nama": "Microscope",
+    "tier": 8
+  },
+  {
+    "nama": "Monarch",
+    "tier": 8
+  },
+  {
+    "nama": "Mummy",
+    "tier": 8
+  },
+  {
+    "nama": "Organic Matter",
+    "tier": 8
+  },
+  {
+    "nama": "Painter",
+    "tier": 8
+  },
+  {
+    "nama": "Pig",
+    "tier": 8
+  },
+  {
+    "nama": "Plant",
+    "tier": 8
+  },
+  {
+    "nama": "Potter",
+    "tier": 8
+  },
+  {
+    "nama": "Sailor",
+    "tier": 8
+  },
+  {
+    "nama": "Samurai",
+    "tier": 8
+  },
+  {
+    "nama": "Science",
+    "tier": 8
+  },
+  {
+    "nama": "Scorpion",
+    "tier": 8
+  },
+  {
+    "nama": "Shuriken",
+    "tier": 8
+  },
+  {
+    "nama": "Sickness",
+    "tier": 8
+  },
+  {
+    "nama": "Ski Goggles",
+    "tier": 8
+  },
+  {
+    "nama": "Skier",
+    "tier": 8
+  },
+  {
+    "nama": "Sloth",
+    "tier": 8
+  },
+  {
+    "nama": "Snake",
+    "tier": 8
+  },
+  {
+    "nama": "Snow Globe",
+    "tier": 8
+  },
+  {
+    "nama": "Snowball",
+    "tier": 8
+  },
+  {
+    "nama": "Snowman",
+    "tier": 8
+  },
+  {
+    "nama": "Starfish",
+    "tier": 8
+  },
+  {
+    "nama": "Sundial",
+    "tier": 8
+  },
+  {
+    "nama": "Surfer",
+    "tier": 8
+  },
+  {
+    "nama": "Swimmer",
+    "tier": 8
+  },
+  {
+    "nama": "Tool",
+    "tier": 8
+  },
+  {
+    "nama": "Turtle",
+    "tier": 8
+  },
+  {
+    "nama": "Ufo",
+    "tier": 8
+  },
+  {
+    "nama": "Warrior",
+    "tier": 8
+  },
+  {
+    "nama": "Watch",
+    "tier": 8
+  },
+  {
+    "nama": "Wizard",
+    "tier": 8
+  },
+  {
+    "nama": "Wolf",
+    "tier": 8
+  },
+  {
+    "nama": "Airplane",
+    "tier": 9
+  },
+  {
+    "nama": "Algae",
+    "tier": 9
+  },
+  {
+    "nama": "Alligator",
+    "tier": 9
+  },
+  {
+    "nama": "Angel",
+    "tier": 9
+  },
+  {
+    "nama": "Arctic",
+    "tier": 9
+  },
+  {
+    "nama": "Ash",
+    "tier": 9
+  },
+  {
+    "nama": "Bacon",
+    "tier": 9
+  },
+  {
+    "nama": "Birdcage",
+    "tier": 9
+  },
+  {
+    "nama": "Birdhouse",
+    "tier": 9
+  },
+  {
+    "nama": "Bone",
+    "tier": 9
+  },
+  {
+    "nama": "Butcher",
+    "tier": 9
+  },
+  {
+    "nama": "Cactus",
+    "tier": 9
+  },
+  {
+    "nama": "Cage",
+    "tier": 9
+  },
+  {
+    "nama": "Carbon Dioxide",
+    "tier": 9
+  },
+  {
+    "nama": "Carrot",
+    "tier": 9
+  },
+  {
+    "nama": "Castle",
+    "tier": 9
+  },
+  {
+    "nama": "Catnip",
+    "tier": 9
+  },
+  {
+    "nama": "Cave",
+    "tier": 9
+  },
+  {
+    "nama": "Centaur",
+    "tier": 9
+  },
+  {
+    "nama": "Chameleon",
+    "tier": 9
+  },
+  {
+    "nama": "Charcoal",
+    "tier": 9
+  },
+  {
+    "nama": "Chicken",
+    "tier": 9
+  },
+  {
+    "nama": "Chill",
+    "tier": 9
+  },
+  {
+    "nama": "Coal",
+    "tier": 9
+  },
+  {
+    "nama": "Computer",
+    "tier": 9
+  },
+  {
+    "nama": "Cotton",
+    "tier": 9
+  },
+  {
+    "nama": "Cow",
+    "tier": 9
+  },
+  {
+    "nama": "Crow",
+    "tier": 9
+  },
+  {
+    "nama": "Cuckoo",
+    "tier": 9
+  },
+  {
+    "nama": "Dinosaur",
+    "tier": 9
+  },
+  {
+    "nama": "Dog",
+    "tier": 9
+  },
+  {
+    "nama": "Don Quixote",
+    "tier": 9
+  },
+  {
+    "nama": "Dragon",
+    "tier": 9
+  },
+  {
+    "nama": "Duck",
+    "tier": 9
+  },
+  {
+    "nama": "Eagle",
+    "tier": 9
+  },
+  {
+    "nama": "Egg Timer",
+    "tier": 9
+  },
+  {
+    "nama": "Electric Eel",
+    "tier": 9
+  },
+  {
+    "nama": "Family Tree",
+    "tier": 9
+  },
+  {
+    "nama": "Firestation",
+    "tier": 9
+  },
+  {
+    "nama": "Fishing Rod",
+    "tier": 9
+  },
+  {
+    "nama": "Flashlight",
+    "tier": 9
+  },
+  {
+    "nama": "Flower",
+    "tier": 9
+  },
+  {
+    "nama": "Flying Fish",
+    "tier": 9
+  },
+  {
+    "nama": "Fossil",
+    "tier": 9
+  },
+  {
+    "nama": "Frankenstein'S Monster",
+    "tier": 9
+  },
+  {
+    "nama": "Fridge",
+    "tier": 9
+  },
+  {
+    "nama": "Garden",
+    "tier": 9
+  },
+  {
+    "nama": "Gas",
+    "tier": 9
+  },
+  {
+    "nama": "Ghost",
+    "tier": 9
+  },
+  {
+    "nama": "Goat",
+    "tier": 9
+  },
+  {
+    "nama": "Grass",
+    "tier": 9
+  },
+  {
+    "nama": "Grave",
+    "tier": 9
+  },
+  {
+    "nama": "Graveyard",
+    "tier": 9
+  },
+  {
+    "nama": "Greenhouse",
+    "tier": 9
+  },
+  {
+    "nama": "Ham",
+    "tier": 9
+  },
+  {
+    "nama": "Hammer",
+    "tier": 9
+  },
+  {
+    "nama": "Hedge",
+    "tier": 9
+  },
+  {
+    "nama": "Hippo",
+    "tier": 9
+  },
+  {
+    "nama": "Horseshoe",
+    "tier": 9
+  },
+  {
+    "nama": "Hospital",
+    "tier": 9
+  },
+  {
+    "nama": "Hummingbird",
+    "tier": 9
+  },
+  {
+    "nama": "Ice",
+    "tier": 9
+  },
+  {
+    "nama": "Iceberg",
+    "tier": 9
+  },
+  {
+    "nama": "Ivy",
+    "tier": 9
+  },
+  {
+    "nama": "Jerky",
+    "tier": 9
+  },
+  {
+    "nama": "Knight",
+    "tier": 9
+  },
+  {
+    "nama": "Lava Lamp",
+    "tier": 9
+  },
+  {
+    "nama": "Leather",
+    "tier": 9
+  },
+  {
+    "nama": "Lens",
+    "tier": 9
+  },
+  {
+    "nama": "Lighthouse",
+    "tier": 9
+  },
+  {
+    "nama": "Lion",
+    "tier": 9
+  },
+  {
+    "nama": "Liquid",
+    "tier": 9
+  },
+  {
+    "nama": "Machine",
+    "tier": 9
+  },
+  {
+    "nama": "Magma",
+    "tier": 9
+  },
+  {
+    "nama": "Medusa",
+    "tier": 9
+  },
+  {
+    "nama": "Mermaid",
+    "tier": 9
+  },
+  {
+    "nama": "Mineral",
+    "tier": 9
+  },
+  {
+    "nama": "Moss",
+    "tier": 9
+  },
+  {
+    "nama": "Moth",
+    "tier": 9
+  },
+  {
+    "nama": "Motion",
+    "tier": 9
+  },
+  {
+    "nama": "Nest",
+    "tier": 9
+  },
+  {
+    "nama": "Ninja",
+    "tier": 9
+  },
+  {
+    "nama": "Ninja Turtle",
+    "tier": 9
+  },
+  {
+    "nama": "Omelette",
+    "tier": 9
+  },
+  {
+    "nama": "Optical Fiber",
+    "tier": 9
+  },
+  {
+    "nama": "Ostrich",
+    "tier": 9
+  },
+  {
+    "nama": "Owl",
+    "tier": 9
+  },
+  {
+    "nama": "Oxygen",
+    "tier": 9
+  },
+  {
+    "nama": "Peacock",
+    "tier": 9
+  },
+  {
+    "nama": "Pegasus",
+    "tier": 9
+  },
+  {
+    "nama": "Penguin",
+    "tier": 9
+  },
+  {
+    "nama": "Philosophy",
+    "tier": 9
+  },
+  {
+    "nama": "Pigeon",
+    "tier": 9
+  },
+  {
+    "nama": "Piggy Bank",
+    "tier": 9
+  },
+  {
+    "nama": "Piranha",
+    "tier": 9
+  },
+  {
+    "nama": "Pirate",
+    "tier": 9
+  },
+  {
+    "nama": "Platypus",
+    "tier": 9
+  },
+  {
+    "nama": "Pollen",
+    "tier": 9
+  },
+  {
+    "nama": "Pottery",
+    "tier": 9
+  },
+  {
+    "nama": "Reed",
+    "tier": 9
+  },
+  {
+    "nama": "Ring",
+    "tier": 9
+  },
+  {
+    "nama": "Roe",
+    "tier": 9
+  },
+  {
+    "nama": "Rope",
+    "tier": 9
+  },
+  {
+    "nama": "Rose",
+    "tier": 9
+  },
+  {
+    "nama": "Saddle",
+    "tier": 9
+  },
+  {
+    "nama": "Seagull",
+    "tier": 9
+  },
+  {
+    "nama": "Seahorse",
+    "tier": 9
+  },
+  {
+    "nama": "Seasickness",
+    "tier": 9
+  },
+  {
+    "nama": "Seaweed",
+    "tier": 9
+  },
+  {
+    "nama": "Shark",
+    "tier": 9
+  },
+  {
+    "nama": "Sheep",
+    "tier": 9
+  },
+  {
+    "nama": "Skeleton",
+    "tier": 9
+  },
+  {
+    "nama": "Snowboard",
+    "tier": 9
+  },
+  {
+    "nama": "Solid",
+    "tier": 9
+  },
+  {
+    "nama": "Spotlight",
+    "tier": 9
+  },
+  {
+    "nama": "Steak",
+    "tier": 9
+  },
+  {
+    "nama": "Stethoscope",
+    "tier": 9
+  },
+  {
+    "nama": "Story",
+    "tier": 9
+  },
+  {
+    "nama": "Sunflower",
+    "tier": 9
+  },
+  {
+    "nama": "Swordfish",
+    "tier": 9
+  },
+  {
+    "nama": "Tobacco",
+    "tier": 9
+  },
+  {
+    "nama": "Toolbox",
+    "tier": 9
+  },
+  {
+    "nama": "Toucan",
+    "tier": 9
+  },
+  {
+    "nama": "Tree",
+    "tier": 9
+  },
+  {
+    "nama": "Umbrella",
+    "tier": 9
+  },
+  {
+    "nama": "Unicorn",
+    "tier": 9
+  },
+  {
+    "nama": "Vampire",
+    "tier": 9
+  },
+  {
+    "nama": "Vegetable",
+    "tier": 9
+  },
+  {
+    "nama": "Vulture",
+    "tier": 9
+  },
+  {
+    "nama": "Wand",
+    "tier": 9
+  },
+  {
+    "nama": "Werewolf",
+    "tier": 9
+  },
+  {
+    "nama": "Wheel",
+    "tier": 9
+  },
+  {
+    "nama": "Wild Boar",
+    "tier": 9
+  },
+  {
+    "nama": "Windsurfer",
+    "tier": 9
+  },
+  {
+    "nama": "Zombie",
+    "tier": 9
+  },
+  {
+    "nama": "Alpaca",
+    "tier": 10
+  },
+  {
+    "nama": "Angler",
+    "tier": 10
+  },
+  {
+    "nama": "Ant",
+    "tier": 10
+  },
+  {
+    "nama": "Battery",
+    "tier": 10
+  },
+  {
+    "nama": "Bee",
+    "tier": 10
+  },
+  {
+    "nama": "Bicycle",
+    "tier": 10
+  },
+  {
+    "nama": "Big",
+    "tier": 10
+  },
+  {
+    "nama": "Bonsai Tree",
+    "tier": 10
+  },
+  {
+    "nama": "Cannon",
+    "tier": 10
+  },
+  {
+    "nama": "Car",
+    "tier": 10
+  },
+  {
+    "nama": "Cauldron",
+    "tier": 10
+  },
+  {
+    "nama": "Caviar",
+    "tier": 10
+  },
+  {
+    "nama": "Chicken Coop",
+    "tier": 10
+  },
+  {
+    "nama": "Chicken Soup",
+    "tier": 10
+  },
+  {
+    "nama": "Chicken Wing",
+    "tier": 10
+  },
+  {
+    "nama": "Christmas Tree",
+    "tier": 10
+  },
+  {
+    "nama": "Coconut",
+    "tier": 10
+  },
+  {
+    "nama": "Combustion Engine",
+    "tier": 10
+  },
+  {
+    "nama": "Computer Mouse",
+    "tier": 10
+  },
+  {
+    "nama": "Container",
+    "tier": 10
+  },
+  {
+    "nama": "Cook",
+    "tier": 10
+  },
+  {
+    "nama": "Coral",
+    "tier": 10
+  },
+  {
+    "nama": "Cyclist",
+    "tier": 10
+  },
+  {
+    "nama": "Diamond",
+    "tier": 10
+  },
+  {
+    "nama": "Doctor",
+    "tier": 10
+  },
+  {
+    "nama": "Doge",
+    "tier": 10
+  },
+  {
+    "nama": "Doghouse",
+    "tier": 10
+  },
+  {
+    "nama": "Drone",
+    "tier": 10
+  },
+  {
+    "nama": "Dry Ice",
+    "tier": 10
+  },
+  {
+    "nama": "Duckling",
+    "tier": 10
+  },
+  {
+    "nama": "Engineer",
+    "tier": 10
+  },
+  {
+    "nama": "Fairy Tale",
+    "tier": 10
+  },
+  {
+    "nama": "Faun",
+    "tier": 10
+  },
+  {
+    "nama": "Fire Extinguisher",
+    "tier": 10
+  },
+  {
+    "nama": "Forest",
+    "tier": 10
+  },
+  {
+    "nama": "Fox",
+    "tier": 10
+  },
+  {
+    "nama": "Fruit",
+    "tier": 10
+  },
+  {
+    "nama": "Gardener",
+    "tier": 10
+  },
+  {
+    "nama": "Gnome",
+    "tier": 10
+  },
+  {
+    "nama": "Golem",
+    "tier": 10
+  },
+  {
+    "nama": "Hail",
+    "tier": 10
+  },
+  {
+    "nama": "Harp",
+    "tier": 10
+  },
+  {
+    "nama": "Hay",
+    "tier": 10
+  },
+  {
+    "nama": "Helicopter",
+    "tier": 10
+  },
+  {
+    "nama": "Husky",
+    "tier": 10
+  },
+  {
+    "nama": "Internet",
+    "tier": 10
+  },
+  {
+    "nama": "Jack-O'-Lantern",
+    "tier": 10
+  },
+  {
+    "nama": "Juice",
+    "tier": 10
+  },
+  {
+    "nama": "Kaiju",
+    "tier": 10
+  },
+  {
+    "nama": "Lasso",
+    "tier": 10
+  },
+  {
+    "nama": "Lawn",
+    "tier": 10
+  },
+  {
+    "nama": "Lawn Mower",
+    "tier": 10
+  },
+  {
+    "nama": "Leaf",
+    "tier": 10
+  },
+  {
+    "nama": "Legend",
+    "tier": 10
+  },
+  {
+    "nama": "Lumberjack",
+    "tier": 10
+  },
+  {
+    "nama": "Manatee",
+    "tier": 10
+  },
+  {
+    "nama": "Milk",
+    "tier": 10
+  },
+  {
+    "nama": "Minotaur",
+    "tier": 10
+  },
+  {
+    "nama": "Mold",
+    "tier": 10
+  },
+  {
+    "nama": "Monkey",
+    "tier": 10
+  },
+  {
+    "nama": "Mountain Goat",
+    "tier": 10
+  },
+  {
+    "nama": "Narwhal",
+    "tier": 10
+  },
+  {
+    "nama": "Nessie",
+    "tier": 10
+  },
+  {
+    "nama": "Net",
+    "tier": 10
+  },
+  {
+    "nama": "Nuts",
+    "tier": 10
+  },
+  {
+    "nama": "Oil",
+    "tier": 10
+  },
+  {
+    "nama": "Ore",
+    "tier": 10
+  },
+  {
+    "nama": "Paleontologist",
+    "tier": 10
+  },
+  {
+    "nama": "Palm",
+    "tier": 10
+  },
+  {
+    "nama": "Parachute",
+    "tier": 10
+  },
+  {
+    "nama": "Parrot",
+    "tier": 10
+  },
+  {
+    "nama": "Peat",
+    "tier": 10
+  },
+  {
+    "nama": "Perfume",
+    "tier": 10
+  },
+  {
+    "nama": "Petroleum",
+    "tier": 10
+  },
+  {
+    "nama": "Pilot",
+    "tier": 10
+  },
+  {
+    "nama": "Pipe",
+    "tier": 10
+  },
+  {
+    "nama": "Pirate Ship",
+    "tier": 10
+  },
+  {
+    "nama": "Polar Bear",
+    "tier": 10
+  },
+  {
+    "nama": "Potato",
+    "tier": 10
+  },
+  {
+    "nama": "Pterodactyl",
+    "tier": 10
+  },
+  {
+    "nama": "Pumpkin",
+    "tier": 10
+  },
+  {
+    "nama": "Quicksilver",
+    "tier": 10
+  },
+  {
+    "nama": "Rabbit",
+    "tier": 10
+  },
+  {
+    "nama": "Rivulet",
+    "tier": 10
+  },
+  {
+    "nama": "Sand Castle",
+    "tier": 10
+  },
+  {
+    "nama": "Sap",
+    "tier": 10
+  },
+  {
+    "nama": "Saturn",
+    "tier": 10
+  },
+  {
+    "nama": "Scalpel",
+    "tier": 10
+  },
+  {
+    "nama": "Scythe",
+    "tier": 10
+  },
+  {
+    "nama": "Seal",
+    "tier": 10
+  },
+  {
+    "nama": "Seaplane",
+    "tier": 10
+  },
+  {
+    "nama": "Seed",
+    "tier": 10
+  },
+  {
+    "nama": "Skateboard",
+    "tier": 10
+  },
+  {
+    "nama": "Small",
+    "tier": 10
+  },
+  {
+    "nama": "Snowboarder",
+    "tier": 10
+  },
+  {
+    "nama": "Soda",
+    "tier": 10
+  },
+  {
+    "nama": "Sphinx",
+    "tier": 10
+  },
+  {
+    "nama": "Statue",
+    "tier": 10
+  },
+  {
+    "nama": "Steam Engine",
+    "tier": 10
+  },
+  {
+    "nama": "Steel",
+    "tier": 10
+  },
+  {
+    "nama": "Stream",
+    "tier": 10
+  },
+  {
+    "nama": "Sushi",
+    "tier": 10
+  },
+  {
+    "nama": "Swamp",
+    "tier": 10
+  },
+  {
+    "nama": "The One Ring",
+    "tier": 10
+  },
+  {
+    "nama": "Thread",
+    "tier": 10
+  },
+  {
+    "nama": "Treehouse",
+    "tier": 10
+  },
+  {
+    "nama": "Trojan Horse",
+    "tier": 10
+  },
+  {
+    "nama": "Tunnel",
+    "tier": 10
+  },
+  {
+    "nama": "Tyrannosaurus Rex",
+    "tier": 10
+  },
+  {
+    "nama": "Vase",
+    "tier": 10
+  },
+  {
+    "nama": "Water Lily",
+    "tier": 10
+  },
+  {
+    "nama": "Wheat",
+    "tier": 10
+  },
+  {
+    "nama": "Wood",
+    "tier": 10
+  },
+  {
+    "nama": "Woodpecker",
+    "tier": 10
+  },
+  {
+    "nama": "Wool",
+    "tier": 10
+  },
+  {
+    "nama": "Yeti",
+    "tier": 10
+  },
+  {
+    "nama": "Zoo",
+    "tier": 10
+  },
+  {
+    "nama": "Alcohol",
+    "tier": 11
+  },
+  {
+    "nama": "Ambulance",
+    "tier": 11
+  },
+  {
+    "nama": "Ant Farm",
+    "tier": 11
+  },
+  {
+    "nama": "Anthill",
+    "tier": 11
+  },
+  {
+    "nama": "Arrow",
+    "tier": 11
+  },
+  {
+    "nama": "Aviary",
+    "tier": 11
+  },
+  {
+    "nama": "Axe",
+    "tier": 11
+  },
+  {
+    "nama": "Banana",
+    "tier": 11
+  },
+  {
+    "nama": "Beehive",
+    "tier": 11
+  },
+  {
+    "nama": "Beekeeper",
+    "tier": 11
+  },
+  {
+    "nama": "Blood Bag",
+    "tier": 11
+  },
+  {
+    "nama": "Boat",
+    "tier": 11
+  },
+  {
+    "nama": "Book",
+    "tier": 11
+  },
+  {
+    "nama": "Bottle",
+    "tier": 11
+  },
+  {
+    "nama": "Boulder",
+    "tier": 11
+  },
+  {
+    "nama": "Bow",
+    "tier": 11
+  },
+  {
+    "nama": "Broom",
+    "tier": 11
+  },
+  {
+    "nama": "Bucket",
+    "tier": 11
+  },
+  {
+    "nama": "Bus",
+    "tier": 11
+  },
+  {
+    "nama": "Butter",
+    "tier": 11
+  },
+  {
+    "nama": "Butterfly Net",
+    "tier": 11
+  },
+  {
+    "nama": "Campfire",
+    "tier": 11
+  },
+  {
+    "nama": "Cart",
+    "tier": 11
+  },
+  {
+    "nama": "Cashmere",
+    "tier": 11
+  },
+  {
+    "nama": "Cereal",
+    "tier": 11
+  },
+  {
+    "nama": "Chainsaw",
+    "tier": 11
+  },
+  {
+    "nama": "Cheese",
+    "tier": 11
+  },
+  {
+    "nama": "Christmas Stocking",
+    "tier": 11
+  },
+  {
+    "nama": "Closet",
+    "tier": 11
+  },
+  {
+    "nama": "Coconut Milk",
+    "tier": 11
+  },
+  {
+    "nama": "Coffin",
+    "tier": 11
+  },
+  {
+    "nama": "Cutting Board",
+    "tier": 11
+  },
+  {
+    "nama": "Drum",
+    "tier": 11
+  },
+  {
+    "nama": "Electric Car",
+    "tier": 11
+  },
+  {
+    "nama": "Fabric",
+    "tier": 11
+  },
+  {
+    "nama": "Fireplace",
+    "tier": 11
+  },
+  {
+    "nama": "Firetruck",
+    "tier": 11
+  },
+  {
+    "nama": "Flour",
+    "tier": 11
+  },
+  {
+    "nama": "Flute",
+    "tier": 11
+  },
+  {
+    "nama": "Fountain",
+    "tier": 11
+  },
+  {
+    "nama": "French Fries",
+    "tier": 11
+  },
+  {
+    "nama": "Fruit Tree",
+    "tier": 11
+  },
+  {
+    "nama": "Garage",
+    "tier": 11
+  },
+  {
+    "nama": "Grim Reaper",
+    "tier": 11
+  },
+  {
+    "nama": "Gust",
+    "tier": 11
+  },
+  {
+    "nama": "Hay Bale",
+    "tier": 11
+  },
+  {
+    "nama": "Hill",
+    "tier": 11
+  },
+  {
+    "nama": "Honey",
+    "tier": 11
+  },
+  {
+    "nama": "Ice Cream",
+    "tier": 11
+  },
+  {
+    "nama": "Ice Sculpture",
+    "tier": 11
+  },
+  {
+    "nama": "Jam",
+    "tier": 11
+  },
+  {
+    "nama": "Knife",
+    "tier": 11
+  },
+  {
+    "nama": "Laptop",
+    "tier": 11
+  },
+  {
+    "nama": "Little Alchemy (Element)",
+    "tier": 11
+  },
+  {
+    "nama": "Log Cabin",
+    "tier": 11
+  },
+  {
+    "nama": "Maple Syrup",
+    "tier": 11
+  },
+  {
+    "nama": "Mayonnaise",
+    "tier": 11
+  },
+  {
+    "nama": "Moon Rover",
+    "tier": 11
+  },
+  {
+    "nama": "Motorcycle",
+    "tier": 11
+  },
+  {
+    "nama": "Needle",
+    "tier": 11
+  },
+  {
+    "nama": "Paper",
+    "tier": 11
+  },
+  {
+    "nama": "Peanut Butter",
+    "tier": 11
+  },
+  {
+    "nama": "Pebble",
+    "tier": 11
+  },
+  {
+    "nama": "Pencil",
+    "tier": 11
+  },
+  {
+    "nama": "Penicillin",
+    "tier": 11
+  },
+  {
+    "nama": "Pinocchio",
+    "tier": 11
+  },
+  {
+    "nama": "Pitchfork",
+    "tier": 11
+  },
+  {
+    "nama": "Popsicle",
+    "tier": 11
+  },
+  {
+    "nama": "Quicksand",
+    "tier": 11
+  },
+  {
+    "nama": "Rainforest",
+    "tier": 11
+  },
+  {
+    "nama": "Rat",
+    "tier": 11
+  },
+  {
+    "nama": "Reindeer",
+    "tier": 11
+  },
+  {
+    "nama": "Restaurant",
+    "tier": 11
+  },
+  {
+    "nama": "Roller Coaster",
+    "tier": 11
+  },
+  {
+    "nama": "Rv",
+    "tier": 11
+  },
+  {
+    "nama": "Sack",
+    "tier": 11
+  },
+  {
+    "nama": "Santa",
+    "tier": 11
+  },
+  {
+    "nama": "Scarecrow",
+    "tier": 11
+  },
+  {
+    "nama": "Scuba Tank",
+    "tier": 11
+  },
+  {
+    "nama": "Sewing Machine",
+    "tier": 11
+  },
+  {
+    "nama": "Shovel",
+    "tier": 11
+  },
+  {
+    "nama": "Silo",
+    "tier": 11
+  },
+  {
+    "nama": "Smoothie",
+    "tier": 11
+  },
+  {
+    "nama": "Snowmobile",
+    "tier": 11
+  },
+  {
+    "nama": "Soap",
+    "tier": 11
+  },
+  {
+    "nama": "Spider",
+    "tier": 11
+  },
+  {
+    "nama": "Squirrel",
+    "tier": 11
+  },
+  {
+    "nama": "Steamboat",
+    "tier": 11
+  },
+  {
+    "nama": "Steel Wool",
+    "tier": 11
+  },
+  {
+    "nama": "Sugar",
+    "tier": 11
+  },
+  {
+    "nama": "Sweater",
+    "tier": 11
+  },
+  {
+    "nama": "Tailor",
+    "tier": 11
+  },
+  {
+    "nama": "Tank",
+    "tier": 11
+  },
+  {
+    "nama": "Tea",
+    "tier": 11
+  },
+  {
+    "nama": "Thermometer",
+    "tier": 11
+  },
+  {
+    "nama": "Titanic",
+    "tier": 11
+  },
+  {
+    "nama": "Tractor",
+    "tier": 11
+  },
+  {
+    "nama": "Train",
+    "tier": 11
+  },
+  {
+    "nama": "Vault",
+    "tier": 11
+  },
+  {
+    "nama": "Water Pipe",
+    "tier": 11
+  },
+  {
+    "nama": "Witch",
+    "tier": 11
+  },
+  {
+    "nama": "Yogurt",
+    "tier": 11
+  },
+  {
+    "nama": "Apron",
+    "tier": 12
+  },
+  {
+    "nama": "Armor",
+    "tier": 12
+  },
+  {
+    "nama": "Bandage",
+    "tier": 12
+  },
+  {
+    "nama": "Batter",
+    "tier": 12
+  },
+  {
+    "nama": "Bbq",
+    "tier": 12
+  },
+  {
+    "nama": "Beer",
+    "tier": 12
+  },
+  {
+    "nama": "Box",
+    "tier": 12
+  },
+  {
+    "nama": "Candy Cane",
+    "tier": 12
+  },
+  {
+    "nama": "Canvas",
+    "tier": 12
+  },
+  {
+    "nama": "Caramel",
+    "tier": 12
+  },
+  {
+    "nama": "Chocolate",
+    "tier": 12
+  },
+  {
+    "nama": "Cigarette",
+    "tier": 12
+  },
+  {
+    "nama": "Confetti",
+    "tier": 12
+  },
+  {
+    "nama": "Cookbook",
+    "tier": 12
+  },
+  {
+    "nama": "Cotton Candy",
+    "tier": 12
+  },
+  {
+    "nama": "Crayon",
+    "tier": 12
+  },
+  {
+    "nama": "Cup",
+    "tier": 12
+  },
+  {
+    "nama": "Diver",
+    "tier": 12
+  },
+  {
+    "nama": "Dough",
+    "tier": 12
+  },
+  {
+    "nama": "Drunk",
+    "tier": 12
+  },
+  {
+    "nama": "Excavator",
+    "tier": 12
+  },
+  {
+    "nama": "Flying Squirrel",
+    "tier": 12
+  },
+  {
+    "nama": "Fork",
+    "tier": 12
+  },
+  {
+    "nama": "Frozen Yogurt",
+    "tier": 12
+  },
+  {
+    "nama": "Gift",
+    "tier": 12
+  },
+  {
+    "nama": "Hamburger",
+    "tier": 12
+  },
+  {
+    "nama": "Hamster",
+    "tier": 12
+  },
+  {
+    "nama": "Hedgehog",
+    "tier": 12
+  },
+  {
+    "nama": "Ice Cream Truck",
+    "tier": 12
+  },
+  {
+    "nama": "Iced Tea",
+    "tier": 12
+  },
+  {
+    "nama": "Jar",
+    "tier": 12
+  },
+  {
+    "nama": "Kite",
+    "tier": 12
+  },
+  {
+    "nama": "Letter",
+    "tier": 12
+  },
+  {
+    "nama": "Library",
+    "tier": 12
+  },
+  {
+    "nama": "Map",
+    "tier": 12
+  },
+  {
+    "nama": "Marshmallows",
+    "tier": 12
+  },
+  {
+    "nama": "Milk Shake",
+    "tier": 12
+  },
+  {
+    "nama": "Money",
+    "tier": 12
+  },
+  {
+    "nama": "Mouse",
+    "tier": 12
+  },
+  {
+    "nama": "Mousetrap",
+    "tier": 12
+  },
+  {
+    "nama": "Musician",
+    "tier": 12
+  },
+  {
+    "nama": "Newspaper",
+    "tier": 12
+  },
+  {
+    "nama": "Orchard",
+    "tier": 12
+  },
+  {
+    "nama": "Origami",
+    "tier": 12
+  },
+  {
+    "nama": "Pan Flute",
+    "tier": 12
+  },
+  {
+    "nama": "Paper Airplane",
+    "tier": 12
+  },
+  {
+    "nama": "Pasta",
+    "tier": 12
+  },
+  {
+    "nama": "Pencil Sharpener",
+    "tier": 12
+  },
+  {
+    "nama": "Pizza",
+    "tier": 12
+  },
+  {
+    "nama": "Printer",
+    "tier": 12
+  },
+  {
+    "nama": "Recipe",
+    "tier": 12
+  },
+  {
+    "nama": "Robot Vacuum",
+    "tier": 12
+  },
+  {
+    "nama": "Rock",
+    "tier": 12
+  },
+  {
+    "nama": "Ruler",
+    "tier": 12
+  },
+  {
+    "nama": "Sailboat",
+    "tier": 12
+  },
+  {
+    "nama": "Sandpaper",
+    "tier": 12
+  },
+  {
+    "nama": "Sleigh",
+    "tier": 12
+  },
+  {
+    "nama": "Smoke Signal",
+    "tier": 12
+  },
+  {
+    "nama": "Spoon",
+    "tier": 12
+  },
+  {
+    "nama": "Sprinkles",
+    "tier": 12
+  },
+  {
+    "nama": "Syringe",
+    "tier": 12
+  },
+  {
+    "nama": "Tablet",
+    "tier": 12
+  },
+  {
+    "nama": "Tent",
+    "tier": 12
+  },
+  {
+    "nama": "Trainyard",
+    "tier": 12
+  },
+  {
+    "nama": "Vacuum Cleaner",
+    "tier": 12
+  },
+  {
+    "nama": "Vine",
+    "tier": 12
+  },
+  {
+    "nama": "Wagon",
+    "tier": 12
+  },
+  {
+    "nama": "Wax",
+    "tier": 12
+  },
+  {
+    "nama": "Web",
+    "tier": 12
+  },
+  {
+    "nama": "Wine",
+    "tier": 12
+  },
+  {
+    "nama": "Wrapping Paper",
+    "tier": 12
+  },
+  {
+    "nama": "Writer",
+    "tier": 12
+  },
+  {
+    "nama": "Armadillo",
+    "tier": 13
+  },
+  {
+    "nama": "Baker",
+    "tier": 13
+  },
+  {
+    "nama": "Banana Bread",
+    "tier": 13
+  },
+  {
+    "nama": "Barrel",
+    "tier": 13
+  },
+  {
+    "nama": "Bat",
+    "tier": 13
+  },
+  {
+    "nama": "Bread",
+    "tier": 13
+  },
+  {
+    "nama": "Bulletproof Vest",
+    "tier": 13
+  },
+  {
+    "nama": "Candle",
+    "tier": 13
+  },
+  {
+    "nama": "Cheeseburger",
+    "tier": 13
+  },
+  {
+    "nama": "Chocolate Milk",
+    "tier": 13
+  },
+  {
+    "nama": "Circus",
+    "tier": 13
+  },
+  {
+    "nama": "Cookie Cutter",
+    "tier": 13
+  },
+  {
+    "nama": "Cookie Dough",
+    "tier": 13
+  },
+  {
+    "nama": "Donut",
+    "tier": 13
+  },
+  {
+    "nama": "Email",
+    "tier": 13
+  },
+  {
+    "nama": "Gingerbread House",
+    "tier": 13
+  },
+  {
+    "nama": "Gingerbread Man",
+    "tier": 13
+  },
+  {
+    "nama": "Hot Chocolate",
+    "tier": 13
+  },
+  {
+    "nama": "Librarian",
+    "tier": 13
+  },
+  {
+    "nama": "Mac And Cheese",
+    "tier": 13
+  },
+  {
+    "nama": "Mail Truck",
+    "tier": 13
+  },
+  {
+    "nama": "Mailbox",
+    "tier": 13
+  },
+  {
+    "nama": "Mailman",
+    "tier": 13
+  },
+  {
+    "nama": "Music",
+    "tier": 13
+  },
+  {
+    "nama": "Painting",
+    "tier": 13
+  },
+  {
+    "nama": "Paper Cup",
+    "tier": 13
+  },
+  {
+    "nama": "Paraglider",
+    "tier": 13
+  },
+  {
+    "nama": "Pie",
+    "tier": 13
+  },
+  {
+    "nama": "Post Office",
+    "tier": 13
+  },
+  {
+    "nama": "Smartphone",
+    "tier": 13
+  },
+  {
+    "nama": "Spaghetti",
+    "tier": 13
+  },
+  {
+    "nama": "String Phone",
+    "tier": 13
+  },
+  {
+    "nama": "Treasure Map",
+    "tier": 13
+  },
+  {
+    "nama": "Vinegar",
+    "tier": 13
+  },
+  {
+    "nama": "Bakery",
+    "tier": 14
+  },
+  {
+    "nama": "Cake",
+    "tier": 14
+  },
+  {
+    "nama": "Cookie",
+    "tier": 14
+  },
+  {
+    "nama": "Fortune Cookie",
+    "tier": 14
+  },
+  {
+    "nama": "Sandwich",
+    "tier": 14
+  },
+  {
+    "nama": "Sheet Music",
+    "tier": 14
+  },
+  {
+    "nama": "Toast",
+    "tier": 14
+  },
+  {
+    "nama": "Treasure",
+    "tier": 14
+  },
+  {
+    "nama": "Grilled Cheese",
+    "tier": 15
+  },
+  {
+    "nama": "Picnic",
+    "tier": 15
+  }
+]
