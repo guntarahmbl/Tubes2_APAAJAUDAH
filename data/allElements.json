@@ -1,0 +1,2882 @@
+[
+  {
+    "nama": "Acid Rain",
+    "gambar": "/images/Acid_rain.png"
+  },
+  {
+    "nama": "Air",
+    "gambar": "/images/Air.png"
+  },
+  {
+    "nama": "Airplane",
+    "gambar": "/images/Airplane.png"
+  },
+  {
+    "nama": "Alarm Clock",
+    "gambar": "/images/Alarm_clock.png"
+  },
+  {
+    "nama": "Alchemist",
+    "gambar": "/images/Alchemist.png"
+  },
+  {
+    "nama": "Alcohol",
+    "gambar": "/images/Alcohol.png"
+  },
+  {
+    "nama": "Algae",
+    "gambar": "/images/Algae.png"
+  },
+  {
+    "nama": "Alien",
+    "gambar": "/images/Alien.png"
+  },
+  {
+    "nama": "Allergy",
+    "gambar": "/images/Allergy.png"
+  },
+  {
+    "nama": "Alligator",
+    "gambar": "/images/Alligator.png"
+  },
+  {
+    "nama": "Alpaca",
+    "gambar": "/images/Alpaca.png"
+  },
+  {
+    "nama": "Ambulance",
+    "gambar": "/images/Ambulance.png"
+  },
+  {
+    "nama": "Angel",
+    "gambar": "/images/Angel.png"
+  },
+  {
+    "nama": "Angler",
+    "gambar": "/images/Angler.png"
+  },
+  {
+    "nama": "Animal",
+    "gambar": "/images/Animal.png"
+  },
+  {
+    "nama": "Ant",
+    "gambar": "/images/Ant.png"
+  },
+  {
+    "nama": "Ant Farm",
+    "gambar": "/images/Ant_farm.png"
+  },
+  {
+    "nama": "Antarctica",
+    "gambar": "/images/Antarctica.png"
+  },
+  {
+    "nama": "Anthill",
+    "gambar": "/images/Anthill.png"
+  },
+  {
+    "nama": "Apron",
+    "gambar": "/images/Apron.png"
+  },
+  {
+    "nama": "Aquarium",
+    "gambar": "/images/Aquarium.png"
+  },
+  {
+    "nama": "Archeologist",
+    "gambar": "/images/Archeologist.png"
+  },
+  {
+    "nama": "Archipelago",
+    "gambar": "/images/Archipelago.png"
+  },
+  {
+    "nama": "Arctic",
+    "gambar": "/images/Arctic.png"
+  },
+  {
+    "nama": "Armadillo",
+    "gambar": "/images/Armadillo.png"
+  },
+  {
+    "nama": "Armor",
+    "gambar": "/images/Armor.png"
+  },
+  {
+    "nama": "Arrow",
+    "gambar": "/images/Arrow.png"
+  },
+  {
+    "nama": "Ash",
+    "gambar": "/images/Ash.png"
+  },
+  {
+    "nama": "Astronaut",
+    "gambar": "/images/Astronaut.png"
+  },
+  {
+    "nama": "Astronomer",
+    "gambar": "/images/Astronomer.png"
+  },
+  {
+    "nama": "Atmosphere",
+    "gambar": "/images/Atmosphere.png"
+  },
+  {
+    "nama": "Atomic Bomb",
+    "gambar": "/images/Atomic_bomb.png"
+  },
+  {
+    "nama": "Aurora",
+    "gambar": "/images/Aurora.png"
+  },
+  {
+    "nama": "Avalanche",
+    "gambar": "/images/Avalanche.png"
+  },
+  {
+    "nama": "Aviary",
+    "gambar": "/images/Aviary.png"
+  },
+  {
+    "nama": "Axe",
+    "gambar": "/images/Axe.png"
+  },
+  {
+    "nama": "Bacon",
+    "gambar": "/images/Bacon.png"
+  },
+  {
+    "nama": "Bacteria",
+    "gambar": "/images/Bacteria.png"
+  },
+  {
+    "nama": "Baker",
+    "gambar": "/images/Baker.png"
+  },
+  {
+    "nama": "Bakery",
+    "gambar": "/images/Bakery.png"
+  },
+  {
+    "nama": "Banana",
+    "gambar": "/images/Banana.png"
+  },
+  {
+    "nama": "Banana Bread",
+    "gambar": "/images/Banana_bread.png"
+  },
+  {
+    "nama": "Bandage",
+    "gambar": "/images/Bandage.png"
+  },
+  {
+    "nama": "Bank",
+    "gambar": "/images/Bank.png"
+  },
+  {
+    "nama": "Barn",
+    "gambar": "/images/Barn.png"
+  },
+  {
+    "nama": "Barrel",
+    "gambar": "/images/Barrel.png"
+  },
+  {
+    "nama": "Bat",
+    "gambar": "/images/Bat.png"
+  },
+  {
+    "nama": "Batter",
+    "gambar": "/images/Batter.png"
+  },
+  {
+    "nama": "Battery",
+    "gambar": "/images/Battery.png"
+  },
+  {
+    "nama": "Bayonet",
+    "gambar": "/images/Bayonet.png"
+  },
+  {
+    "nama": "Bbq",
+    "gambar": "/images/Bbq.png"
+  },
+  {
+    "nama": "Beach",
+    "gambar": "/images/Beach.png"
+  },
+  {
+    "nama": "Beaver",
+    "gambar": "/images/Beaver.png"
+  },
+  {
+    "nama": "Bee",
+    "gambar": "/images/Bee.png"
+  },
+  {
+    "nama": "Beehive",
+    "gambar": "/images/Beehive.png"
+  },
+  {
+    "nama": "Beekeeper",
+    "gambar": "/images/Beekeeper.png"
+  },
+  {
+    "nama": "Beer",
+    "gambar": "/images/Beer.png"
+  },
+  {
+    "nama": "Bell",
+    "gambar": "/images/Bell.png"
+  },
+  {
+    "nama": "Bicycle",
+    "gambar": "/images/Bicycle.png"
+  },
+  {
+    "nama": "Big",
+    "gambar": "/images/Big.png"
+  },
+  {
+    "nama": "Binoculars",
+    "gambar": "/images/Binoculars.png"
+  },
+  {
+    "nama": "Bird",
+    "gambar": "/images/Bird.png"
+  },
+  {
+    "nama": "Birdcage",
+    "gambar": "/images/Birdcage.png"
+  },
+  {
+    "nama": "Birdhouse",
+    "gambar": "/images/Birdhouse.png"
+  },
+  {
+    "nama": "Black Hole",
+    "gambar": "/images/Black_hole.png"
+  },
+  {
+    "nama": "Blade",
+    "gambar": "/images/Blade.png"
+  },
+  {
+    "nama": "Blender",
+    "gambar": "/images/Blender.png"
+  },
+  {
+    "nama": "Blizzard",
+    "gambar": "/images/Blizzard.png"
+  },
+  {
+    "nama": "Blood",
+    "gambar": "/images/Blood.png"
+  },
+  {
+    "nama": "Blood Bag",
+    "gambar": "/images/Blood_bag.png"
+  },
+  {
+    "nama": "Boat",
+    "gambar": "/images/Boat.png"
+  },
+  {
+    "nama": "Boiler",
+    "gambar": "/images/Boiler.png"
+  },
+  {
+    "nama": "Bone",
+    "gambar": "/images/Bone.png"
+  },
+  {
+    "nama": "Bonsai Tree",
+    "gambar": "/images/Bonsai_tree.png"
+  },
+  {
+    "nama": "Book",
+    "gambar": "/images/Book.png"
+  },
+  {
+    "nama": "Bottle",
+    "gambar": "/images/Bottle.png"
+  },
+  {
+    "nama": "Boulder",
+    "gambar": "/images/Boulder.png"
+  },
+  {
+    "nama": "Bow",
+    "gambar": "/images/Bow.png"
+  },
+  {
+    "nama": "Box",
+    "gambar": "/images/Box.png"
+  },
+  {
+    "nama": "Bread",
+    "gambar": "/images/Bread.png"
+  },
+  {
+    "nama": "Brick",
+    "gambar": "/images/Brick.png"
+  },
+  {
+    "nama": "Bridge",
+    "gambar": "/images/Bridge.png"
+  },
+  {
+    "nama": "Broom",
+    "gambar": "/images/Broom.png"
+  },
+  {
+    "nama": "Bucket",
+    "gambar": "/images/Bucket.png"
+  },
+  {
+    "nama": "Bullet",
+    "gambar": "/images/Bullet.png"
+  },
+  {
+    "nama": "Bulletproof Vest",
+    "gambar": "/images/Bulletproof_vest.png"
+  },
+  {
+    "nama": "Bus",
+    "gambar": "/images/Bus.png"
+  },
+  {
+    "nama": "Butcher",
+    "gambar": "/images/Butcher.png"
+  },
+  {
+    "nama": "Butter",
+    "gambar": "/images/Butter.png"
+  },
+  {
+    "nama": "Butterfly",
+    "gambar": "/images/Butterfly.png"
+  },
+  {
+    "nama": "Butterfly Net",
+    "gambar": "/images/Butterfly_net.png"
+  },
+  {
+    "nama": "Cable Car",
+    "gambar": "/images/Cable_car.png"
+  },
+  {
+    "nama": "Cactus",
+    "gambar": "/images/Cactus.png"
+  },
+  {
+    "nama": "Cage",
+    "gambar": "/images/Cage.png"
+  },
+  {
+    "nama": "Cake",
+    "gambar": "/images/Cake.png"
+  },
+  {
+    "nama": "Camel",
+    "gambar": "/images/Camel.png"
+  },
+  {
+    "nama": "Campfire",
+    "gambar": "/images/Campfire.png"
+  },
+  {
+    "nama": "Candle",
+    "gambar": "/images/Candle.png"
+  },
+  {
+    "nama": "Candy Cane",
+    "gambar": "/images/Candy_cane.png"
+  },
+  {
+    "nama": "Cannon",
+    "gambar": "/images/Cannon.png"
+  },
+  {
+    "nama": "Canvas",
+    "gambar": "/images/Canvas.png"
+  },
+  {
+    "nama": "Car",
+    "gambar": "/images/Car.png"
+  },
+  {
+    "nama": "Caramel",
+    "gambar": "/images/Caramel.png"
+  },
+  {
+    "nama": "Carbon Dioxide",
+    "gambar": "/images/Carbon_dioxide.png"
+  },
+  {
+    "nama": "Carrot",
+    "gambar": "/images/Carrot.png"
+  },
+  {
+    "nama": "Cart",
+    "gambar": "/images/Cart.png"
+  },
+  {
+    "nama": "Cashmere",
+    "gambar": "/images/Cashmere.png"
+  },
+  {
+    "nama": "Castle",
+    "gambar": "/images/Castle.png"
+  },
+  {
+    "nama": "Cat",
+    "gambar": "/images/Cat.png"
+  },
+  {
+    "nama": "Catnip",
+    "gambar": "/images/Catnip.png"
+  },
+  {
+    "nama": "Cauldron",
+    "gambar": "/images/Cauldron.png"
+  },
+  {
+    "nama": "Cave",
+    "gambar": "/images/Cave.png"
+  },
+  {
+    "nama": "Caviar",
+    "gambar": "/images/Caviar.png"
+  },
+  {
+    "nama": "Centaur",
+    "gambar": "/images/Centaur.png"
+  },
+  {
+    "nama": "Cereal",
+    "gambar": "/images/Cereal.png"
+  },
+  {
+    "nama": "Chain",
+    "gambar": "/images/Chain.png"
+  },
+  {
+    "nama": "Chainsaw",
+    "gambar": "/images/Chainsaw.png"
+  },
+  {
+    "nama": "Chameleon",
+    "gambar": "/images/Chameleon.png"
+  },
+  {
+    "nama": "Charcoal",
+    "gambar": "/images/Charcoal.png"
+  },
+  {
+    "nama": "Cheese",
+    "gambar": "/images/Cheese.png"
+  },
+  {
+    "nama": "Cheeseburger",
+    "gambar": "/images/Cheeseburger.png"
+  },
+  {
+    "nama": "Chicken",
+    "gambar": "/images/Chicken.png"
+  },
+  {
+    "nama": "Chicken Coop",
+    "gambar": "/images/Chicken_coop.png"
+  },
+  {
+    "nama": "Chicken Soup",
+    "gambar": "/images/Chicken_soup.png"
+  },
+  {
+    "nama": "Chicken Wing",
+    "gambar": "/images/Chicken_wing.png"
+  },
+  {
+    "nama": "Chill",
+    "gambar": "/images/Chill.png"
+  },
+  {
+    "nama": "Chimney",
+    "gambar": "/images/Chimney.png"
+  },
+  {
+    "nama": "Chocolate",
+    "gambar": "/images/Chocolate.png"
+  },
+  {
+    "nama": "Chocolate Milk",
+    "gambar": "/images/Chocolate_milk.png"
+  },
+  {
+    "nama": "Christmas Stocking",
+    "gambar": "/images/Christmas_stocking.png"
+  },
+  {
+    "nama": "Christmas Tree",
+    "gambar": "/images/Christmas_tree.png"
+  },
+  {
+    "nama": "Cigarette",
+    "gambar": "/images/Cigarette.png"
+  },
+  {
+    "nama": "Circus",
+    "gambar": "/images/Circus.png"
+  },
+  {
+    "nama": "City",
+    "gambar": "/images/City.png"
+  },
+  {
+    "nama": "Clay",
+    "gambar": "/images/Clay.png"
+  },
+  {
+    "nama": "Clock",
+    "gambar": "/images/Clock.png"
+  },
+  {
+    "nama": "Closet",
+    "gambar": "/images/Closet.png"
+  },
+  {
+    "nama": "Cloud",
+    "gambar": "/images/Cloud.png"
+  },
+  {
+    "nama": "Coal",
+    "gambar": "/images/Coal.png"
+  },
+  {
+    "nama": "Coconut",
+    "gambar": "/images/Coconut.png"
+  },
+  {
+    "nama": "Coconut Milk",
+    "gambar": "/images/Coconut_milk.png"
+  },
+  {
+    "nama": "Coffin",
+    "gambar": "/images/Coffin.png"
+  },
+  {
+    "nama": "Cold",
+    "gambar": "/images/Cold.png"
+  },
+  {
+    "nama": "Combustion Engine",
+    "gambar": "/images/Combustion_engine.png"
+  },
+  {
+    "nama": "Computer",
+    "gambar": "/images/Computer.png"
+  },
+  {
+    "nama": "Computer Mouse",
+    "gambar": "/images/Computer_mouse.png"
+  },
+  {
+    "nama": "Confetti",
+    "gambar": "/images/Confetti.png"
+  },
+  {
+    "nama": "Constellation",
+    "gambar": "/images/Constellation.png"
+  },
+  {
+    "nama": "Container",
+    "gambar": "/images/Container.png"
+  },
+  {
+    "nama": "Continent",
+    "gambar": "/images/Continent.png"
+  },
+  {
+    "nama": "Cook",
+    "gambar": "/images/Cook.png"
+  },
+  {
+    "nama": "Cookbook",
+    "gambar": "/images/Cookbook.png"
+  },
+  {
+    "nama": "Cookie",
+    "gambar": "/images/Cookie.png"
+  },
+  {
+    "nama": "Cookie Cutter",
+    "gambar": "/images/Cookie_cutter.png"
+  },
+  {
+    "nama": "Cookie Dough",
+    "gambar": "/images/Cookie_dough.png"
+  },
+  {
+    "nama": "Coral",
+    "gambar": "/images/Coral.png"
+  },
+  {
+    "nama": "Corpse",
+    "gambar": "/images/Corpse.png"
+  },
+  {
+    "nama": "Cotton",
+    "gambar": "/images/Cotton.png"
+  },
+  {
+    "nama": "Cotton Candy",
+    "gambar": "/images/Cotton_candy.png"
+  },
+  {
+    "nama": "Cow",
+    "gambar": "/images/Cow.png"
+  },
+  {
+    "nama": "Crayon",
+    "gambar": "/images/Crayon.png"
+  },
+  {
+    "nama": "Crow",
+    "gambar": "/images/Crow.png"
+  },
+  {
+    "nama": "Crystal Ball",
+    "gambar": "/images/Crystal_ball.png"
+  },
+  {
+    "nama": "Cuckoo",
+    "gambar": "/images/Cuckoo.png"
+  },
+  {
+    "nama": "Cup",
+    "gambar": "/images/Cup.png"
+  },
+  {
+    "nama": "Current",
+    "gambar": "/images/Current.png"
+  },
+  {
+    "nama": "Cutting Board",
+    "gambar": "/images/Cutting_board.png"
+  },
+  {
+    "nama": "Cyborg",
+    "gambar": "/images/Cyborg.png"
+  },
+  {
+    "nama": "Cyclist",
+    "gambar": "/images/Cyclist.png"
+  },
+  {
+    "nama": "Dam",
+    "gambar": "/images/Dam.png"
+  },
+  {
+    "nama": "Darkness",
+    "gambar": "/images/Darkness.png"
+  },
+  {
+    "nama": "Dawn",
+    "gambar": "/images/Dawn.png"
+  },
+  {
+    "nama": "Day",
+    "gambar": "/images/Day.png"
+  },
+  {
+    "nama": "Death",
+    "gambar": "/images/Death.png"
+  },
+  {
+    "nama": "Desert",
+    "gambar": "/images/Desert.png"
+  },
+  {
+    "nama": "Dew",
+    "gambar": "/images/Dew.png"
+  },
+  {
+    "nama": "Diamond",
+    "gambar": "/images/Diamond.png"
+  },
+  {
+    "nama": "Dinosaur",
+    "gambar": "/images/Dinosaur.png"
+  },
+  {
+    "nama": "Diver",
+    "gambar": "/images/Diver.png"
+  },
+  {
+    "nama": "Doctor",
+    "gambar": "/images/Doctor.png"
+  },
+  {
+    "nama": "Dog",
+    "gambar": "/images/Dog.png"
+  },
+  {
+    "nama": "Doge",
+    "gambar": "/images/Doge.png"
+  },
+  {
+    "nama": "Doghouse",
+    "gambar": "/images/Doghouse.png"
+  },
+  {
+    "nama": "Domestication",
+    "gambar": "/images/Domestication.png"
+  },
+  {
+    "nama": "Don Quixote",
+    "gambar": "/images/Don_quixote.png"
+  },
+  {
+    "nama": "Donut",
+    "gambar": "/images/Donut.png"
+  },
+  {
+    "nama": "Double Rainbow!",
+    "gambar": "/images/Double_rainbow!.png"
+  },
+  {
+    "nama": "Dough",
+    "gambar": "/images/Dough.png"
+  },
+  {
+    "nama": "Dragon",
+    "gambar": "/images/Dragon.png"
+  },
+  {
+    "nama": "Drone",
+    "gambar": "/images/Drone.png"
+  },
+  {
+    "nama": "Drum",
+    "gambar": "/images/Drum.png"
+  },
+  {
+    "nama": "Drunk",
+    "gambar": "/images/Drunk.png"
+  },
+  {
+    "nama": "Dry Ice",
+    "gambar": "/images/Dry_ice.png"
+  },
+  {
+    "nama": "Duck",
+    "gambar": "/images/Duck.png"
+  },
+  {
+    "nama": "Duckling",
+    "gambar": "/images/Duckling.png"
+  },
+  {
+    "nama": "Dune",
+    "gambar": "/images/Dune.png"
+  },
+  {
+    "nama": "Dust",
+    "gambar": "/images/Dust.png"
+  },
+  {
+    "nama": "Dynamite",
+    "gambar": "/images/Dynamite.png"
+  },
+  {
+    "nama": "Eagle",
+    "gambar": "/images/Eagle.png"
+  },
+  {
+    "nama": "Earth",
+    "gambar": "/images/Earth.png"
+  },
+  {
+    "nama": "Earthquake",
+    "gambar": "/images/Earthquake.png"
+  },
+  {
+    "nama": "Eclipse",
+    "gambar": "/images/Eclipse.png"
+  },
+  {
+    "nama": "Egg",
+    "gambar": "/images/Egg.png"
+  },
+  {
+    "nama": "Egg Timer",
+    "gambar": "/images/Egg_timer.png"
+  },
+  {
+    "nama": "Electric Car",
+    "gambar": "/images/Electric_car.png"
+  },
+  {
+    "nama": "Electric Eel",
+    "gambar": "/images/Electric_eel.png"
+  },
+  {
+    "nama": "Electrician",
+    "gambar": "/images/Electrician.png"
+  },
+  {
+    "nama": "Electricity",
+    "gambar": "/images/Electricity.png"
+  },
+  {
+    "nama": "Email",
+    "gambar": "/images/Email.png"
+  },
+  {
+    "nama": "Energy",
+    "gambar": "/images/Energy.png"
+  },
+  {
+    "nama": "Engineer",
+    "gambar": "/images/Engineer.png"
+  },
+  {
+    "nama": "Eruption",
+    "gambar": "/images/Eruption.png"
+  },
+  {
+    "nama": "Excalibur",
+    "gambar": "/images/Excalibur.png"
+  },
+  {
+    "nama": "Excavator",
+    "gambar": "/images/Excavator.png"
+  },
+  {
+    "nama": "Explosion",
+    "gambar": "/images/Explosion.png"
+  },
+  {
+    "nama": "Fabric",
+    "gambar": "/images/Fabric.png"
+  },
+  {
+    "nama": "Factory",
+    "gambar": "/images/Factory.png"
+  },
+  {
+    "nama": "Fairy Tale",
+    "gambar": "/images/Fairy_tale.png"
+  },
+  {
+    "nama": "Family",
+    "gambar": "/images/Family.png"
+  },
+  {
+    "nama": "Family Tree",
+    "gambar": "/images/Family_tree.png"
+  },
+  {
+    "nama": "Farm",
+    "gambar": "/images/Farm.png"
+  },
+  {
+    "nama": "Farmer",
+    "gambar": "/images/Farmer.png"
+  },
+  {
+    "nama": "Faun",
+    "gambar": "/images/Faun.png"
+  },
+  {
+    "nama": "Fence",
+    "gambar": "/images/Fence.png"
+  },
+  {
+    "nama": "Field",
+    "gambar": "/images/Field.png"
+  },
+  {
+    "nama": "Fire",
+    "gambar": "/images/Fire.png"
+  },
+  {
+    "nama": "Fire Extinguisher",
+    "gambar": "/images/Fire_extinguisher.png"
+  },
+  {
+    "nama": "Firefighter",
+    "gambar": "/images/Firefighter.png"
+  },
+  {
+    "nama": "Fireplace",
+    "gambar": "/images/Fireplace.png"
+  },
+  {
+    "nama": "Firestation",
+    "gambar": "/images/Firestation.png"
+  },
+  {
+    "nama": "Firetruck",
+    "gambar": "/images/Firetruck.png"
+  },
+  {
+    "nama": "Firewall",
+    "gambar": "/images/Firewall.png"
+  },
+  {
+    "nama": "Fireworks",
+    "gambar": "/images/Fireworks.png"
+  },
+  {
+    "nama": "Fish",
+    "gambar": "/images/Fish.png"
+  },
+  {
+    "nama": "Fishing Rod",
+    "gambar": "/images/Fishing_rod.png"
+  },
+  {
+    "nama": "Flamethrower",
+    "gambar": "/images/Flamethrower.png"
+  },
+  {
+    "nama": "Flashlight",
+    "gambar": "/images/Flashlight.png"
+  },
+  {
+    "nama": "Flood",
+    "gambar": "/images/Flood.png"
+  },
+  {
+    "nama": "Flour",
+    "gambar": "/images/Flour.png"
+  },
+  {
+    "nama": "Flower",
+    "gambar": "/images/Flower.png"
+  },
+  {
+    "nama": "Flute",
+    "gambar": "/images/Flute.png"
+  },
+  {
+    "nama": "Flying Fish",
+    "gambar": "/images/Flying_fish.png"
+  },
+  {
+    "nama": "Flying Squirrel",
+    "gambar": "/images/Flying_squirrel.png"
+  },
+  {
+    "nama": "Fog",
+    "gambar": "/images/Fog.png"
+  },
+  {
+    "nama": "Force Knight",
+    "gambar": "/images/Force_knight.png"
+  },
+  {
+    "nama": "Forest",
+    "gambar": "/images/Forest.png"
+  },
+  {
+    "nama": "Fork",
+    "gambar": "/images/Fork.png"
+  },
+  {
+    "nama": "Fortune Cookie",
+    "gambar": "/images/Fortune_cookie.png"
+  },
+  {
+    "nama": "Fossil",
+    "gambar": "/images/Fossil.png"
+  },
+  {
+    "nama": "Fountain",
+    "gambar": "/images/Fountain.png"
+  },
+  {
+    "nama": "Fox",
+    "gambar": "/images/Fox.png"
+  },
+  {
+    "nama": "Frankenstein'S Monster",
+    "gambar": "/images/Frankenstein'S_monster.png"
+  },
+  {
+    "nama": "French Fries",
+    "gambar": "/images/French_fries.png"
+  },
+  {
+    "nama": "Fridge",
+    "gambar": "/images/Fridge.png"
+  },
+  {
+    "nama": "Frog",
+    "gambar": "/images/Frog.png"
+  },
+  {
+    "nama": "Frozen Yogurt",
+    "gambar": "/images/Frozen_yogurt.png"
+  },
+  {
+    "nama": "Fruit",
+    "gambar": "/images/Fruit.png"
+  },
+  {
+    "nama": "Fruit Tree",
+    "gambar": "/images/Fruit_tree.png"
+  },
+  {
+    "nama": "Galaxy",
+    "gambar": "/images/Galaxy.png"
+  },
+  {
+    "nama": "Galaxy Cluster",
+    "gambar": "/images/Galaxy_cluster.png"
+  },
+  {
+    "nama": "Garage",
+    "gambar": "/images/Garage.png"
+  },
+  {
+    "nama": "Garden",
+    "gambar": "/images/Garden.png"
+  },
+  {
+    "nama": "Gardener",
+    "gambar": "/images/Gardener.png"
+  },
+  {
+    "nama": "Gas",
+    "gambar": "/images/Gas.png"
+  },
+  {
+    "nama": "Geyser",
+    "gambar": "/images/Geyser.png"
+  },
+  {
+    "nama": "Ghost",
+    "gambar": "/images/Ghost.png"
+  },
+  {
+    "nama": "Gift",
+    "gambar": "/images/Gift.png"
+  },
+  {
+    "nama": "Gingerbread House",
+    "gambar": "/images/Gingerbread_house.png"
+  },
+  {
+    "nama": "Gingerbread Man",
+    "gambar": "/images/Gingerbread_man.png"
+  },
+  {
+    "nama": "Glacier",
+    "gambar": "/images/Glacier.png"
+  },
+  {
+    "nama": "Glass",
+    "gambar": "/images/Glass.png"
+  },
+  {
+    "nama": "Glasses",
+    "gambar": "/images/Glasses.png"
+  },
+  {
+    "nama": "Gnome",
+    "gambar": "/images/Gnome.png"
+  },
+  {
+    "nama": "Goat",
+    "gambar": "/images/Goat.png"
+  },
+  {
+    "nama": "Gold",
+    "gambar": "/images/Gold.png"
+  },
+  {
+    "nama": "Golem",
+    "gambar": "/images/Golem.png"
+  },
+  {
+    "nama": "Granite",
+    "gambar": "/images/Granite.png"
+  },
+  {
+    "nama": "Grass",
+    "gambar": "/images/Grass.png"
+  },
+  {
+    "nama": "Grave",
+    "gambar": "/images/Grave.png"
+  },
+  {
+    "nama": "Gravestone",
+    "gambar": "/images/Gravestone.png"
+  },
+  {
+    "nama": "Graveyard",
+    "gambar": "/images/Graveyard.png"
+  },
+  {
+    "nama": "Greenhouse",
+    "gambar": "/images/Greenhouse.png"
+  },
+  {
+    "nama": "Grenade",
+    "gambar": "/images/Grenade.png"
+  },
+  {
+    "nama": "Grilled Cheese",
+    "gambar": "/images/Grilled_cheese.png"
+  },
+  {
+    "nama": "Grim Reaper",
+    "gambar": "/images/Grim_reaper.png"
+  },
+  {
+    "nama": "Gun",
+    "gambar": "/images/Gun.png"
+  },
+  {
+    "nama": "Gunpowder",
+    "gambar": "/images/Gunpowder.png"
+  },
+  {
+    "nama": "Gust",
+    "gambar": "/images/Gust.png"
+  },
+  {
+    "nama": "Hacker",
+    "gambar": "/images/Hacker.png"
+  },
+  {
+    "nama": "Hail",
+    "gambar": "/images/Hail.png"
+  },
+  {
+    "nama": "Ham",
+    "gambar": "/images/Ham.png"
+  },
+  {
+    "nama": "Hamburger",
+    "gambar": "/images/Hamburger.png"
+  },
+  {
+    "nama": "Hammer",
+    "gambar": "/images/Hammer.png"
+  },
+  {
+    "nama": "Hamster",
+    "gambar": "/images/Hamster.png"
+  },
+  {
+    "nama": "Hangar",
+    "gambar": "/images/Hangar.png"
+  },
+  {
+    "nama": "Harp",
+    "gambar": "/images/Harp.png"
+  },
+  {
+    "nama": "Hay",
+    "gambar": "/images/Hay.png"
+  },
+  {
+    "nama": "Hay Bale",
+    "gambar": "/images/Hay_bale.png"
+  },
+  {
+    "nama": "Heat",
+    "gambar": "/images/Heat.png"
+  },
+  {
+    "nama": "Hedge",
+    "gambar": "/images/Hedge.png"
+  },
+  {
+    "nama": "Hedgehog",
+    "gambar": "/images/Hedgehog.png"
+  },
+  {
+    "nama": "Helicopter",
+    "gambar": "/images/Helicopter.png"
+  },
+  {
+    "nama": "Hero",
+    "gambar": "/images/Hero.png"
+  },
+  {
+    "nama": "Hill",
+    "gambar": "/images/Hill.png"
+  },
+  {
+    "nama": "Hippo",
+    "gambar": "/images/Hippo.png"
+  },
+  {
+    "nama": "Honey",
+    "gambar": "/images/Honey.png"
+  },
+  {
+    "nama": "Horizon",
+    "gambar": "/images/Horizon.png"
+  },
+  {
+    "nama": "Horse",
+    "gambar": "/images/Horse.png"
+  },
+  {
+    "nama": "Horseshoe",
+    "gambar": "/images/Horseshoe.png"
+  },
+  {
+    "nama": "Hospital",
+    "gambar": "/images/Hospital.png"
+  },
+  {
+    "nama": "Hot Chocolate",
+    "gambar": "/images/Hot_chocolate.png"
+  },
+  {
+    "nama": "Hourglass",
+    "gambar": "/images/Hourglass.png"
+  },
+  {
+    "nama": "House",
+    "gambar": "/images/House.png"
+  },
+  {
+    "nama": "Human",
+    "gambar": "/images/Human.png"
+  },
+  {
+    "nama": "Hummingbird",
+    "gambar": "/images/Hummingbird.png"
+  },
+  {
+    "nama": "Hurricane",
+    "gambar": "/images/Hurricane.png"
+  },
+  {
+    "nama": "Husky",
+    "gambar": "/images/Husky.png"
+  },
+  {
+    "nama": "Ice",
+    "gambar": "/images/Ice.png"
+  },
+  {
+    "nama": "Ice Cream",
+    "gambar": "/images/Ice_cream.png"
+  },
+  {
+    "nama": "Ice Cream Truck",
+    "gambar": "/images/Ice_cream_truck.png"
+  },
+  {
+    "nama": "Ice Sculpture",
+    "gambar": "/images/Ice_sculpture.png"
+  },
+  {
+    "nama": "Iceberg",
+    "gambar": "/images/Iceberg.png"
+  },
+  {
+    "nama": "Iced Tea",
+    "gambar": "/images/Iced_tea.png"
+  },
+  {
+    "nama": "Idea",
+    "gambar": "/images/Idea.png"
+  },
+  {
+    "nama": "Igloo",
+    "gambar": "/images/Igloo.png"
+  },
+  {
+    "nama": "Internet",
+    "gambar": "/images/Internet.png"
+  },
+  {
+    "nama": "Island",
+    "gambar": "/images/Island.png"
+  },
+  {
+    "nama": "Ivy",
+    "gambar": "/images/Ivy.png"
+  },
+  {
+    "nama": "Jack-O'-Lantern",
+    "gambar": "/images/Jack-O'-Lantern.png"
+  },
+  {
+    "nama": "Jam",
+    "gambar": "/images/Jam.png"
+  },
+  {
+    "nama": "Jar",
+    "gambar": "/images/Jar.png"
+  },
+  {
+    "nama": "Jerky",
+    "gambar": "/images/Jerky.png"
+  },
+  {
+    "nama": "Juice",
+    "gambar": "/images/Juice.png"
+  },
+  {
+    "nama": "Jupiter",
+    "gambar": "/images/Jupiter.png"
+  },
+  {
+    "nama": "Kaiju",
+    "gambar": "/images/Kaiju.png"
+  },
+  {
+    "nama": "Katana",
+    "gambar": "/images/Katana.png"
+  },
+  {
+    "nama": "Kite",
+    "gambar": "/images/Kite.png"
+  },
+  {
+    "nama": "Knife",
+    "gambar": "/images/Knife.png"
+  },
+  {
+    "nama": "Knight",
+    "gambar": "/images/Knight.png"
+  },
+  {
+    "nama": "Lake",
+    "gambar": "/images/Lake.png"
+  },
+  {
+    "nama": "Lamp",
+    "gambar": "/images/Lamp.png"
+  },
+  {
+    "nama": "Land",
+    "gambar": "/images/Land.png"
+  },
+  {
+    "nama": "Laptop",
+    "gambar": "/images/Laptop.png"
+  },
+  {
+    "nama": "Lasso",
+    "gambar": "/images/Lasso.png"
+  },
+  {
+    "nama": "Lava",
+    "gambar": "/images/Lava.png"
+  },
+  {
+    "nama": "Lava Lamp",
+    "gambar": "/images/Lava_lamp.png"
+  },
+  {
+    "nama": "Lawn",
+    "gambar": "/images/Lawn.png"
+  },
+  {
+    "nama": "Lawn Mower",
+    "gambar": "/images/Lawn_mower.png"
+  },
+  {
+    "nama": "Leaf",
+    "gambar": "/images/Leaf.png"
+  },
+  {
+    "nama": "Leather",
+    "gambar": "/images/Leather.png"
+  },
+  {
+    "nama": "Legend",
+    "gambar": "/images/Legend.png"
+  },
+  {
+    "nama": "Lens",
+    "gambar": "/images/Lens.png"
+  },
+  {
+    "nama": "Letter",
+    "gambar": "/images/Letter.png"
+  },
+  {
+    "nama": "Librarian",
+    "gambar": "/images/Librarian.png"
+  },
+  {
+    "nama": "Library",
+    "gambar": "/images/Library.png"
+  },
+  {
+    "nama": "Life",
+    "gambar": "/images/Life.png"
+  },
+  {
+    "nama": "Light",
+    "gambar": "/images/Light.png"
+  },
+  {
+    "nama": "Light Bulb",
+    "gambar": "/images/Light_bulb.png"
+  },
+  {
+    "nama": "Light Sword",
+    "gambar": "/images/Light_sword.png"
+  },
+  {
+    "nama": "Lighthouse",
+    "gambar": "/images/Lighthouse.png"
+  },
+  {
+    "nama": "Lightning",
+    "gambar": "/images/Lightning.png"
+  },
+  {
+    "nama": "Lion",
+    "gambar": "/images/Lion.png"
+  },
+  {
+    "nama": "Liquid",
+    "gambar": "/images/Liquid.png"
+  },
+  {
+    "nama": "Little Alchemy (Element)",
+    "gambar": "/images/Little_alchemy_(Element).png"
+  },
+  {
+    "nama": "Livestock",
+    "gambar": "/images/Livestock.png"
+  },
+  {
+    "nama": "Lizard",
+    "gambar": "/images/Lizard.png"
+  },
+  {
+    "nama": "Log Cabin",
+    "gambar": "/images/Log_cabin.png"
+  },
+  {
+    "nama": "Love",
+    "gambar": "/images/Love.png"
+  },
+  {
+    "nama": "Lumberjack",
+    "gambar": "/images/Lumberjack.png"
+  },
+  {
+    "nama": "Mac And Cheese",
+    "gambar": "/images/Mac_and_cheese.png"
+  },
+  {
+    "nama": "Machine",
+    "gambar": "/images/Machine.png"
+  },
+  {
+    "nama": "Magic",
+    "gambar": "/images/Magic.png"
+  },
+  {
+    "nama": "Magma",
+    "gambar": "/images/Magma.png"
+  },
+  {
+    "nama": "Mail Truck",
+    "gambar": "/images/Mail_truck.png"
+  },
+  {
+    "nama": "Mailbox",
+    "gambar": "/images/Mailbox.png"
+  },
+  {
+    "nama": "Mailman",
+    "gambar": "/images/Mailman.png"
+  },
+  {
+    "nama": "Manatee",
+    "gambar": "/images/Manatee.png"
+  },
+  {
+    "nama": "Map",
+    "gambar": "/images/Map.png"
+  },
+  {
+    "nama": "Maple Syrup",
+    "gambar": "/images/Maple_syrup.png"
+  },
+  {
+    "nama": "Mars",
+    "gambar": "/images/Mars.png"
+  },
+  {
+    "nama": "Marshmallows",
+    "gambar": "/images/Marshmallows.png"
+  },
+  {
+    "nama": "Mayonnaise",
+    "gambar": "/images/Mayonnaise.png"
+  },
+  {
+    "nama": "Meat",
+    "gambar": "/images/Meat.png"
+  },
+  {
+    "nama": "Medusa",
+    "gambar": "/images/Medusa.png"
+  },
+  {
+    "nama": "Mercury",
+    "gambar": "/images/Mercury.png"
+  },
+  {
+    "nama": "Mermaid",
+    "gambar": "/images/Mermaid.png"
+  },
+  {
+    "nama": "Metal",
+    "gambar": "/images/Metal.png"
+  },
+  {
+    "nama": "Meteor",
+    "gambar": "/images/Meteor.png"
+  },
+  {
+    "nama": "Meteoroid",
+    "gambar": "/images/Meteoroid.png"
+  },
+  {
+    "nama": "Microscope",
+    "gambar": "/images/Microscope.png"
+  },
+  {
+    "nama": "Milk",
+    "gambar": "/images/Milk.png"
+  },
+  {
+    "nama": "Milk Shake",
+    "gambar": "/images/Milk_shake.png"
+  },
+  {
+    "nama": "Mineral",
+    "gambar": "/images/Mineral.png"
+  },
+  {
+    "nama": "Minotaur",
+    "gambar": "/images/Minotaur.png"
+  },
+  {
+    "nama": "Mirror",
+    "gambar": "/images/Mirror.png"
+  },
+  {
+    "nama": "Mist",
+    "gambar": "/images/Mist.png"
+  },
+  {
+    "nama": "Mold",
+    "gambar": "/images/Mold.png"
+  },
+  {
+    "nama": "Monarch",
+    "gambar": "/images/Monarch.png"
+  },
+  {
+    "nama": "Money",
+    "gambar": "/images/Money.png"
+  },
+  {
+    "nama": "Monkey",
+    "gambar": "/images/Monkey.png"
+  },
+  {
+    "nama": "Moon",
+    "gambar": "/images/Moon.png"
+  },
+  {
+    "nama": "Moon Rover",
+    "gambar": "/images/Moon_rover.png"
+  },
+  {
+    "nama": "Moss",
+    "gambar": "/images/Moss.png"
+  },
+  {
+    "nama": "Moth",
+    "gambar": "/images/Moth.png"
+  },
+  {
+    "nama": "Motion",
+    "gambar": "/images/Motion.png"
+  },
+  {
+    "nama": "Motorcycle",
+    "gambar": "/images/Motorcycle.png"
+  },
+  {
+    "nama": "Mountain",
+    "gambar": "/images/Mountain.png"
+  },
+  {
+    "nama": "Mountain Goat",
+    "gambar": "/images/Mountain_goat.png"
+  },
+  {
+    "nama": "Mountain Range",
+    "gambar": "/images/Mountain_range.png"
+  },
+  {
+    "nama": "Mouse",
+    "gambar": "/images/Mouse.png"
+  },
+  {
+    "nama": "Mousetrap",
+    "gambar": "/images/Mousetrap.png"
+  },
+  {
+    "nama": "Mud",
+    "gambar": "/images/Mud.png"
+  },
+  {
+    "nama": "Mummy",
+    "gambar": "/images/Mummy.png"
+  },
+  {
+    "nama": "Music",
+    "gambar": "/images/Music.png"
+  },
+  {
+    "nama": "Musician",
+    "gambar": "/images/Musician.png"
+  },
+  {
+    "nama": "Narwhal",
+    "gambar": "/images/Narwhal.png"
+  },
+  {
+    "nama": "Needle",
+    "gambar": "/images/Needle.png"
+  },
+  {
+    "nama": "Nessie",
+    "gambar": "/images/Nessie.png"
+  },
+  {
+    "nama": "Nest",
+    "gambar": "/images/Nest.png"
+  },
+  {
+    "nama": "Net",
+    "gambar": "/images/Net.png"
+  },
+  {
+    "nama": "Newspaper",
+    "gambar": "/images/Newspaper.png"
+  },
+  {
+    "nama": "Night",
+    "gambar": "/images/Night.png"
+  },
+  {
+    "nama": "Ninja",
+    "gambar": "/images/Ninja.png"
+  },
+  {
+    "nama": "Ninja Turtle",
+    "gambar": "/images/Ninja_turtle.png"
+  },
+  {
+    "nama": "Nuts",
+    "gambar": "/images/Nuts.png"
+  },
+  {
+    "nama": "Oasis",
+    "gambar": "/images/Oasis.png"
+  },
+  {
+    "nama": "Obsidian",
+    "gambar": "/images/Obsidian.png"
+  },
+  {
+    "nama": "Ocean",
+    "gambar": "/images/Ocean.png"
+  },
+  {
+    "nama": "Oil",
+    "gambar": "/images/Oil.png"
+  },
+  {
+    "nama": "Omelette",
+    "gambar": "/images/Omelette.png"
+  },
+  {
+    "nama": "Optical Fiber",
+    "gambar": "/images/Optical_fiber.png"
+  },
+  {
+    "nama": "Orchard",
+    "gambar": "/images/Orchard.png"
+  },
+  {
+    "nama": "Ore",
+    "gambar": "/images/Ore.png"
+  },
+  {
+    "nama": "Organic Matter",
+    "gambar": "/images/Organic_matter.png"
+  },
+  {
+    "nama": "Origami",
+    "gambar": "/images/Origami.png"
+  },
+  {
+    "nama": "Ostrich",
+    "gambar": "/images/Ostrich.png"
+  },
+  {
+    "nama": "Owl",
+    "gambar": "/images/Owl.png"
+  },
+  {
+    "nama": "Oxygen",
+    "gambar": "/images/Oxygen.png"
+  },
+  {
+    "nama": "Ozone",
+    "gambar": "/images/Ozone.png"
+  },
+  {
+    "nama": "Paint",
+    "gambar": "/images/Paint.png"
+  },
+  {
+    "nama": "Painter",
+    "gambar": "/images/Painter.png"
+  },
+  {
+    "nama": "Painting",
+    "gambar": "/images/Painting.png"
+  },
+  {
+    "nama": "Paleontologist",
+    "gambar": "/images/Paleontologist.png"
+  },
+  {
+    "nama": "Palm",
+    "gambar": "/images/Palm.png"
+  },
+  {
+    "nama": "Pan Flute",
+    "gambar": "/images/Pan_flute.png"
+  },
+  {
+    "nama": "Paper",
+    "gambar": "/images/Paper.png"
+  },
+  {
+    "nama": "Paper Airplane",
+    "gambar": "/images/Paper_airplane.png"
+  },
+  {
+    "nama": "Paper Cup",
+    "gambar": "/images/Paper_cup.png"
+  },
+  {
+    "nama": "Parachute",
+    "gambar": "/images/Parachute.png"
+  },
+  {
+    "nama": "Paraglider",
+    "gambar": "/images/Paraglider.png"
+  },
+  {
+    "nama": "Park",
+    "gambar": "/images/Park.png"
+  },
+  {
+    "nama": "Parrot",
+    "gambar": "/images/Parrot.png"
+  },
+  {
+    "nama": "Pasta",
+    "gambar": "/images/Pasta.png"
+  },
+  {
+    "nama": "Peacock",
+    "gambar": "/images/Peacock.png"
+  },
+  {
+    "nama": "Peanut Butter",
+    "gambar": "/images/Peanut_butter.png"
+  },
+  {
+    "nama": "Peat",
+    "gambar": "/images/Peat.png"
+  },
+  {
+    "nama": "Pebble",
+    "gambar": "/images/Pebble.png"
+  },
+  {
+    "nama": "Pegasus",
+    "gambar": "/images/Pegasus.png"
+  },
+  {
+    "nama": "Pencil",
+    "gambar": "/images/Pencil.png"
+  },
+  {
+    "nama": "Pencil Sharpener",
+    "gambar": "/images/Pencil_sharpener.png"
+  },
+  {
+    "nama": "Penguin",
+    "gambar": "/images/Penguin.png"
+  },
+  {
+    "nama": "Penicillin",
+    "gambar": "/images/Penicillin.png"
+  },
+  {
+    "nama": "Perfume",
+    "gambar": "/images/Perfume.png"
+  },
+  {
+    "nama": "Petroleum",
+    "gambar": "/images/Petroleum.png"
+  },
+  {
+    "nama": "Philosophy",
+    "gambar": "/images/Philosophy.png"
+  },
+  {
+    "nama": "Phoenix",
+    "gambar": "/images/Phoenix.png"
+  },
+  {
+    "nama": "Picnic",
+    "gambar": "/images/Picnic.png"
+  },
+  {
+    "nama": "Pie",
+    "gambar": "/images/Pie.png"
+  },
+  {
+    "nama": "Pig",
+    "gambar": "/images/Pig.png"
+  },
+  {
+    "nama": "Pigeon",
+    "gambar": "/images/Pigeon.png"
+  },
+  {
+    "nama": "Piggy Bank",
+    "gambar": "/images/Piggy_bank.png"
+  },
+  {
+    "nama": "Pilot",
+    "gambar": "/images/Pilot.png"
+  },
+  {
+    "nama": "Pinocchio",
+    "gambar": "/images/Pinocchio.png"
+  },
+  {
+    "nama": "Pipe",
+    "gambar": "/images/Pipe.png"
+  },
+  {
+    "nama": "Piranha",
+    "gambar": "/images/Piranha.png"
+  },
+  {
+    "nama": "Pirate",
+    "gambar": "/images/Pirate.png"
+  },
+  {
+    "nama": "Pirate Ship",
+    "gambar": "/images/Pirate_ship.png"
+  },
+  {
+    "nama": "Pitchfork",
+    "gambar": "/images/Pitchfork.png"
+  },
+  {
+    "nama": "Pizza",
+    "gambar": "/images/Pizza.png"
+  },
+  {
+    "nama": "Planet",
+    "gambar": "/images/Planet.png"
+  },
+  {
+    "nama": "Plankton",
+    "gambar": "/images/Plankton.png"
+  },
+  {
+    "nama": "Plant",
+    "gambar": "/images/Plant.png"
+  },
+  {
+    "nama": "Plasma",
+    "gambar": "/images/Plasma.png"
+  },
+  {
+    "nama": "Platypus",
+    "gambar": "/images/Platypus.png"
+  },
+  {
+    "nama": "Plow",
+    "gambar": "/images/Plow.png"
+  },
+  {
+    "nama": "Polar Bear",
+    "gambar": "/images/Polar_bear.png"
+  },
+  {
+    "nama": "Pollen",
+    "gambar": "/images/Pollen.png"
+  },
+  {
+    "nama": "Pond",
+    "gambar": "/images/Pond.png"
+  },
+  {
+    "nama": "Popsicle",
+    "gambar": "/images/Popsicle.png"
+  },
+  {
+    "nama": "Post Office",
+    "gambar": "/images/Post_office.png"
+  },
+  {
+    "nama": "Potato",
+    "gambar": "/images/Potato.png"
+  },
+  {
+    "nama": "Potter",
+    "gambar": "/images/Potter.png"
+  },
+  {
+    "nama": "Pottery",
+    "gambar": "/images/Pottery.png"
+  },
+  {
+    "nama": "Pressure",
+    "gambar": "/images/Pressure.png"
+  },
+  {
+    "nama": "Primordial Soup",
+    "gambar": "/images/Primordial_soup.png"
+  },
+  {
+    "nama": "Printer",
+    "gambar": "/images/Printer.png"
+  },
+  {
+    "nama": "Prism",
+    "gambar": "/images/Prism.png"
+  },
+  {
+    "nama": "Pterodactyl",
+    "gambar": "/images/Pterodactyl.png"
+  },
+  {
+    "nama": "Puddle",
+    "gambar": "/images/Puddle.png"
+  },
+  {
+    "nama": "Pumpkin",
+    "gambar": "/images/Pumpkin.png"
+  },
+  {
+    "nama": "Pyramid",
+    "gambar": "/images/Pyramid.png"
+  },
+  {
+    "nama": "Quicksand",
+    "gambar": "/images/Quicksand.png"
+  },
+  {
+    "nama": "Quicksilver",
+    "gambar": "/images/Quicksilver.png"
+  },
+  {
+    "nama": "Rabbit",
+    "gambar": "/images/Rabbit.png"
+  },
+  {
+    "nama": "Rain",
+    "gambar": "/images/Rain.png"
+  },
+  {
+    "nama": "Rainbow",
+    "gambar": "/images/Rainbow.png"
+  },
+  {
+    "nama": "Rainforest",
+    "gambar": "/images/Rainforest.png"
+  },
+  {
+    "nama": "Rat",
+    "gambar": "/images/Rat.png"
+  },
+  {
+    "nama": "Recipe",
+    "gambar": "/images/Recipe.png"
+  },
+  {
+    "nama": "Reed",
+    "gambar": "/images/Reed.png"
+  },
+  {
+    "nama": "Reindeer",
+    "gambar": "/images/Reindeer.png"
+  },
+  {
+    "nama": "Restaurant",
+    "gambar": "/images/Restaurant.png"
+  },
+  {
+    "nama": "Ring",
+    "gambar": "/images/Ring.png"
+  },
+  {
+    "nama": "River",
+    "gambar": "/images/River.png"
+  },
+  {
+    "nama": "Rivulet",
+    "gambar": "/images/Rivulet.png"
+  },
+  {
+    "nama": "Robot",
+    "gambar": "/images/Robot.png"
+  },
+  {
+    "nama": "Robot Vacuum",
+    "gambar": "/images/Robot_vacuum.png"
+  },
+  {
+    "nama": "Rock",
+    "gambar": "/images/Rock.png"
+  },
+  {
+    "nama": "Rocket",
+    "gambar": "/images/Rocket.png"
+  },
+  {
+    "nama": "Roe",
+    "gambar": "/images/Roe.png"
+  },
+  {
+    "nama": "Roller Coaster",
+    "gambar": "/images/Roller_coaster.png"
+  },
+  {
+    "nama": "Rope",
+    "gambar": "/images/Rope.png"
+  },
+  {
+    "nama": "Rose",
+    "gambar": "/images/Rose.png"
+  },
+  {
+    "nama": "Ruins",
+    "gambar": "/images/Ruins.png"
+  },
+  {
+    "nama": "Ruler",
+    "gambar": "/images/Ruler.png"
+  },
+  {
+    "nama": "Rust",
+    "gambar": "/images/Rust.png"
+  },
+  {
+    "nama": "Rv",
+    "gambar": "/images/Rv.png"
+  },
+  {
+    "nama": "Sack",
+    "gambar": "/images/Sack.png"
+  },
+  {
+    "nama": "Saddle",
+    "gambar": "/images/Saddle.png"
+  },
+  {
+    "nama": "Safe",
+    "gambar": "/images/Safe.png"
+  },
+  {
+    "nama": "Safety Glasses",
+    "gambar": "/images/Safety_glasses.png"
+  },
+  {
+    "nama": "Sailboat",
+    "gambar": "/images/Sailboat.png"
+  },
+  {
+    "nama": "Sailor",
+    "gambar": "/images/Sailor.png"
+  },
+  {
+    "nama": "Salt",
+    "gambar": "/images/Salt.png"
+  },
+  {
+    "nama": "Samurai",
+    "gambar": "/images/Samurai.png"
+  },
+  {
+    "nama": "Sand",
+    "gambar": "/images/Sand.png"
+  },
+  {
+    "nama": "Sand Castle",
+    "gambar": "/images/Sand_castle.png"
+  },
+  {
+    "nama": "Sandpaper",
+    "gambar": "/images/Sandpaper.png"
+  },
+  {
+    "nama": "Sandstone",
+    "gambar": "/images/Sandstone.png"
+  },
+  {
+    "nama": "Sandstorm",
+    "gambar": "/images/Sandstorm.png"
+  },
+  {
+    "nama": "Sandwich",
+    "gambar": "/images/Sandwich.png"
+  },
+  {
+    "nama": "Santa",
+    "gambar": "/images/Santa.png"
+  },
+  {
+    "nama": "Sap",
+    "gambar": "/images/Sap.png"
+  },
+  {
+    "nama": "Saturn",
+    "gambar": "/images/Saturn.png"
+  },
+  {
+    "nama": "Scalpel",
+    "gambar": "/images/Scalpel.png"
+  },
+  {
+    "nama": "Scarecrow",
+    "gambar": "/images/Scarecrow.png"
+  },
+  {
+    "nama": "Science",
+    "gambar": "/images/Science.png"
+  },
+  {
+    "nama": "Scissors",
+    "gambar": "/images/Scissors.png"
+  },
+  {
+    "nama": "Scorpion",
+    "gambar": "/images/Scorpion.png"
+  },
+  {
+    "nama": "Scuba Tank",
+    "gambar": "/images/Scuba_tank.png"
+  },
+  {
+    "nama": "Scythe",
+    "gambar": "/images/Scythe.png"
+  },
+  {
+    "nama": "Sea",
+    "gambar": "/images/Sea.png"
+  },
+  {
+    "nama": "Seagull",
+    "gambar": "/images/Seagull.png"
+  },
+  {
+    "nama": "Seahorse",
+    "gambar": "/images/Seahorse.png"
+  },
+  {
+    "nama": "Seal",
+    "gambar": "/images/Seal.png"
+  },
+  {
+    "nama": "Seaplane",
+    "gambar": "/images/Seaplane.png"
+  },
+  {
+    "nama": "Seasickness",
+    "gambar": "/images/Seasickness.png"
+  },
+  {
+    "nama": "Seaweed",
+    "gambar": "/images/Seaweed.png"
+  },
+  {
+    "nama": "Seed",
+    "gambar": "/images/Seed.png"
+  },
+  {
+    "nama": "Sewing Machine",
+    "gambar": "/images/Sewing_machine.png"
+  },
+  {
+    "nama": "Shark",
+    "gambar": "/images/Shark.png"
+  },
+  {
+    "nama": "Sheep",
+    "gambar": "/images/Sheep.png"
+  },
+  {
+    "nama": "Sheet Music",
+    "gambar": "/images/Sheet_music.png"
+  },
+  {
+    "nama": "Shovel",
+    "gambar": "/images/Shovel.png"
+  },
+  {
+    "nama": "Shuriken",
+    "gambar": "/images/Shuriken.png"
+  },
+  {
+    "nama": "Sickness",
+    "gambar": "/images/Sickness.png"
+  },
+  {
+    "nama": "Silo",
+    "gambar": "/images/Silo.png"
+  },
+  {
+    "nama": "Skateboard",
+    "gambar": "/images/Skateboard.png"
+  },
+  {
+    "nama": "Skeleton",
+    "gambar": "/images/Skeleton.png"
+  },
+  {
+    "nama": "Ski Goggles",
+    "gambar": "/images/Ski_goggles.png"
+  },
+  {
+    "nama": "Skier",
+    "gambar": "/images/Skier.png"
+  },
+  {
+    "nama": "Sky",
+    "gambar": "/images/Sky.png"
+  },
+  {
+    "nama": "Skyscraper",
+    "gambar": "/images/Skyscraper.png"
+  },
+  {
+    "nama": "Sleigh",
+    "gambar": "/images/Sleigh.png"
+  },
+  {
+    "nama": "Sloth",
+    "gambar": "/images/Sloth.png"
+  },
+  {
+    "nama": "Small",
+    "gambar": "/images/Small.png"
+  },
+  {
+    "nama": "Smartphone",
+    "gambar": "/images/Smartphone.png"
+  },
+  {
+    "nama": "Smog",
+    "gambar": "/images/Smog.png"
+  },
+  {
+    "nama": "Smoke",
+    "gambar": "/images/Smoke.png"
+  },
+  {
+    "nama": "Smoke Signal",
+    "gambar": "/images/Smoke_signal.png"
+  },
+  {
+    "nama": "Smoothie",
+    "gambar": "/images/Smoothie.png"
+  },
+  {
+    "nama": "Snake",
+    "gambar": "/images/Snake.png"
+  },
+  {
+    "nama": "Snow",
+    "gambar": "/images/Snow.png"
+  },
+  {
+    "nama": "Snow Globe",
+    "gambar": "/images/Snow_globe.png"
+  },
+  {
+    "nama": "Snowball",
+    "gambar": "/images/Snowball.png"
+  },
+  {
+    "nama": "Snowboard",
+    "gambar": "/images/Snowboard.png"
+  },
+  {
+    "nama": "Snowboarder",
+    "gambar": "/images/Snowboarder.png"
+  },
+  {
+    "nama": "Snowman",
+    "gambar": "/images/Snowman.png"
+  },
+  {
+    "nama": "Snowmobile",
+    "gambar": "/images/Snowmobile.png"
+  },
+  {
+    "nama": "Soap",
+    "gambar": "/images/Soap.png"
+  },
+  {
+    "nama": "Soda",
+    "gambar": "/images/Soda.png"
+  },
+  {
+    "nama": "Soil",
+    "gambar": "/images/Soil.png"
+  },
+  {
+    "nama": "Solar Cell",
+    "gambar": "/images/Solar_cell.png"
+  },
+  {
+    "nama": "Solar System",
+    "gambar": "/images/Solar_system.png"
+  },
+  {
+    "nama": "Solid",
+    "gambar": "/images/Solid.png"
+  },
+  {
+    "nama": "Sound",
+    "gambar": "/images/Sound.png"
+  },
+  {
+    "nama": "Space",
+    "gambar": "/images/Space.png"
+  },
+  {
+    "nama": "Space Station",
+    "gambar": "/images/Space_station.png"
+  },
+  {
+    "nama": "Spaceship",
+    "gambar": "/images/Spaceship.png"
+  },
+  {
+    "nama": "Spaghetti",
+    "gambar": "/images/Spaghetti.png"
+  },
+  {
+    "nama": "Sphinx",
+    "gambar": "/images/Sphinx.png"
+  },
+  {
+    "nama": "Spider",
+    "gambar": "/images/Spider.png"
+  },
+  {
+    "nama": "Spoon",
+    "gambar": "/images/Spoon.png"
+  },
+  {
+    "nama": "Spotlight",
+    "gambar": "/images/Spotlight.png"
+  },
+  {
+    "nama": "Sprinkles",
+    "gambar": "/images/Sprinkles.png"
+  },
+  {
+    "nama": "Squirrel",
+    "gambar": "/images/Squirrel.png"
+  },
+  {
+    "nama": "Star",
+    "gambar": "/images/Star.png"
+  },
+  {
+    "nama": "Starfish",
+    "gambar": "/images/Starfish.png"
+  },
+  {
+    "nama": "Statue",
+    "gambar": "/images/Statue.png"
+  },
+  {
+    "nama": "Steak",
+    "gambar": "/images/Steak.png"
+  },
+  {
+    "nama": "Steam",
+    "gambar": "/images/Steam.png"
+  },
+  {
+    "nama": "Steam Engine",
+    "gambar": "/images/Steam_engine.png"
+  },
+  {
+    "nama": "Steamboat",
+    "gambar": "/images/Steamboat.png"
+  },
+  {
+    "nama": "Steel",
+    "gambar": "/images/Steel.png"
+  },
+  {
+    "nama": "Steel Wool",
+    "gambar": "/images/Steel_wool.png"
+  },
+  {
+    "nama": "Stethoscope",
+    "gambar": "/images/Stethoscope.png"
+  },
+  {
+    "nama": "Stone",
+    "gambar": "/images/Stone.png"
+  },
+  {
+    "nama": "Storm",
+    "gambar": "/images/Storm.png"
+  },
+  {
+    "nama": "Story",
+    "gambar": "/images/Story.png"
+  },
+  {
+    "nama": "Stream",
+    "gambar": "/images/Stream.png"
+  },
+  {
+    "nama": "String Phone",
+    "gambar": "/images/String_phone.png"
+  },
+  {
+    "nama": "Stun Gun",
+    "gambar": "/images/Stun_gun.png"
+  },
+  {
+    "nama": "Sugar",
+    "gambar": "/images/Sugar.png"
+  },
+  {
+    "nama": "Sun",
+    "gambar": "/images/Sun.png"
+  },
+  {
+    "nama": "Sundial",
+    "gambar": "/images/Sundial.png"
+  },
+  {
+    "nama": "Sunflower",
+    "gambar": "/images/Sunflower.png"
+  },
+  {
+    "nama": "Sunglasses",
+    "gambar": "/images/Sunglasses.png"
+  },
+  {
+    "nama": "Supernova",
+    "gambar": "/images/Supernova.png"
+  },
+  {
+    "nama": "Surfer",
+    "gambar": "/images/Surfer.png"
+  },
+  {
+    "nama": "Sushi",
+    "gambar": "/images/Sushi.png"
+  },
+  {
+    "nama": "Swamp",
+    "gambar": "/images/Swamp.png"
+  },
+  {
+    "nama": "Sweater",
+    "gambar": "/images/Sweater.png"
+  },
+  {
+    "nama": "Swim Goggles",
+    "gambar": "/images/Swim_goggles.png"
+  },
+  {
+    "nama": "Swimmer",
+    "gambar": "/images/Swimmer.png"
+  },
+  {
+    "nama": "Swimming Pool",
+    "gambar": "/images/Swimming_pool.png"
+  },
+  {
+    "nama": "Sword",
+    "gambar": "/images/Sword.png"
+  },
+  {
+    "nama": "Swordfish",
+    "gambar": "/images/Swordfish.png"
+  },
+  {
+    "nama": "Syringe",
+    "gambar": "/images/Syringe.png"
+  },
+  {
+    "nama": "Tablet",
+    "gambar": "/images/Tablet.png"
+  },
+  {
+    "nama": "Tailor",
+    "gambar": "/images/Tailor.png"
+  },
+  {
+    "nama": "Tank",
+    "gambar": "/images/Tank.png"
+  },
+  {
+    "nama": "Tea",
+    "gambar": "/images/Tea.png"
+  },
+  {
+    "nama": "Telescope",
+    "gambar": "/images/Telescope.png"
+  },
+  {
+    "nama": "Tent",
+    "gambar": "/images/Tent.png"
+  },
+  {
+    "nama": "The One Ring",
+    "gambar": "/images/The_one_ring.png"
+  },
+  {
+    "nama": "Thermometer",
+    "gambar": "/images/Thermometer.png"
+  },
+  {
+    "nama": "Thread",
+    "gambar": "/images/Thread.png"
+  },
+  {
+    "nama": "Tide",
+    "gambar": "/images/Tide.png"
+  },
+  {
+    "nama": "Time",
+    "gambar": "/images/Time.png"
+  },
+  {
+    "nama": "Titanic",
+    "gambar": "/images/Titanic.png"
+  },
+  {
+    "nama": "Toast",
+    "gambar": "/images/Toast.png"
+  },
+  {
+    "nama": "Tobacco",
+    "gambar": "/images/Tobacco.png"
+  },
+  {
+    "nama": "Tool",
+    "gambar": "/images/Tool.png"
+  },
+  {
+    "nama": "Toolbox",
+    "gambar": "/images/Toolbox.png"
+  },
+  {
+    "nama": "Tornado",
+    "gambar": "/images/Tornado.png"
+  },
+  {
+    "nama": "Toucan",
+    "gambar": "/images/Toucan.png"
+  },
+  {
+    "nama": "Tractor",
+    "gambar": "/images/Tractor.png"
+  },
+  {
+    "nama": "Train",
+    "gambar": "/images/Train.png"
+  },
+  {
+    "nama": "Trainyard",
+    "gambar": "/images/Trainyard.png"
+  },
+  {
+    "nama": "Treasure",
+    "gambar": "/images/Treasure.png"
+  },
+  {
+    "nama": "Treasure Map",
+    "gambar": "/images/Treasure_map.png"
+  },
+  {
+    "nama": "Tree",
+    "gambar": "/images/Tree.png"
+  },
+  {
+    "nama": "Treehouse",
+    "gambar": "/images/Treehouse.png"
+  },
+  {
+    "nama": "Trojan Horse",
+    "gambar": "/images/Trojan_horse.png"
+  },
+  {
+    "nama": "Tsunami",
+    "gambar": "/images/Tsunami.png"
+  },
+  {
+    "nama": "Tunnel",
+    "gambar": "/images/Tunnel.png"
+  },
+  {
+    "nama": "Turtle",
+    "gambar": "/images/Turtle.png"
+  },
+  {
+    "nama": "Twilight",
+    "gambar": "/images/Twilight.png"
+  },
+  {
+    "nama": "Tyrannosaurus Rex",
+    "gambar": "/images/Tyrannosaurus_rex.png"
+  },
+  {
+    "nama": "Ufo",
+    "gambar": "/images/Ufo.png"
+  },
+  {
+    "nama": "Umbrella",
+    "gambar": "/images/Umbrella.png"
+  },
+  {
+    "nama": "Unicorn",
+    "gambar": "/images/Unicorn.png"
+  },
+  {
+    "nama": "Universe",
+    "gambar": "/images/Universe.png"
+  },
+  {
+    "nama": "Vacuum Cleaner",
+    "gambar": "/images/Vacuum_cleaner.png"
+  },
+  {
+    "nama": "Vampire",
+    "gambar": "/images/Vampire.png"
+  },
+  {
+    "nama": "Vase",
+    "gambar": "/images/Vase.png"
+  },
+  {
+    "nama": "Vault",
+    "gambar": "/images/Vault.png"
+  },
+  {
+    "nama": "Vegetable",
+    "gambar": "/images/Vegetable.png"
+  },
+  {
+    "nama": "Venus",
+    "gambar": "/images/Venus.png"
+  },
+  {
+    "nama": "Village",
+    "gambar": "/images/Village.png"
+  },
+  {
+    "nama": "Vine",
+    "gambar": "/images/Vine.png"
+  },
+  {
+    "nama": "Vinegar",
+    "gambar": "/images/Vinegar.png"
+  },
+  {
+    "nama": "Volcano",
+    "gambar": "/images/Volcano.png"
+  },
+  {
+    "nama": "Vulture",
+    "gambar": "/images/Vulture.png"
+  },
+  {
+    "nama": "Wagon",
+    "gambar": "/images/Wagon.png"
+  },
+  {
+    "nama": "Wall",
+    "gambar": "/images/Wall.png"
+  },
+  {
+    "nama": "Wand",
+    "gambar": "/images/Wand.png"
+  },
+  {
+    "nama": "Warmth",
+    "gambar": "/images/Warmth.png"
+  },
+  {
+    "nama": "Warrior",
+    "gambar": "/images/Warrior.png"
+  },
+  {
+    "nama": "Watch",
+    "gambar": "/images/Watch.png"
+  },
+  {
+    "nama": "Water",
+    "gambar": "/images/Water.png"
+  },
+  {
+    "nama": "Water Gun",
+    "gambar": "/images/Water_gun.png"
+  },
+  {
+    "nama": "Water Lily",
+    "gambar": "/images/Water_lily.png"
+  },
+  {
+    "nama": "Water Pipe",
+    "gambar": "/images/Water_pipe.png"
+  },
+  {
+    "nama": "Waterfall",
+    "gambar": "/images/Waterfall.png"
+  },
+  {
+    "nama": "Wave",
+    "gambar": "/images/Wave.png"
+  },
+  {
+    "nama": "Wax",
+    "gambar": "/images/Wax.png"
+  },
+  {
+    "nama": "Web",
+    "gambar": "/images/Web.png"
+  },
+  {
+    "nama": "Werewolf",
+    "gambar": "/images/Werewolf.png"
+  },
+  {
+    "nama": "Wheat",
+    "gambar": "/images/Wheat.png"
+  },
+  {
+    "nama": "Wheel",
+    "gambar": "/images/Wheel.png"
+  },
+  {
+    "nama": "Wild Boar",
+    "gambar": "/images/Wild_boar.png"
+  },
+  {
+    "nama": "Wind",
+    "gambar": "/images/Wind.png"
+  },
+  {
+    "nama": "Wind Turbine",
+    "gambar": "/images/Wind_turbine.png"
+  },
+  {
+    "nama": "Windmill",
+    "gambar": "/images/Windmill.png"
+  },
+  {
+    "nama": "Windsurfer",
+    "gambar": "/images/Windsurfer.png"
+  },
+  {
+    "nama": "Wine",
+    "gambar": "/images/Wine.png"
+  },
+  {
+    "nama": "Wire",
+    "gambar": "/images/Wire.png"
+  },
+  {
+    "nama": "Witch",
+    "gambar": "/images/Witch.png"
+  },
+  {
+    "nama": "Wizard",
+    "gambar": "/images/Wizard.png"
+  },
+  {
+    "nama": "Wolf",
+    "gambar": "/images/Wolf.png"
+  },
+  {
+    "nama": "Wood",
+    "gambar": "/images/Wood.png"
+  },
+  {
+    "nama": "Woodpecker",
+    "gambar": "/images/Woodpecker.png"
+  },
+  {
+    "nama": "Wool",
+    "gambar": "/images/Wool.png"
+  },
+  {
+    "nama": "Wrapping Paper",
+    "gambar": "/images/Wrapping_paper.png"
+  },
+  {
+    "nama": "Writer",
+    "gambar": "/images/Writer.png"
+  },
+  {
+    "nama": "Yeti",
+    "gambar": "/images/Yeti.png"
+  },
+  {
+    "nama": "Yogurt",
+    "gambar": "/images/Yogurt.png"
+  },
+  {
+    "nama": "Zombie",
+    "gambar": "/images/Zombie.png"
+  },
+  {
+    "nama": "Zoo",
+    "gambar": "/images/Zoo.png"
+  }
+]
