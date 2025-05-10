@@ -228,6 +228,19 @@ func readElementsTier(filePath string) (map[string]int, error) {
 	return elements, nil
 }
 
+func treeToJSON(root *TreeNode) (string, error) {
+	if root == nil {
+		return "", nil
+	}
+
+	jsonData, err := json.MarshalIndent(root, "", "  ")
+	if err != nil {
+		return "", err
+	}
+
+	return string(jsonData), nil
+}
+
 
 func main() {
 
@@ -245,4 +258,7 @@ func main() {
 	root := &TreeNode{Item1: "Rust"}
 	buildTreeBFS(recipes, root, tier)
 	traverseTreeDFS(root, 0)
+
+	jsontree, err := treeToJSON(root)
+	fmt.Println(jsontree)
 }
