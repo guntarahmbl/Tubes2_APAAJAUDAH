@@ -1,0 +1,7 @@
+.card-container {
+  display: grid;
+  background-color: aliceblue;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 5px;
+  padding: 15px;
+}

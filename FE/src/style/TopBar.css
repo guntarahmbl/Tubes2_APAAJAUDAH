@@ -1,0 +1,88 @@
+.top-bar {
+  width: 100%;
+  background-color: #000000; /* Hijau tua */
+  color: white;
+  font-family: sans-serif;
+}
+
+.top-bar .title {
+  color: hsl(0, 0%, 100%);
+  font-size: 1.8rem;
+  font-weight: bold;
+  padding: 0.1rem;
+  flex: 1;
+}
+
+.top-bar-search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: hsl(247, 85%, 32%);
+  color: hsl(0, 0%, 100%);
+}
+
+.search-controls {
+  display: flex;
+  gap: 8px;
+}
+
+.controls {
+  background-color: hsl(214, 68%, 93%);
+  padding: 1rem;
+  color: rgb(0, 0, 0);
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 1.5rem;
+  align-items: start;
+}
+
+.options {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Dua kolom: BFS/DFS dan Single/Multiple */
+  gap: 0.5rem 2rem;
+}
+
+.algorithm-options,
+.recipe-options {
+  display: flex;
+  flex-direction: column;
+}
+
+.algorithm-options label,
+.recipe-options label {
+  margin-bottom: 0.3rem;
+}
+
+.input-search {
+  width: 220px;
+  height: 30px;
+  font-size: 14px;
+  background-color: #ffffff;
+  color :#000000;
+}
+
+.input {
+  width: 60px;
+  height: 24px;
+  font-size: 14px;
+  background-color: #ffffff;
+  color :#000000;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  gap: 8px; /* jarak antar elemen */
+  margin-top: 0.5rem;
+  flex-wrap: wrap; /* biar tetap rapi di layar kecil */
+}
+
+.button {
+  width: 90px;
+  height: 38px;
+  background-color: #004cff;
+  border: 1px solid #000000;
+  cursor: pointer;
+  font-size: 0.9 rem
+}
