@@ -6,7 +6,7 @@ import (
 	"sync"
 )
 
-func BuildTreeDFS(result map[string][][]string, root *TreeNode, tier map[string]int) {
+func BuildTreeDFS(result map[string][][]string, root *TreeNode, tier map[string]int, img map[string]string) {
     var memoMutex sync.Mutex // Mutex untuk melindungi akses ke memo
     memo := make(map[string][]*TreeNode)
 
@@ -35,11 +35,11 @@ func BuildTreeDFS(result map[string][][]string, root *TreeNode, tier map[string]
             newNode := &TreeNode{
                 Item1: map[string]string{
                     "Name":  val[0],
-                    "Image": fmt.Sprintf("images/%s.png", val[0]),
+                    "Image": img[val[0]],
                 },
                 Item2: map[string]string{
                     "Name":  val[1],
-                    "Image": fmt.Sprintf("images/%s.png", val[1]),
+                    "Image": img[val[1]],
                 },
             }
             newChildren = append(newChildren, newNode)

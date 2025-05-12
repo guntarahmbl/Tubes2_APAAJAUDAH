@@ -108,6 +108,38 @@ func GenerateRecipesTree(node *TreeNode, countRecipe int) []*TreeNode {
 	return combinations
 }
 
+// fungsi untuk membaca image
+func ReadElementsImage(filePath string) (map[string]string, error) {
+	// Buka file JSON
+	file, err := os.Open(filePath)
+	if err != nil {
+		return nil, fmt.Errorf("failed to open file: %v", err)
+	}
+	defer file.Close()
+
+	// Baca isi file
+	data, err := io.ReadAll(file)
+	if err != nil {
+		return nil, fmt.Errorf("failed to read file: %v", err)
+	}
+
+	// Parsing JSON ke slice map
+	var tempElements []map[string]string
+	if err := json.Unmarshal(data, &tempElements); err != nil {
+		return nil, fmt.Errorf("failed to parse JSON: %v", err)
+	}
+
+	// Konversi ke map[string]string
+	elements := make(map[string]string)
+	for _, elem := range tempElements {
+		name := elem["name"]
+		image := elem["image"]
+		elements[name] = image
+	}
+
+	return elements, nil
+}
+
 // fungsi untuk membaca data global resep
 func ReadElementsRecipes(filePath string) (map[string][][]string, error) {
 	// Buka file JSON
@@ -163,39 +195,6 @@ func ReadElementsTier(filePath string) (map[string]int, error) {
 
 	return elements, nil
 }
-
-// fungsi untuk membaca data tier
-func ReadElementsImage(filePath string) (map[string]int, error) {
-	// Buka file JSON
-	file, err := os.Open(filePath)
-	if err != nil {
-		log.Fatalf("Failed to open file: %v", err)
-	}
-	defer file.Close()
-
-	// Baca
-	data, err := io.ReadAll(file)
-	if err != nil {
-		log.Fatalf("Failed to read file: %v", err)
-	}
-
-	// Parsing JSON ke slice map sementara karena gabisa langsung map[string]int
-	var tempElements []map[string]interface{}
-	if err := json.Unmarshal(data, &tempElements); err != nil {
-		log.Fatalf("Failed to parse JSON: %v", err)
-	}
-
-	// Konversi ke map[string]int
-	elements := make(map[string]int)
-	for _, elem := range tempElements {
-		name := elem["name"].(string)
-		tier := int(elem["image"].(float64)) 
-		elements[name] = tier
-	}
-
-	return elements, nil
-}
-
 
 // fungsi untuk mengonversi tree ke json
 func ConvertTreesToJSON(trees []*TreeNode) (string, error) {
@@ -278,12 +277,20 @@ func GetRecipes(name string, method int, maxRecipe int) ([]*TreeNode, error) {
 	// 0 : BFS
 	// 1 : DFS
 
+	// membaca recipe global
 	globalRecipes, err := ReadElementsRecipes("data/allElementsRecipes.json")
 	if err != nil {
 		log.Fatalf("Failed to read recipes: %v", err)
 	}
 
+	// membaca tier elemen
 	tier, err := ReadElementsTier("data/allElementsTiers.json")
+	if err != nil {
+		log.Fatalf("Failed to read tier: %v", err)
+	}
+
+	// membaca image elemen
+	img , err := ReadElementsImage("data/allElementsImage.json")
 	if err != nil {
 		log.Fatalf("Failed to read tier: %v", err)
 	}
@@ -297,9 +304,9 @@ func GetRecipes(name string, method int, maxRecipe int) ([]*TreeNode, error) {
 
 	// pilih method untuk membangun pohon resep
 	if (method == 0) {
-		BuildTreeBFS(globalRecipes, root, tier)
+		BuildTreeBFS(globalRecipes, root, tier, img)
 	} else if (method == 1) {
-		BuildTreeDFS(globalRecipes, root, tier)
+		BuildTreeDFS(globalRecipes, root, tier, img)
 	} else {
 		log.Fatalf("Wrong method!")
 	}

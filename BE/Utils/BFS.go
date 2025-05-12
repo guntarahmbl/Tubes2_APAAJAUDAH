@@ -7,7 +7,7 @@ import (
 )
 
 // membangun pohon dengan algoritma BFS
-func BuildTreeBFS(result map[string][][]string, root *TreeNode, tier map[string]int) {
+func BuildTreeBFS(result map[string][][]string, root *TreeNode, tier map[string]int, img map[string]string) {
 	// Queue untuk BFS
 	queue := []*TreeNode{root}
 
@@ -45,11 +45,11 @@ func BuildTreeBFS(result map[string][][]string, root *TreeNode, tier map[string]
 				newNode := &TreeNode{
 					Item1: map[string]string{
 						"Name":  val[0],
-						"Image": fmt.Sprintf("images/%s.png", val[0]),
+						"Image": img[val[0]],
 					},
 					Item2: map[string]string{
 						"Name":  val[1],
-						"Image": fmt.Sprintf("images/%s.png", val[1]),
+						"Image": img[val[1]],
 					},
 				}
 
