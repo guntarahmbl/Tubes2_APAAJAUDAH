@@ -40,6 +40,7 @@ function MainPage({data, selectedElement ,setSelectedElement, treeList, setTreeL
 
   const handleClosePopup = () => {
     setPopUpVisible(false);  // cuma ini yang perlu dilakukan dari MainPage
+    setSelectedElement(null);
   };
 
   return (

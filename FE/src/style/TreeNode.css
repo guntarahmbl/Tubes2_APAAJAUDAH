@@ -20,26 +20,42 @@
   border-radius: 6px;
 }
 
-.tree-node::before {
-  content: '';
-  position: absolute;
-  top: 0px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 2px;
-  height: 10px;
-  background-color: #ccc;
-}
-
 .tree-combine {
-  display: flex;
-  align-items: center;
-  max-width: 180px;
-  max-height: 80px;
-  padding: 4px 6px;
+  display: inline-block; /* agar react-organizational-chart bisa center */
+  text-align: center;
+  background-color: white;
+  padding: 6px 10px;
   border-radius: 10px;
   box-shadow: 0 0 6px rgba(0,0,0,0.1);
-  background-color: white;
+  vertical-align: middle;
+}
+
+.tree-combine-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tree-combine .item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 6px;
+}
+
+.tree-combine .item img {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  margin-bottom: 4px;
+  border: 2px solid rgb(22, 2, 137);
+}
+
+.plus-sign {
+  font-size: 20px;
+  font-weight: bold;
+  color: #555;
+  margin: 0 6px;
 }
 
 .item {
@@ -52,89 +68,13 @@
   margin-left: 15px;
 }
 
-.item img {
-  width: 50px;
-  height: 50px;
-  object-fit: contain;
-  margin-bottom: 4px;
-  border: 2px solid rgb(22, 2, 137);
-}
-
-.plus-sign {
-  font-size: 24px;
-  font-weight: bold;
-  color: #555;
-}
-
-.tree-children-wrapper {
-  display: flex;
-  justify-content: space-between;
-  gap: 40px;
-  width: 100%;
-  margin-top: 20px;
-  position: relative;
-}
-
-.tree-children-wrapper::before {
-  content: '';
-  position: absolute;
-  top: -20px;
-  left: 50%;
-  width: 2px;
-  height: 15px;
-  background-color: #ccc;
-  transform: translateX(-50%);
-}
-
-/* ===== Garis horizontal ke kiri & kanan ===== */
-.tree-children-left::before {
-  left: 100%;
-  width: 50%;
-  transform: translateX(-100%);
-  content: '';
-  position: absolute;
-  top: -10px;                      /* sejajar ujung bawah garis vertikal */
-  height: 2px;
-  background-color: #ccc;
-  /* right: 10px; */
-}
-.tree-children-right::before {
-  left: 0;
-  width: 50%;
-  content: '';
-  position: absolute;
-  top: -10px;                      /* sejajar ujung bawah garis vertikal */
-  height: 2px;
-  background-color: #ccc;
-  right: 10px;
-}
 
 
-/* Wrapper utk masing-masing side */
-.tree-children-left,
-.tree-children-right {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  flex-wrap: wrap;
-  position: relative;              /* untuk positioning connector anak */
-}
 
-.tree-children-left.single-child::before,
-.tree-children-right.single-child::before {
-  display: none;
-}
 
-/* ===== Connector vertikal dari branch line ke tiap child ===== */
-.tree-children-left > .tree-node::before,
-.tree-children-right > .tree-node::before {
-  content: '';
-  position: absolute;
-  top: -10px;                      /* panjangkan sesuai jarak ke child */
-  left: 50%;
-  transform: translateX(-50%);
-  width: 2px;
-  height: 17px;
-  background-color: #ccc;
-}
+
+
+
+
+
+

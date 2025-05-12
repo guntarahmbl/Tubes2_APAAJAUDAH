@@ -1,48 +1,44 @@
 // TreeNode.jsx
 import React from "react";
 import PropTypes from "prop-types";
+import { Tree, TreeNode as OrgNode} from "react-organizational-chart";
 import "../style/TreeNode.css";
+
+function CustomNode({ item1, item2 }) {
+  return (
+    <div className="tree-combine">
+      <div className="tree-combine-content">
+        <div className="item">
+          <img src={item1.Image} alt={item1.Name} />
+          <span>{item1.Name}</span>
+        </div>
+        <span className="plus-sign">+</span>
+        <div className="item">
+          <img src={item2.Image} alt={item2.Name} />
+          <span>{item2.Name}</span>
+        </div>
+      </div>
+    </div>
+  );
+}
+
 
 function TreeNode({ node }) {
   if (!node) return null;
 
   return (
-    <div className="tree-node">
-      {/* Combine two items */}
-      <div className="tree-combine">
-        <div className="item">
-          <img src={node.Item1.Image} alt={node.Item1.Name} />
-          <span>{node.Item1.Name}</span>
-        </div>
-        <span className="plus-sign">+</span>
-        <div className="item">
-          <img src={node.Item2.Image}/>
-          <span>{node.Item2.Name}</span>
-        </div>
-      </div>
-
-      {(node.Children1?.length > 0 || node.Children2?.length > 0) && (
-        <div className="tree-children-wrapper">
-            {/* Children1 - Left Side */}
-            {node.Children1?.length > 0 && (
-            <div className="tree-children-left tree-children">
-                {node.Children1.map((child, i) => (
-                <TreeNode key={`c1-${child.Item1.Name}-${i}`} node={child} />
-                ))}
-            </div>
-            )}
-
-            {/* Children2 - Right Side */}
-            {node.Children2?.length > 0 && (
-            <div className="tree-children-right tree-children">
-                {node.Children2.map((child, i) => (
-                <TreeNode key={`c2-${child.Item2.Name}-${i}`} node={child} />
-                ))}
-            </div>
-            )}
-        </div>
-        )}
-    </div>
+    <OrgNode label={<CustomNode item1={node.Item1} item2={node.Item2} />}>
+      {/* Children1 - Left Side */}
+      {node.Children1 &&
+        node.Children1.map((child, idx) => (
+          <TreeNode key={`c1-${idx}`} node={child} />
+        ))}
+      {/* Children2 - Right Side */}
+      {node.Children2 &&
+        node.Children2.map((child, idx) => (
+          <TreeNode key={`c2-${idx}`} node={child} />
+        ))}
+    </OrgNode>
   );
 }
 

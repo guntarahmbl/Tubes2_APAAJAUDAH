@@ -20,6 +20,7 @@
   overflow-y: auto;
   box-shadow: 0 4px 8px rgba(0,0,0,0.3);
   position: relative;
+  justify-content: center;
 }
 
 .close-btn {
@@ -40,6 +41,8 @@
   align-items: center;
   margin-top: 16px;
   gap: 12px;
+    justify-content: center;
+
 }
 
 .tree-navigation button {

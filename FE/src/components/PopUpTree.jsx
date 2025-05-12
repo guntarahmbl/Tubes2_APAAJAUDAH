@@ -1,10 +1,12 @@
-import React, {useState} from "react";
-import TreeNode from "./TreeNode.jsx";
+import React, { useState } from "react";
+import TreeNode from "./TreeNode";
+import { Tree } from "react-organizational-chart";
 import "../style/PopUpTree.css";
 
 function PopUpTree({ visible, onClose, item, treeData }) {
-  const [currentPage, setCurrentPage] = useState(0)
-  if (!visible || !item || !treeData) return null;
+  const [currentPage, setCurrentPage] = useState(0);
+
+  if (!visible || !item || !treeData || treeData.length === 0) return null;
 
   return (
     <div className="popup-overlay">
@@ -14,17 +16,22 @@ function PopUpTree({ visible, onClose, item, treeData }) {
 
         {/* Parent item at the top */}
         <div className="parent-node">
-          <div className="tree-combine">
-            <div className="item">
-              <img src={item.gambar} alt={item.nama} />
-              <span>{item.nama}</span>
-            </div>
+          <div className="item">
+            <img src={item.gambar} alt={item.nama} />
+            <span>{item.nama}</span>
           </div>
         </div>
 
         {/* Show current tree */}
-        <div className="tree-node">
-          <TreeNode node={treeData[currentPage]} selectedItem={item} />
+        <div className="">
+          <Tree
+            lineWidth={"2px"}
+            lineColor={"#ccc"}
+            lineBorderRadius={"10px"}
+            label={<></>} // Kosongkan label root, karena sudah tampil di parent
+          >
+            <TreeNode node={treeData[currentPage]} />
+          </Tree>
         </div>
 
         {/* Pagination buttons */}
@@ -37,7 +44,9 @@ function PopUpTree({ visible, onClose, item, treeData }) {
           </button>
           <p>{currentPage + 1} / {treeData.length}</p>
           <button
-            onClick={() => setCurrentPage((prev) => Math.min(prev + 1, treeData.length - 1))}
+            onClick={() =>
+              setCurrentPage((prev) => Math.min(prev + 1, treeData.length - 1))
+            }
             disabled={currentPage === treeData.length - 1}
           >
             Next
