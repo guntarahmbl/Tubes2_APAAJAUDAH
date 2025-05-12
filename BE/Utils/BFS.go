@@ -3,6 +3,7 @@ package utils
 import (
 	"fmt"
 	"strings"
+	"sync"
 )
 
 // membangun pohon dengan algoritma BFS
@@ -10,58 +11,35 @@ func BuildTreeBFS(result map[string][][]string, root *TreeNode, tier map[string]
 	// Queue untuk BFS
 	queue := []*TreeNode{root}
 
+	// Mutex untuk memproses memo secara thread-safe
+	var memoMutex sync.Mutex
+	memo := make(map[string][]*TreeNode)
+
 	// Proses BFS
 	for len(queue) > 0 {
-		
 		currentNode := queue[0] // Ambil node pertama dalam queue
-		queue = queue[1:] // Dequeue
+		queue = queue[1:]      // Dequeue
 
-		// iterasi item1
-		name1 := currentNode.Item1["Name"]
-		if memoChildren, found := memo[name1]; !found { // jika tidak ada di memo (belum pernah di proses)
+		var wg sync.WaitGroup // WaitGroup untuk menunggu semua goroutine selesai
 
+		// Fungsi untuk memproses item (item1 atau item2)
+		processItem := func(name string, children *[]*TreeNode, currentQueue *[]*TreeNode) {
+			defer wg.Done() // Defer untuk mengurangi WaitGroup counter
+			memoMutex.Lock()
+			memoChildren, found := memo[name]
+			memoMutex.Unlock()
 
-			recipes1 := result[name1]  // cari resep-resep item1
-
-			for _, val := range recipes1 {  // iterasi tiap resep
-
-				
-				// jika tier sama atau dibawah, jangan dianmbil resepnya 
-				if (tier[name1] <= tier[val[0]] || tier[name1] <= tier[val[1]]) {
-					continue;
-				}
-
-				newNode := &TreeNode{
-					Item1: map[string]string{
-						"Name":  val[0],
-						"Image": fmt.Sprintf("images/%s.png", val[0]),
-					},
-					Item2: map[string]string{
-						"Name":  val[1],
-						"Image": fmt.Sprintf("images/%s.png", val[1]),
-					},
-				}
-				currentNode.Children1 = append(currentNode.Children1, newNode) // masukkan sebagai children1
-				
-				queue = append(queue, newNode) // masukkan ke queue
-	
+			if found {
+				*children = append(*children, memoChildren...) // Ambil dari memo jika sudah diproses
+				return
 			}
 
-			memo[name1] = currentNode.Children1 // catat bahwa Item1 sudah pernah di proses
-		} else {
-			currentNode.Children1 = append(currentNode.Children1, memoChildren...) // ambil dari memo jika Item1 sudah pernah di proses
-		}
+			recipes := result[name]
+			var newChildren []*TreeNode
 
-		// iterasi item2
-		name2 := currentNode.Item2["Name"]
-		if memoChildren, found := memo[name2]; !found {
-
-			recipes2 := result[name2]
-
-			for _, val := range recipes2 {
-
-				if (tier[name2] <= tier[val[0]] || tier[name2] <= tier[val[1]]) {
-					continue;
+			for _, val := range recipes {
+				if tier[name] <= tier[val[0]] || tier[name] <= tier[val[1]] {
+					continue
 				}
 
 				newNode := &TreeNode{
@@ -75,16 +53,29 @@ func BuildTreeBFS(result map[string][][]string, root *TreeNode, tier map[string]
 					},
 				}
 
-				currentNode.Children2 = append(currentNode.Children2, newNode)
-				
-				queue = append(queue, newNode)
+				newChildren = append(newChildren, newNode)
+				*currentQueue = append(*currentQueue, newNode) // Tambahkan ke queue
 			}
-			memo[name2] = currentNode.Children2
-		} else {
-			currentNode.Children2 = append(currentNode.Children2, memoChildren...)
+
+			memoMutex.Lock()
+			memo[name] = newChildren // Simpan hasil ke memo
+			memoMutex.Unlock()
+
+			*children = append(*children, newChildren...)
 		}
+
+		// Proses item1 secara paralel
+		wg.Add(1)
+		go processItem(currentNode.Item1["Name"], &currentNode.Children1, &queue)
+
+		// Proses item2 secara paralel
+		wg.Add(1)
+		go processItem(currentNode.Item2["Name"], &currentNode.Children2, &queue)
+
+		wg.Wait() // Tunggu semua goroutine selesai
 	}
 }
+
 
 // melakukan traverse dengan algoritma BFS
 func TraverseTreeBFS(root *TreeNode) {
