@@ -26,14 +26,14 @@ func Backend(target string, algorithm string, maxRecipe int) {
 	}
 
 	utils.PrintListOfTree(recipes)
-	fmt.Printf("Recipes length : %d\n", len(recipes))
+	fmt.Printf("Recipes found : %d\n", len(recipes))
 
 	savePath := "data/recipes.json"
 	utils.SaveRecipes(recipes, savePath)
 }
 
 func main() {
-	// Backend("Alcohol","bfs",1)
+	// Backend("Alcohol","dfs",1000)
 
 	router := gin.Default()
 
