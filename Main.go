@@ -11,10 +11,16 @@ import (
 	"strconv"
 )
 
-func Backend(target string, algorithm int, maxRecipe int) {
+func Backend(target string, algorithm string, maxRecipe int) {
 	// 0 : BFS
 	// 1 : DFS
-	recipes, err := utils.GetRecipes(target, algorithm, maxRecipe)
+	var mode int
+	if (algorithm == "bfs"){
+		mode = 0
+	} else {
+		mode = 1;
+	}
+	recipes, err := utils.GetRecipes(target, mode, maxRecipe)
 	if err != nil {
 		log.Fatalf("Failed to read recipes: %v", err)
 	}
@@ -27,6 +33,8 @@ func Backend(target string, algorithm int, maxRecipe int) {
 }
 
 func main() {
+	// Backend("Alcohol","bfs",1)
+
 	router := gin.Default()
 
 	router.Use(cors.Default()) // mengizinkan semua origin
@@ -36,20 +44,19 @@ func main() {
 		algorithm := c.Query("algorithm")      
 		maxRecipe := c.Query("maxRecipe")    
 	
-		// konversi string ke int (karena Query selalu string)
-		algorithmInt, _ := strconv.Atoi(algorithm)
+		// Konversi cukup yang maxRecipe saja karena dari fe algorithm tuh "bfs" dan "dfs"
 		maxRecipeInt, _ := strconv.Atoi(maxRecipe)
 
-		Backend(target,algorithmInt,maxRecipeInt)
+		Backend(target,algorithm,maxRecipeInt)
 	
-		// Baca isi file recipes.json
+		// Baca isi file recipes.json (Rencananya gausah write file)
 		data, err := os.ReadFile("data/recipes.json")
 		if err != nil {
 			c.JSON(http.StatusInternalServerError, gin.H{"error": "Gagal membaca file"})
 			return
 		}
 	
-		// Kirim isi JSON-nya ke frontend
+		// Kirim isi JSON-nya ke frontend (Rencananya langsung kirim)
 		c.Data(http.StatusOK, "application/json", data)
 	})
 
