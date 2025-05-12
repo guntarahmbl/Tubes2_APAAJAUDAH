@@ -5,7 +5,7 @@ import (
 	"strings"
 )
 
-// untuk memoization, data yang pernah dicari tidak usah dicari lagi
+// menerapkan memoization, data yang pernah dicari tidak usah dicari lagi
 var memo = make(map[string][]*TreeNode) 
 
 // struktur tree

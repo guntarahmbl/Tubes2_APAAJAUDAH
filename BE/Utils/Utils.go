@@ -1,14 +1,33 @@
-package  utils 
+package utils
 
 import (
 	"encoding/json"
+	"fmt"
 	"io"
 	"log"
 	"os"
+	// "sync"
 )
 
+var recipesMemo = make(map[string][]*TreeNode)
+var combinationsMemo = make(map[string][]*TreeNode)
+
+
+func GenerateRecipesMemoKey(node *TreeNode) string {
+	name1 := node.Item1["Name"]
+	name2 := node.Item2["Name"]
+	return fmt.Sprintf("%s:%s", name1, name2)
+}
+func GenerateCombinationsMemoKey(node1 *TreeNode, node2 *TreeNode) string {
+	name1_1 := node1.Item1["Name"]
+	name2_1 := node1.Item2["Name"]
+	name1_2 := node2.Item1["Name"]
+	name2_2 := node2.Item2["Name"]
+	return fmt.Sprintf("%s:%s+%s:%s", name1_1, name2_1, name1_2, name2_2)
+}
+
 // menghasilkan seluruh resep
-func GenerateAllRecipe(node *TreeNode) []*TreeNode {
+func GenerateRecipesTree(node *TreeNode, countRecipe int) []*TreeNode {
 	if node == nil {
 		return nil
 	}
@@ -24,14 +43,48 @@ func GenerateAllRecipe(node *TreeNode) []*TreeNode {
 		node.Children2 = append(node.Children2, NullChild)  // jika tidak memiliki children2, padding dengan nullChild
 	}
 
-	var combinations []*TreeNode
+	var combinations, childCombinations1, childCombinations2 []*TreeNode
+	// var wg sync.WaitGroup
+
+	count := 1
 
 	for _, child1 := range node.Children1 {
+
+		key1 := GenerateRecipesMemoKey(child1)
+		if r1, found := recipesMemo[key1]; found {
+			childCombinations1 = r1
+		} else {
+			
+			childCombinations1 = GenerateRecipesTree(child1, countRecipe)
+
+			recipesMemo[key1] = childCombinations1
+		}
+
 		for _, child2 := range node.Children2 {
 
- 			childCombinations1 := GenerateAllRecipe(child1)
-			childCombinations2 := GenerateAllRecipe(child2)
+			keyComb := GenerateCombinationsMemoKey(child1, child2)
+	
+			if savedComb, found := combinationsMemo[keyComb];found {
+				combinations = append(combinations, savedComb...)
+				
+				break
+			} 
 
+
+			key2 := GenerateRecipesMemoKey(child2)
+			if r2, found := recipesMemo[key2]; found {
+				childCombinations2 = r2
+		
+
+			} else {
+		
+				childCombinations2 = GenerateRecipesTree(child2, countRecipe)
+
+				recipesMemo[key2] = childCombinations2
+		
+			}
+
+			var tempCombinations = []*TreeNode{}
 			for _, subTree1 := range childCombinations1 {
 				for _, subTree2 := range childCombinations2 {
 
@@ -41,12 +94,17 @@ func GenerateAllRecipe(node *TreeNode) []*TreeNode {
 						Children1: []*TreeNode{subTree1},
 						Children2: []*TreeNode{subTree2},
 					}
+					tempCombinations = append(tempCombinations, combinedTree)
 					combinations = append(combinations, combinedTree)
+					count++
+					if (count > countRecipe) {
+						return combinations
+					}
 				}
 			}
+			combinationsMemo[keyComb] = tempCombinations
 		}
 	}
-
 	return combinations
 }
 
@@ -216,7 +274,7 @@ func FilterAllParents(nodes []*TreeNode) []*TreeNode {
 }
 
 // fungsi untuk mengambil semua resep dari suatu elemen
-func GetAllRecipes(name string, method int) ([]*TreeNode, error) {
+func GetRecipes(name string, method int, maxRecipe int) ([]*TreeNode, error) {
 	// 0 : BFS
 	// 1 : DFS
 
@@ -246,7 +304,7 @@ func GetAllRecipes(name string, method int) ([]*TreeNode, error) {
 		log.Fatalf("Wrong method!")
 	}
 
-	recipes := GenerateAllRecipe(root)
+	recipes := GenerateRecipesTree(root, maxRecipe)
 	for _, recipe := range recipes {
 		FilterNullChildrens(recipe)  // filter anak yang null
 	}
@@ -255,14 +313,3 @@ func GetAllRecipes(name string, method int) ([]*TreeNode, error) {
 	return recipes, err
 }
 
-// fungsi untuk mengambil sejumlah resep dari suatu elemen
-func GetRecipes(name string, method int, maxRecipe int) ([]*TreeNode, error) {
-
-	recipes, err := GetAllRecipes(name, method)
-	// fmt.Printf("Recipes length : %d\n", len(recipes))
-
-	maxRecipe = min(maxRecipe, len(recipes)) 
-	recipes = recipes[:maxRecipe]  // potong sesuai maxRecipe yang dibutuhkan
-
-	return recipes, err
-}
