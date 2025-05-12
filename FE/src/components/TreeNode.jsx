@@ -11,13 +11,13 @@ function TreeNode({ node }) {
       {/* Combine two items */}
       <div className="tree-combine">
         <div className="item">
-          <img src={node.item1.gambar} alt={node.item1.nama} />
-          <span>{node.item1.nama}</span>
+          <img src={node.Item1.Image} alt={node.Item1.Name} />
+          <span>{node.Item1.Name}</span>
         </div>
         <span className="plus-sign">+</span>
         <div className="item">
-          <img src={node.item2.gambar}/>
-          <span>{node.item2.nama}</span>
+          <img src={node.Item2.Image}/>
+          <span>{node.Item2.Name}</span>
         </div>
       </div>
 
@@ -27,7 +27,7 @@ function TreeNode({ node }) {
             {node.children1?.length > 0 && (
             <div className="tree-children-left tree-children">
                 {node.children1.map((child, i) => (
-                <TreeNode key={`c1-${child.item1.nama}-${i}`} node={child} />
+                <TreeNode key={`c1-${child.Item1.Name}-${i}`} node={child} />
                 ))}
             </div>
             )}
@@ -36,7 +36,7 @@ function TreeNode({ node }) {
             {node.children2?.length > 0 && (
             <div className="tree-children-right tree-children">
                 {node.children2.map((child, i) => (
-                <TreeNode key={`c2-${child.item2.nama}-${i}`} node={child} />
+                <TreeNode key={`c2-${child.Item2.Name}-${i}`} node={child} />
                 ))}
             </div>
             )}
@@ -48,9 +48,9 @@ function TreeNode({ node }) {
 
 TreeNode.propTypes = {
   node: PropTypes.shape({
-    item1: PropTypes.object.isRequired,
+    Item1: PropTypes.object.isRequired,
     children1: PropTypes.array,
-    item2: PropTypes.object.isRequired,
+    Item2: PropTypes.object.isRequired,
     children2: PropTypes.array,
   }).isRequired,
 };

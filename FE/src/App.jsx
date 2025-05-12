@@ -99,9 +99,9 @@ function App() {
   const [searchQuery, setSearchQuery] = useState("");
 
   // SetDummyTreeList
-  useEffect(() => {
-    setTreeList(dummyTreeList);
-  }, []);
+  // useEffect(() => {
+  //   setTreeList(dummyTreeList);
+  // }, []);
 
   useEffect(() => {
     fetch("/allElements.json")
@@ -109,6 +109,9 @@ function App() {
       .then((json) => setData(json))
       .catch((err) => console.error("Failed to load data:", err));
   }, []);
+
+  
+
 
   const filteredData = data.filter(item =>
     item.nama.toLowerCase().includes(searchQuery.toLowerCase())
@@ -126,7 +129,7 @@ function App() {
           jumlahResep={jumlahResep} 
           setJumlahResep={setJumlahResep} 
         />
-        <MainPage data={filteredData} setSelectedElement={setSelectedElement} treeList={treeList} setTreeList={setTreeList}/>
+        <MainPage data={filteredData} selectedElement={selectedElement} setSelectedElement={setSelectedElement} treeList={treeList} setTreeList={setTreeList} algorithm={algorithm} jumlahResep={jumlahResep}/>
       </div>
     </div>
   );

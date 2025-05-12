@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import '../style/MainPage.css';
 import Card from "./Card.jsx"
 import Pagination from "./Pagination.jsx"
@@ -6,7 +6,7 @@ import PopUpTree from "./PopUpTree.jsx";
 
 const itemsPerPage = 27;
 
-function MainPage({data, setSelectedElement, treeList, setTreeList}) {
+function MainPage({data, selectedElement ,setSelectedElement, treeList, setTreeList, algorithm, jumlahResep}) {
   const [currentPage, setCurrentPage] = useState(1);
   const [popUpVisible, setPopUpVisible] = useState(false);
   const [selectedItem, setSelectedItem] = useState(null);
@@ -15,11 +15,27 @@ function MainPage({data, setSelectedElement, treeList, setTreeList}) {
   const start = (currentPage - 1) * itemsPerPage;
   const currentItems = data.slice(start, start + itemsPerPage);
 
+  useEffect(() => {
+    console.log("useEffect triggered:", selectedElement, algorithm, jumlahResep);
+
+    if (!selectedElement) return;
+  
+    fetch(`http://localhost:8080/api/recipes?target=${selectedElement}&algorithm=${algorithm}&maxRecipe=${jumlahResep}`)
+      .then((res) => res.json())
+      .then((data) => {
+        setTreeList(data);
+      })
+      .catch((err) => {
+        console.error("Gagal mengambil data:", err);
+      });
+  }, [selectedElement]);
+  
   const handleViewClick = (item) => {
     setSelectedItem(item);
     setSelectedElement(item.nama);
     setPopUpVisible(true);
-    setTreeList(dummyTreeList);
+    // setTreeList(dummyTreeList);
+
   };
 
   const handleClosePopup = () => {
