@@ -10,6 +10,8 @@ function MainPage({data, selectedElement ,setSelectedElement, treeList, setTreeL
   const [currentPage, setCurrentPage] = useState(1);
   const [popUpVisible, setPopUpVisible] = useState(false);
   const [selectedItem, setSelectedItem] = useState(null);
+  const [time, setTime] = useState(null);
+  const [nodeCount, setNodeCount] = useState(null);
 
   const totalPages = Math.ceil(data.length / itemsPerPage);
   const start = (currentPage - 1) * itemsPerPage;
@@ -23,7 +25,9 @@ function MainPage({data, selectedElement ,setSelectedElement, treeList, setTreeL
     fetch(`http://localhost:8080/api/recipes?target=${selectedElement}&algorithm=${algorithm}&maxRecipe=${jumlahResep}`)
       .then((res) => res.json())
       .then((data) => {
-        setTreeList(data);
+        setTreeList(data.recipes);
+        setTime(data.time);
+        setNodeCount(data.count);
       })
       .catch((err) => {
         console.error("Gagal mengambil data:", err);
@@ -51,7 +55,7 @@ function MainPage({data, selectedElement ,setSelectedElement, treeList, setTreeL
         ))}
       </div>
 
-      <PopUpTree visible={popUpVisible} treeData={treeList} item={selectedItem} onClose={handleClosePopup} />
+      <PopUpTree visible={popUpVisible} treeData={treeList} item={selectedItem} onClose={handleClosePopup} time={time} nodeCount={nodeCount}/>
 
       <Pagination totalPages={totalPages} currentPage={currentPage} setCurrentPage={setCurrentPage}/>
 

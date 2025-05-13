@@ -6,7 +6,7 @@ import "../style/PopUpTree.css";
 import zoomInIcon from "../assets/zoom-in.png";
 import zoomOutIcon from "../assets/zoom-out.png";
 
-function PopUpTree({ visible, onClose, item, treeData }) {
+function PopUpTree({ visible, onClose, item, treeData, time, nodeCount }) {
   const [currentPage, setCurrentPage] = useState(0);
   const [zoomLevel, setZoomLevel] = useState(1);
 
@@ -34,6 +34,9 @@ function PopUpTree({ visible, onClose, item, treeData }) {
             />
           </div>
           <h2>Recipe Tree for: {item.nama}</h2>
+          <h2>Times: {(time*1000000).toFixed(2)} µs</h2>
+          <h2>Node traversed: {nodeCount}</h2>
+
           {/* Zoom controls */}
         </div>
 
