@@ -28,7 +28,7 @@ func Backend(target string, algorithm string, maxRecipe int, data *map[string]in
 	}
 	time := float64(time.Since(start).Milliseconds())
 
-	utils.PrintListOfTree(recipes)
+	// utils.PrintListOfTree(recipes)
 	fmt.Printf("Recipes found : %d\n", len(recipes))
 	fmt.Printf("Execution time : %f\n", time)
 	fmt.Printf("Node Visited : %d\n", nodeCount)

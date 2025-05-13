@@ -54,7 +54,7 @@ function PopUpTree({ visible, onClose, item, treeData, time, nodeCount }) {
         {/* Parent item at the top */}
         <div className="parent-node" style={{ transform: `scale(${zoomLevel/0.7})`, transformOrigin: "top center" }}>
           <div className="item">
-            <img src={item.image} alt={item.name} />
+            <img src={item.image} alt={item.name} width={36} />
             <span>{item.name}</span>
           </div>
         </div>
