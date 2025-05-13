@@ -9,6 +9,7 @@ import (
 	"net/http"
 	"strconv"
 	"time"
+	"os"
 )
 
 func Backend(target string, algorithm string, maxRecipe int, data *map[string]interface{}) {
@@ -63,7 +64,15 @@ func main() {
 		c.JSON(http.StatusOK, data)
 	})
 
-	if err := router.Run(":8080"); err != nil {
+	// if err := router.Run(":8080"); err != nil {
+	// 	log.Fatal("Failed to start server: ", err)
+	// }
+	
+	port := os.Getenv("PORT")
+	if port == "" {
+		port = "8080" // fallback jika di lokal
+	}
+	if err := router.Run(":" + port); err != nil {
 		log.Fatal("Failed to start server: ", err)
 	}
 	

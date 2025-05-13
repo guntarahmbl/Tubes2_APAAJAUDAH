@@ -21,9 +21,10 @@ function MainPage({data, selectedElement ,setSelectedElement, treeList, setTreeL
     console.log("useEffect triggered:", selectedElement, algorithm, jumlahResep);
 
     if (!selectedElement) return;
-  
-    fetch(`http://localhost:8080/api/recipes?target=${selectedElement}&algorithm=${algorithm}&maxRecipe=${jumlahResep}`)
-      .then((res) => res.json())
+    const apiUrl = import.meta.env.VITE_API_URL;
+
+    fetch(`${apiUrl}?target=${selectedElement}&algorithm=${algorithm}&maxRecipe=${jumlahResep}`)
+    .then((res) => res.json())
       .then((data) => {
         setTreeList(data.recipes);
         setTime(data.time);
