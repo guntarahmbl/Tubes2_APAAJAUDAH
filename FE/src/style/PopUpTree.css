@@ -23,8 +23,21 @@
   justify-content: center;
 }
 
+/* HEADER */
+.popup-header {
+  position: sticky;
+  top: 0;
+  background: white;
+  display: flex;
+  align-items: center;
+  padding: 8px 16px;
+  gap: 16px;
+  border-bottom: 1px solid #eee;
+  z-index: 10;
+}
+
 .close-btn {
-  position: absolute;
+  position: sticky;
   top: 8px;
   right: 12px;
   background: crimson;
@@ -72,4 +85,47 @@
   background-color: #ddd;
   color: #333;
   cursor: default;
+}
+
+.tree-container {
+  display: flex;
+  justify-content: center;
+  transition: transform 0.3s ease;
+}
+
+.zoom-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 12px 20px;
+}
+
+.zoom-controls button {
+  padding: 5px 10px;
+  transition: 0.2s;
+  position: relative;
+}
+
+/* .zoom-controls button:hover {
+  background-color: #007bff;
+  color: white;
+} */
+
+.zoom-icon {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.zoom-icon:hover {
+  transform: scale(1.1);
+}
+
+.sticky-footer {
+  position: sticky;
+  bottom: 0;
+  background-color: white;
+  padding: 0px 0;
+  border-top: 1px solid #eee;
 }

@@ -3,19 +3,42 @@ import TreeNode from "./TreeNode";
 import { Tree } from "react-organizational-chart";
 import "../style/PopUpTree.css";
 
+import zoomInIcon from "../assets/zoom-in.png";
+import zoomOutIcon from "../assets/zoom-out.png";
+
 function PopUpTree({ visible, onClose, item, treeData }) {
   const [currentPage, setCurrentPage] = useState(0);
+  const [zoomLevel, setZoomLevel] = useState(1);
 
   if (!visible || !item || !treeData || treeData.length === 0) return null;
 
   return (
     <div className="popup-overlay">
       <div className="popup-content">
-        <button className="close-btn" onClick={() => {onClose(); setCurrentPage(0)}}>X</button>
-        <h2>Recipe Tree for: {item.nama}</h2>
+
+        <div className="popup-header">
+          <button className="close-btn" onClick={() => {onClose(); setCurrentPage(0); setZoomLevel(1)}}>X</button>
+          <div className="zoom-controls">
+            <img
+              src={zoomOutIcon}
+              alt="Zoom Out"
+              className="zoom-icon"
+              onClick={() => setZoomLevel(z => Math.max(z - 0.1, 0.1))}
+            />
+            <span>{Math.round(zoomLevel * 100)}%</span>
+            <img
+              src={zoomInIcon}
+              alt="Zoom In"
+              className="zoom-icon"
+              onClick={() => setZoomLevel(z => Math.min(z + 0.1, 2))}
+            />
+          </div>
+          <h2>Recipe Tree for: {item.nama}</h2>
+          {/* Zoom controls */}
+        </div>
 
         {/* Parent item at the top */}
-        <div className="parent-node">
+        <div className="parent-node" style={{ transform: `scale(${zoomLevel/0.7})`, transformOrigin: "top center" }}>
           <div className="item">
             <img src={item.gambar} alt={item.nama} />
             <span>{item.nama}</span>
@@ -23,7 +46,7 @@ function PopUpTree({ visible, onClose, item, treeData }) {
         </div>
 
         {/* Show current tree */}
-        <div className="">
+        <div className="tree-container" style={{ transform: `scale(${zoomLevel})`, transformOrigin: "top center" }}>
           <Tree
             lineWidth={"2px"}
             lineColor={"#ccc"}
@@ -34,8 +57,8 @@ function PopUpTree({ visible, onClose, item, treeData }) {
           </Tree>
         </div>
 
-        {/* Pagination buttons */}
-        <div className="tree-navigation">
+        {/* Pagination */}
+        <div className="tree-navigation sticky-footer">
           <button
             onClick={() => setCurrentPage((prev) => Math.max(prev - 1, 0))}
             disabled={currentPage === 0}
