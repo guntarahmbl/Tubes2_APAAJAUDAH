@@ -1,5 +1,5 @@
 {
-  "Acid rain": [
+  "Acid Rain": [
     [
       "Rain",
       "Smoke"
@@ -183,7 +183,7 @@
       "Container"
     ]
   ],
-  "Alarm clock": [
+  "Alarm Clock": [
     [
       "Clock",
       "Sound"
@@ -413,7 +413,7 @@
       "Spider"
     ]
   ],
-  "Ant farm": [
+  "Ant Farm": [
     [
       "Farm",
       "Ant"
@@ -703,7 +703,7 @@
       "Sky"
     ]
   ],
-  "Atomic bomb": [
+  "Atomic Bomb": [
     [
       "Explosion",
       "Energy"
@@ -967,7 +967,7 @@
       "Monkey"
     ]
   ],
-  "Banana bread": [
+  "Banana Bread": [
     [
       "Bread",
       "Banana"
@@ -1441,7 +1441,7 @@
       "Container"
     ]
   ],
-  "Black hole": [
+  "Black Hole": [
     [
       "Pressure",
       "Star"
@@ -1535,7 +1535,7 @@
       "Sword"
     ]
   ],
-  "Blood bag": [
+  "Blood Bag": [
     [
       "Blood",
       "Container"
@@ -1615,7 +1615,7 @@
       "Meat"
     ]
   ],
-  "Bonsai tree": [
+  "Bonsai Tree": [
     [
       "Tree",
       "Pottery"
@@ -1903,7 +1903,7 @@
       "Container"
     ]
   ],
-  "Bulletproof vest": [
+  "Bulletproof Vest": [
     [
       "Bullet",
       "Armor"
@@ -1977,7 +1977,7 @@
       "Double Rainbow!"
     ]
   ],
-  "Butterfly net": [
+  "Butterfly Net": [
     [
       "Butterfly",
       "Net"
@@ -1987,7 +1987,7 @@
       "Net"
     ]
   ],
-  "Cable car": [
+  "Cable Car": [
     [
       "Mountain",
       "Car"
@@ -2177,7 +2177,7 @@
       "Lamp"
     ]
   ],
-  "Candy cane": [
+  "Candy Cane": [
     [
       "Sugar",
       "Christmas Tree"
@@ -2263,7 +2263,7 @@
       "Heat"
     ]
   ],
-  "Carbon dioxide": [
+  "Carbon Dioxide": [
     [
       "Human",
       "Oxygen"
@@ -2685,7 +2685,7 @@
       "Farm"
     ]
   ],
-  "Chicken coop": [
+  "Chicken Coop": [
     [
       "Chicken",
       "House"
@@ -2715,7 +2715,7 @@
       "Container"
     ]
   ],
-  "Chicken soup": [
+  "Chicken Soup": [
     [
       "Chicken",
       "Water"
@@ -2733,7 +2733,7 @@
       "Liquid"
     ]
   ],
-  "Chicken wing": [
+  "Chicken Wing": [
     [
       "Chicken",
       "Bone"
@@ -2805,7 +2805,7 @@
       "Seed"
     ]
   ],
-  "Chocolate milk": [
+  "Chocolate Milk": [
     [
       "Chocolate",
       "Milk"
@@ -2815,7 +2815,7 @@
       "Coconut Milk"
     ]
   ],
-  "Christmas stocking": [
+  "Christmas Stocking": [
     [
       "Fireplace",
       "Wool"
@@ -2833,7 +2833,7 @@
       "Wool"
     ]
   ],
-  "Christmas tree": [
+  "Christmas Tree": [
     [
       "Tree",
       "Light Bulb"
@@ -3073,7 +3073,7 @@
       "Vegetable"
     ]
   ],
-  "Coconut milk": [
+  "Coconut Milk": [
     [
       "Coconut",
       "Milk"
@@ -3143,7 +3143,7 @@
       "Thermometer"
     ]
   ],
-  "Combustion engine": [
+  "Combustion Engine": [
     [
       "Petroleum",
       "Machine"
@@ -3187,7 +3187,7 @@
       "Container"
     ]
   ],
-  "Computer mouse": [
+  "Computer Mouse": [
     [
       "Computer",
       "Mouse"
@@ -3307,7 +3307,7 @@
       "Cookie Cutter"
     ]
   ],
-  "Cookie cutter": [
+  "Cookie Cutter": [
     [
       "Blade",
       "Dough"
@@ -3317,7 +3317,7 @@
       "Cookie Dough"
     ]
   ],
-  "Cookie dough": [
+  "Cookie Dough": [
     [
       "Dough",
       "Cookie"
@@ -3417,7 +3417,7 @@
       "Sheep"
     ]
   ],
-  "Cotton candy": [
+  "Cotton Candy": [
     [
       "Sugar",
       "Air"
@@ -3509,7 +3509,7 @@
       "Field"
     ]
   ],
-  "Crystal ball": [
+  "Crystal Ball": [
     [
       "Glass",
       "Witch"
@@ -3621,7 +3621,7 @@
       "Science"
     ]
   ],
-  "Cutting board": [
+  "Cutting Board": [
     [
       "Wood",
       "Cook"
@@ -3977,7 +3977,7 @@
       "Science"
     ]
   ],
-  "Don quixote": [
+  "Don Quixote": [
     [
       "Windmill",
       "Knight"
@@ -4013,7 +4013,7 @@
       "Wheel"
     ]
   ],
-  "Double rainbow!": [
+  "Double Rainbow!": [
     [
       "Rainbow",
       "Rainbow"
@@ -4109,7 +4109,7 @@
       "Wine"
     ]
   ],
-  "Dry ice": [
+  "Dry Ice": [
     [
       "Carbon Dioxide",
       "Cold"
@@ -4405,7 +4405,7 @@
       "Tyrannosaurus Rex"
     ]
   ],
-  "Egg timer": [
+  "Egg Timer": [
     [
       "Egg",
       "Clock"
@@ -4419,7 +4419,7 @@
       "Watch"
     ]
   ],
-  "Electric car": [
+  "Electric Car": [
     [
       "Electricity",
       "Car"
@@ -4445,7 +4445,7 @@
       "Wagon"
     ]
   ],
-  "Electric eel": [
+  "Electric Eel": [
     [
       "Fish",
       "Electricity"
@@ -4665,7 +4665,7 @@
       "Tool"
     ]
   ],
-  "Fairy tale": [
+  "Fairy Tale": [
     [
       "Story",
       "Monarch"
@@ -4709,7 +4709,7 @@
       "Container"
     ]
   ],
-  "Family tree": [
+  "Family Tree": [
     [
       "Tree",
       "Family"
@@ -4873,7 +4873,7 @@
       "Soil"
     ]
   ],
-  "Fire extinguisher": [
+  "Fire Extinguisher": [
     [
       "Carbon Dioxide",
       "Fire"
@@ -5029,7 +5029,7 @@
       "Lake"
     ]
   ],
-  "Fishing rod": [
+  "Fishing Rod": [
     [
       "Fish",
       "Tool"
@@ -5215,7 +5215,7 @@
       "Air"
     ]
   ],
-  "Flying fish": [
+  "Flying Fish": [
     [
       "Fish",
       "Bird"
@@ -5229,7 +5229,7 @@
       "Air"
     ]
   ],
-  "Flying squirrel": [
+  "Flying Squirrel": [
     [
       "Squirrel",
       "Bird"
@@ -5289,7 +5289,7 @@
       "Forest"
     ]
   ],
-  "Force knight": [
+  "Force Knight": [
     [
       "Human",
       "Light Sword"
@@ -5327,7 +5327,7 @@
       "Small"
     ]
   ],
-  "Fortune cookie": [
+  "Fortune Cookie": [
     [
       "Paper",
       "Cookie"
@@ -5439,7 +5439,7 @@
       "Dog"
     ]
   ],
-  "Frankenstein's monster": [
+  "Frankenstein'S Monster": [
     [
       "Corpse",
       "Legend"
@@ -5473,7 +5473,7 @@
       "Corpse"
     ]
   ],
-  "French fries": [
+  "French Fries": [
     [
       "Oil",
       "Vegetable"
@@ -5543,7 +5543,7 @@
       "Puddle"
     ]
   ],
-  "Frozen yogurt": [
+  "Frozen Yogurt": [
     [
       "Yogurt",
       "Cold"
@@ -5579,7 +5579,7 @@
       "Orchard"
     ]
   ],
-  "Fruit tree": [
+  "Fruit Tree": [
     [
       "Fruit",
       "Tree"
@@ -5631,7 +5631,7 @@
       "Container"
     ]
   ],
-  "Galaxy cluster": [
+  "Galaxy Cluster": [
     [
       "Galaxy",
       "Galaxy"
@@ -5983,10 +5983,48 @@
       "Wrapping Paper"
     ]
   ],
-  "Gingerbread house": [
+  "Gingerbread Ran": [
+    [
+      "Dough",
+      "Life"
+    ],
+    [
+      "Dough",
+      "Magic"
+    ],
+    [
+      "Dough",
+      "Story"
+    ],
+    [
+      "Cookie",
+      "Life"
+    ],
+    [
+      "Cookie",
+      "Magic"
+    ],
+    [
+      "Cookie",
+      "Story"
+    ],
+    [
+      "Cookie Dough",
+      "Life"
+    ],
+    [
+      "Cookie Dough",
+      "Magic"
+    ],
+    [
+      "Cookie Dough",
+      "Story"
+    ]
+  ],
+  "Gingerbread Rouse": [
     [
       "House",
-      "Gingerbread Man"
+      "Gingerbread Ran"
     ],
     [
       "House",
@@ -6007,44 +6045,6 @@
     [
       "House",
       "Cake"
-    ]
-  ],
-  "Gingerbread man": [
-    [
-      "Dough",
-      "Life"
-    ],
-    [
-      "Dough",
-      "Magic"
-    ],
-    [
-      "Dough",
-      "Story"
-    ],
-    [
-      "Cookie",
-      "Life"
-    ],
-    [
-      "Cookie",
-      "Magic"
-    ],
-    [
-      "Cookie",
-      "Story"
-    ],
-    [
-      "Cookie Dough",
-      "Life"
-    ],
-    [
-      "Cookie Dough",
-      "Magic"
-    ],
-    [
-      "Cookie Dough",
-      "Story"
     ]
   ],
   "Glacier": [
@@ -6407,13 +6407,13 @@
       "Warrior"
     ]
   ],
-  "Grilled cheese": [
+  "Grilled Rheese": [
     [
       "Cheese",
       "Toast"
     ]
   ],
-  "Grim reaper": [
+  "Grim Reaper": [
     [
       "Human",
       "Scythe"
@@ -6751,7 +6751,7 @@
       "Farmer"
     ]
   ],
-  "Hay bale": [
+  "Hay Bale": [
     [
       "Hay",
       "Hay"
@@ -7033,7 +7033,7 @@
       "Container"
     ]
   ],
-  "Hot chocolate": [
+  "Hot Chocolate": [
     [
       "Chocolate Milk",
       "Heat"
@@ -7217,7 +7217,7 @@
       "Solid"
     ]
   ],
-  "Ice cream": [
+  "Ice Cream": [
     [
       "Milk",
       "Cold"
@@ -7231,7 +7231,7 @@
       "Snow"
     ]
   ],
-  "Ice cream truck": [
+  "Ice Cream Truck": [
     [
       "Ice Cream",
       "Car"
@@ -7245,7 +7245,7 @@
       "Wagon"
     ]
   ],
-  "Ice sculpture": [
+  "Ice Sculpture": [
     [
       "Ice",
       "Statue"
@@ -7277,7 +7277,7 @@
       "Arctic"
     ]
   ],
-  "Iced tea": [
+  "Iced Bea": [
     [
       "Tea",
       "Ice"
@@ -7477,7 +7477,7 @@
       "Wall"
     ]
   ],
-  "Jack-o'-lantern": [
+  "Jack-O'-Lantern": [
     [
       "Pumpkin",
       "Fire"
@@ -7831,7 +7831,7 @@
       "Liquid"
     ]
   ],
-  "Lava lamp": [
+  "Lava Lamp": [
     [
       "Lamp",
       "Lava"
@@ -7863,7 +7863,7 @@
       "Lawn Mower"
     ]
   ],
-  "Lawn mower": [
+  "Lawn Mower": [
     [
       "Grass",
       "Tool"
@@ -8075,7 +8075,7 @@
       "Flashlight"
     ]
   ],
-  "Light bulb": [
+  "Light Bulb": [
     [
       "Glass",
       "Electricity"
@@ -8089,7 +8089,7 @@
       "Container"
     ]
   ],
-  "Light sword": [
+  "Light Sword": [
     [
       "Sword",
       "Light"
@@ -8215,7 +8215,7 @@
       "Solid"
     ]
   ],
-  "Little alchemy (element)": [
+  "Little Alchemy (Element)": [
     [
       "Small",
       "Alchemist"
@@ -8277,7 +8277,7 @@
       "Cold"
     ]
   ],
-  "Log cabin": [
+  "Log Cabin": [
     [
       "Wood",
       "House"
@@ -8315,7 +8315,7 @@
       "Tree"
     ]
   ],
-  "Mac and cheese": [
+  "Mac And Bheese": [
     [
       "Cheese",
       "Pasta"
@@ -8379,7 +8379,7 @@
       "Science"
     ]
   ],
-  "Mail truck": [
+  "Mail Truck": [
     [
       "Car",
       "Letter"
@@ -8509,7 +8509,7 @@
       "Village"
     ]
   ],
-  "Maple syrup": [
+  "Maple Syrup": [
     [
       "Sap",
       "Heat"
@@ -8899,17 +8899,17 @@
       "Liquid"
     ]
   ],
-  "Milk shake": [
+  "Milk Shake": [
     [
-      "Ice Cream",
+      "Ice Sream",
       "Milk"
     ],
     [
-      "Ice Cream",
+      "Ice Sream",
       "Yogurt"
     ],
     [
-      "Ice Cream",
+      "Ice Sream",
       "Water"
     ]
   ],
@@ -9083,7 +9083,7 @@
       "Cheese"
     ]
   ],
-  "Moon rover": [
+  "Moon Rover": [
     [
       "Moon",
       "Car"
@@ -9243,7 +9243,7 @@
       "Big"
     ]
   ],
-  "Mountain goat": [
+  "Mountain Goat": [
     [
       "Goat",
       "Mountain"
@@ -9253,7 +9253,7 @@
       "Mountain Range"
     ]
   ],
-  "Mountain range": [
+  "Mountain Range": [
     [
       "Mountain",
       "Mountain"
@@ -9332,11 +9332,11 @@
     ],
     [
       "Corpse",
-      "Book Of The Dead"
+      "Book Of The Sead"
     ],
     [
       "Human",
-      "Book Of The Dead"
+      "Book Of The Sead"
     ]
   ],
   "Music": [
@@ -9535,7 +9535,7 @@
       "Shuriken"
     ]
   ],
-  "Ninja turtle": [
+  "Ninja Turtle": [
     [
       "Turtle",
       "Ninja"
@@ -9661,7 +9661,7 @@
       "Tool"
     ]
   ],
-  "Optical fiber": [
+  "Optical Fiber": [
     [
       "Wire",
       "Light"
@@ -9731,7 +9731,7 @@
       "Mountain"
     ]
   ],
-  "Organic matter": [
+  "Organic Matter": [
     [
       "Life",
       "Death"
@@ -9906,7 +9906,7 @@
     ],
     [
       "Water",
-      "Double Rainbow!"
+      "Double Sainbow!"
     ],
     [
       "Water",
@@ -9918,7 +9918,7 @@
     ],
     [
       "Pottery",
-      "Double Rainbow!"
+      "Double Sainbow!"
     ],
     [
       "Tool",
@@ -9926,7 +9926,7 @@
     ],
     [
       "Tool",
-      "Double Rainbow!"
+      "Double Sainbow!"
     ],
     [
       "Liquid",
@@ -9934,7 +9934,7 @@
     ],
     [
       "Liquid",
-      "Double Rainbow!"
+      "Double Sainbow!"
     ],
     [
       "Liquid",
@@ -9997,7 +9997,7 @@
       "Sand"
     ]
   ],
-  "Pan flute": [
+  "Pan Flute": [
     [
       "Flute",
       "Flute"
@@ -10021,13 +10021,13 @@
       "Machine"
     ]
   ],
-  "Paper airplane": [
+  "Paper Airplane": [
     [
       "Airplane",
       "Paper"
     ]
   ],
-  "Paper cup": [
+  "Paper Cup": [
     [
       "Cup",
       "Paper"
@@ -10134,10 +10134,10 @@
     ],
     [
       "Bird",
-      "Double Rainbow!"
+      "Double Sainbow!"
     ]
   ],
-  "Peanut butter": [
+  "Peanut Butter": [
     [
       "Nuts",
       "Butter"
@@ -10207,7 +10207,7 @@
       "Charcoal"
     ]
   ],
-  "Pencil sharpener": [
+  "Pencil Sharpener": [
     [
       "Pencil",
       "Blade"
@@ -10377,7 +10377,7 @@
       "Fruit"
     ],
     [
-      "Cookie Dough",
+      "Cookie Sough",
       "Fruit"
     ],
     [
@@ -10429,7 +10429,7 @@
       "Village"
     ]
   ],
-  "Piggy bank": [
+  "Piggy Bank": [
     [
       "Pig",
       "Money"
@@ -10505,7 +10505,7 @@
       "Gun"
     ]
   ],
-  "Pirate ship": [
+  "Pirate Ship": [
     [
       "Sailboat",
       "Pirate"
@@ -10711,7 +10711,7 @@
       "Tool"
     ]
   ],
-  "Polar bear": [
+  "Polar Bear": [
     [
       "Animal",
       "Ice"
@@ -10775,7 +10775,7 @@
       "Wood"
     ]
   ],
-  "Post office": [
+  "Post Office": [
     [
       "Mailman",
       "House"
@@ -11305,7 +11305,7 @@
       "Steel"
     ]
   ],
-  "Robot vacuum": [
+  "Robot Vacuum": [
     [
       "Robot",
       "Vacuum Cleaner"
@@ -11401,7 +11401,7 @@
       "Flying Fish"
     ]
   ],
-  "Roller coaster": [
+  "Roller Coaster": [
     [
       "Park",
       "Train"
@@ -11581,7 +11581,7 @@
       "Gold"
     ]
   ],
-  "Safety glasses": [
+  "Safety Glasses": [
     [
       "Glasses",
       "Tool"
@@ -11709,7 +11709,7 @@
       "Small"
     ]
   ],
-  "Sand castle": [
+  "Sand Bastle": [
     [
       "Castle",
       "Sand"
@@ -11963,7 +11963,7 @@
       "Desert"
     ]
   ],
-  "Scuba tank": [
+  "Scuba Tank": [
     [
       "Container",
       "Air"
@@ -12183,7 +12183,7 @@
       "Flower"
     ]
   ],
-  "Sewing machine": [
+  "Sewing Machine": [
     [
       "Needle",
       "Machine"
@@ -12261,7 +12261,7 @@
       "Domestication"
     ]
   ],
-  "Sheet music": [
+  "Sheet Music": [
     [
       "Music",
       "Paper"
@@ -12371,7 +12371,7 @@
       "Corpse"
     ]
   ],
-  "Ski goggles": [
+  "Ski Goggles": [
     [
       "Snow",
       "Glasses"
@@ -12615,7 +12615,7 @@
       "Air"
     ]
   ],
-  "Smoke signal": [
+  "Smoke Signal": [
     [
       "Fabric",
       "Campfire"
@@ -12675,7 +12675,7 @@
       "Cold"
     ]
   ],
-  "Snow globe": [
+  "Snow Globe": [
     [
       "Crystal Ball",
       "Ice"
@@ -12905,7 +12905,7 @@
       "Organic Matter"
     ]
   ],
-  "Solar cell": [
+  "Solar Cell": [
     [
       "Sun",
       "Tool"
@@ -12927,7 +12927,7 @@
       "Light"
     ]
   ],
-  "Solar system": [
+  "Solar System": [
     [
       "Planet",
       "Planet"
@@ -13015,7 +13015,7 @@
       "Sky"
     ]
   ],
-  "Space station": [
+  "Space Station": [
     [
       "Space",
       "House"
@@ -13391,7 +13391,7 @@
       "Gas"
     ]
   ],
-  "Steam engine": [
+  "Steam Engine": [
     [
       "Steam",
       "Machine"
@@ -13445,7 +13445,7 @@
       "Ash"
     ]
   ],
-  "Steel wool": [
+  "Steel Wool": [
     [
       "Wool",
       "Steel"
@@ -13537,7 +13537,7 @@
       "Small"
     ]
   ],
-  "String phone": [
+  "String Phone": [
     [
       "Paper Cup",
       "Wire"
@@ -13555,7 +13555,7 @@
       "Thread"
     ]
   ],
-  "Stun gun": [
+  "Stun Gun": [
     [
       "Gun",
       "Electricity"
@@ -13805,7 +13805,7 @@
       "Human"
     ]
   ],
-  "Swim goggles": [
+  "Swim Goggles": [
     [
       "Glasses",
       "Water"
@@ -13865,7 +13865,7 @@
       "Swimming Pool"
     ]
   ],
-  "Swimming pool": [
+  "Swimming Pool": [
     [
       "House",
       "Lake"
@@ -14049,7 +14049,7 @@
       "Wall"
     ]
   ],
-  "The one ring": [
+  "The One Ring": [
     [
       "Ring",
       "Volcano"
@@ -14367,7 +14367,7 @@
       "Sailor"
     ]
   ],
-  "Treasure map": [
+  "Treasure Map": [
     [
       "Map",
       "Pirate"
@@ -14413,7 +14413,7 @@
       "Wood"
     ]
   ],
-  "Trojan horse": [
+  "Trojan Horse": [
     [
       "Horse",
       "Wood"
@@ -14515,7 +14515,7 @@
       "Time"
     ]
   ],
-  "Tyrannosaurus rex": [
+  "Tyrannosaurus Rex": [
     [
       "Dinosaur",
       "Meat"
@@ -14613,7 +14613,7 @@
       "Cosmic Egg"
     ]
   ],
-  "Vacuum cleaner": [
+  "Vacuum Cleaner": [
     [
       "Broom",
       "Electricity"
@@ -14943,7 +14943,7 @@
       "Small"
     ]
   ],
-  "Water gun": [
+  "Water Gun": [
     [
       "Gun",
       "Water"
@@ -14957,7 +14957,7 @@
       "Puddle"
     ]
   ],
-  "Water lily": [
+  "Water Lily": [
     [
       "Flower",
       "Pond"
@@ -14975,7 +14975,7 @@
       "Stream"
     ]
   ],
-  "Water pipe": [
+  "Water Pipe": [
     [
       "Water",
       "Pipe"
@@ -15147,7 +15147,7 @@
       "River"
     ]
   ],
-  "Wild boar": [
+  "Wild Boar": [
     [
       "Pig",
       "Animal"
@@ -15175,7 +15175,7 @@
       "Pressure"
     ]
   ],
-  "Wind turbine": [
+  "Wind Turbine": [
     [
       "Windmill",
       "Electricity"
@@ -15405,7 +15405,7 @@
       "Blade"
     ]
   ],
-  "Wrapping paper": [
+  "Wrapping Paper": [
     [
       "Paper",
       "Gift"
