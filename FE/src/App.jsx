@@ -104,7 +104,7 @@ function App() {
   // }, []);
 
   useEffect(() => {
-    fetch("/allElements.json")
+    fetch("/images.json")
       .then((res) => res.json())
       .then((json) => setData(json))
       .catch((err) => console.error("Failed to load data:", err));
@@ -114,7 +114,7 @@ function App() {
 
 
   const filteredData = data.filter(item =>
-    item.nama.toLowerCase().includes(searchQuery.toLowerCase())
+    item.name.toLowerCase().includes(searchQuery.toLowerCase())
   );
 
   return (

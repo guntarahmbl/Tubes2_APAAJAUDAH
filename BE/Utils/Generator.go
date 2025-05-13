@@ -124,7 +124,7 @@ func GetRecipes(name string, method int, maxRecipe int) ([]*TreeNode, int, error
 	}
 
 	// membaca image elemen
-	img , err := ReadElementsImage("data/allElementsImage.json")
+	img , err := ReadElementsImage("data/images.json")
 	if err != nil {
 		log.Fatalf("Failed to read tier: %v", err)
 	}

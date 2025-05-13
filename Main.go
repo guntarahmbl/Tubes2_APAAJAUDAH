@@ -7,12 +7,11 @@ import (
 	"github.com/gin-contrib/cors"
 	"github.com/gin-gonic/gin"
 	"net/http"
-	"os"
 	"strconv"
 	"time"
 )
 
-func Backend(target string, algorithm string, maxRecipe int) {
+func Backend(target string, algorithm string, maxRecipe int, data *map[string]interface{}) {
 	// 0 : BFS
 	// 1 : DFS
 	var mode int
@@ -29,21 +28,21 @@ func Backend(target string, algorithm string, maxRecipe int) {
 	}
 	time := float64(time.Since(start).Milliseconds())
 
-
-	// utils.PrintListOfTree(recipes)
+	utils.PrintListOfTree(recipes)
 	fmt.Printf("Recipes found : %d\n", len(recipes))
 	fmt.Printf("Execution time : %f\n", time)
 	fmt.Printf("Node Visited : %d\n", nodeCount)
 
-
-
-	savePath := "data/recipes.json"
-	utils.SaveRecipes(recipes, time, nodeCount, savePath)
+	*data = map[string]interface{}{
+		"time":    time,
+		"count":   nodeCount,
+		"recipes": recipes,
+	}
 }
 
 func main() {
 
-	Backend("Alcohol","bfs",1)
+	// Backend("Alcohol","bfs",1)
 
 	router := gin.Default()
 
@@ -57,17 +56,11 @@ func main() {
 		// Konversi cukup yang maxRecipe saja karena dari fe algorithm tuh "bfs" dan "dfs"
 		maxRecipeInt, _ := strconv.Atoi(maxRecipe)
 
-		Backend(target,algorithm,maxRecipeInt)
-	
-		// Baca isi file recipes.json (Rencananya gausah write file)
-		data, err := os.ReadFile("data/recipes.json")
-		if err != nil {
-			c.JSON(http.StatusInternalServerError, gin.H{"error": "Gagal membaca file"})
-			return
-		}
+		var data map[string]interface{}
+		Backend(target,algorithm,maxRecipeInt, &data)
 	
 		// Kirim isi JSON-nya ke frontend (Rencananya langsung kirim)
-		c.Data(http.StatusOK, "application/json", data)
+		c.JSON(http.StatusOK, data)
 	})
 
 	if err := router.Run(":8080"); err != nil {

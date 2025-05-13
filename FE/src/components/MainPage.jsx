@@ -36,7 +36,7 @@ function MainPage({data, selectedElement ,setSelectedElement, treeList, setTreeL
   
   const handleViewClick = (item) => {
     setSelectedItem(item);
-    setSelectedElement(item.nama);
+    setSelectedElement(item.name);
     setPopUpVisible(true);
     // setTreeList(dummyTreeList);
 
@@ -51,7 +51,7 @@ function MainPage({data, selectedElement ,setSelectedElement, treeList, setTreeL
     <div>
       <div className="card-container">
         {currentItems.map((item, index) => (
-          <Card key={item.nama} nama={item.nama} index={index} gambar={item.gambar} onView={() => handleViewClick(item)}/>
+          <Card key={item.name} nama={item.name} index={index} gambar={item.image} onView={() => handleViewClick(item)}/>
         ))}
       </div>
 

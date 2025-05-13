@@ -33,7 +33,7 @@ function PopUpTree({ visible, onClose, item, treeData, time, nodeCount }) {
               onClick={() => setZoomLevel(z => Math.min(z + 0.1, 2))}
             />
           </div>
-          <h2>Recipe Tree for: {item.nama}</h2>
+          <h2>Recipe Tree for: {item.name}</h2>
           <h2>Times: {(time).toFixed(2)} ms</h2>
           <h2>Node traversed: {nodeCount}</h2>
 
@@ -43,8 +43,8 @@ function PopUpTree({ visible, onClose, item, treeData, time, nodeCount }) {
         {/* Parent item at the top */}
         <div className="parent-node" style={{ transform: `scale(${zoomLevel/0.7})`, transformOrigin: "top center" }}>
           <div className="item">
-            <img src={item.gambar} alt={item.nama} />
-            <span>{item.nama}</span>
+            <img src={item.image} alt={item.name} />
+            <span>{item.name}</span>
           </div>
         </div>
 
