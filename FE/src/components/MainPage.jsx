@@ -23,7 +23,7 @@ function MainPage({data, selectedElement ,setSelectedElement, treeList, setTreeL
     if (!selectedElement) return;
     const apiUrl = import.meta.env.VITE_API_URL;
 
-    fetch(`${apiUrl}?target=${selectedElement}&algorithm=${algorithm}&maxRecipe=${jumlahResep}`)
+    fetch(`${apiUrl}/recipes?target=${selectedElement}&algorithm=${algorithm}&maxRecipe=${jumlahResep}`)
     .then((res) => res.json())
       .then((data) => {
         setTreeList(data.recipes);
