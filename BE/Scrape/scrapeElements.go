@@ -1,4 +1,4 @@
-package main
+package scrape
 
 import (
 	"encoding/json"
@@ -78,3 +78,4 @@ func ScrapeElementNames() {
 
 	log.Println("Sukses menyimpan data ke allElements.json")
 }
+
