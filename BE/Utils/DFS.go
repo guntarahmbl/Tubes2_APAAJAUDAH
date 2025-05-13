@@ -6,9 +6,9 @@ import (
 	"sync"
 )
 
+// membangun pohon dengan algoritma DFS
 func BuildTreeDFS(result map[string][][]string, root *TreeNode, tier map[string]int, img map[string]string) {
     var memoMutex sync.Mutex // Mutex untuk melindungi akses ke memo
-    memo := make(map[string][]*TreeNode)
 
     // Fungsi untuk memproses item (item1 atau item2) secara rekursif
     var processItem func(name string, children *[]*TreeNode, tier map[string]int, wg *sync.WaitGroup)
@@ -16,7 +16,7 @@ func BuildTreeDFS(result map[string][][]string, root *TreeNode, tier map[string]
         defer wg.Done() // Selesai, kurangi counter WaitGroup
 
         memoMutex.Lock()
-        memoChildren, found := memo[name]
+        memoChildren, found := recipesMemo[name]
         memoMutex.Unlock()
 
         if found {
@@ -28,9 +28,16 @@ func BuildTreeDFS(result map[string][][]string, root *TreeNode, tier map[string]
         var newChildren []*TreeNode
 
         for _, val := range recipes { // Iterasi tiap resep
-            if tier[name] <= tier[val[0]] || tier[name] <= tier[val[1]] {
-                continue
-            }
+            
+				// jika tier lebih tinggi, skip
+				if tier[name] <= tier[val[0]] || tier[name] <= tier[val[1]] {
+					continue
+				}
+
+				// Jika mengandung time, skip
+				if val[0] == "Time" || val[1] == "Time" {
+					continue
+				}
 
             newNode := &TreeNode{
                 Item1: map[string]string{
@@ -52,7 +59,7 @@ func BuildTreeDFS(result map[string][][]string, root *TreeNode, tier map[string]
         }
 
         memoMutex.Lock()
-        memo[name] = newChildren // Simpan hasil ke memo
+        recipesMemo[name] = newChildren // Simpan hasil ke memo
         memoMutex.Unlock()
 
         *children = append(*children, newChildren...)

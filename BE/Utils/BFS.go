@@ -12,8 +12,7 @@ func BuildTreeBFS(result map[string][][]string, root *TreeNode, tier map[string]
 	queue := []*TreeNode{root}
 
 	// Mutex untuk memproses memo secara thread-safe
-	var memoMutex sync.Mutex
-	memo := make(map[string][]*TreeNode)
+	var mu sync.Mutex
 
 	// Proses BFS
 	for len(queue) > 0 {
@@ -25,9 +24,9 @@ func BuildTreeBFS(result map[string][][]string, root *TreeNode, tier map[string]
 		// Fungsi untuk memproses item (item1 atau item2)
 		processItem := func(name string, children *[]*TreeNode, currentQueue *[]*TreeNode) {
 			defer wg.Done() // Defer untuk mengurangi WaitGroup counter
-			memoMutex.Lock()
-			memoChildren, found := memo[name]
-			memoMutex.Unlock()
+			mu.Lock()
+			memoChildren, found := recipesMemo[name]
+			mu.Unlock()
 
 			if found {
 				*children = append(*children, memoChildren...) // Ambil dari memo jika sudah diproses
@@ -38,9 +37,16 @@ func BuildTreeBFS(result map[string][][]string, root *TreeNode, tier map[string]
 			var newChildren []*TreeNode
 
 			for _, val := range recipes {
+
+				// jika tier lebih tinggi, skip
 				if tier[name] <= tier[val[0]] || tier[name] <= tier[val[1]] {
 					continue
 				}
+
+				// // Jika mengandung time, skip
+				// if val[0] == "Time" || val[1] == "Time" {
+				// 	continue
+				// }
 
 				newNode := &TreeNode{
 					Item1: map[string]string{
@@ -57,9 +63,9 @@ func BuildTreeBFS(result map[string][][]string, root *TreeNode, tier map[string]
 				*currentQueue = append(*currentQueue, newNode) // Tambahkan ke queue
 			}
 
-			memoMutex.Lock()
-			memo[name] = newChildren // Simpan hasil ke memo
-			memoMutex.Unlock()
+			mu.Lock()
+			recipesMemo[name] = newChildren // Simpan hasil ke memo
+			mu.Unlock()
 
 			*children = append(*children, newChildren...)
 		}
