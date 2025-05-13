@@ -3,7 +3,6 @@ package utils
 import (
 	"fmt"
 	"log"
-	"time"
 )
 
 
@@ -106,9 +105,11 @@ func GenerateRecipesTree(node *TreeNode, countRecipe int) ([]*TreeNode, int) {
 }
 
 // fungsi untuk mengambil semua resep dari suatu elemen
-func GetRecipes(name string, method int, maxRecipe int) ([]*TreeNode, float64, int, error) {
+func GetRecipes(name string, method int, maxRecipe int) ([]*TreeNode, int, error) {
 	// 0 : BFS
 	// 1 : DFS
+
+	ClearMemo()
 
 	// membaca recipe global
 	globalRecipes, err := ReadElementsRecipes("data/allElementsRecipes.json")
@@ -136,7 +137,6 @@ func GetRecipes(name string, method int, maxRecipe int) ([]*TreeNode, float64, i
 	}
 
 	// pilih method untuk membangun pohon resep
-	start := time.Now()
 	if (method == 0) {
 		BuildTreeBFS(globalRecipes, root, tier, img)
 	} else if (method == 1) {
@@ -151,10 +151,8 @@ func GetRecipes(name string, method int, maxRecipe int) ([]*TreeNode, float64, i
 	}
 	recipes = FilterAllParents(recipes)
 	
-	elapsed := time.Since(start).Seconds()
-	time := elapsed
 
-	return recipes, time, nodeCount, err
+	return recipes, nodeCount, err
 }
 
 

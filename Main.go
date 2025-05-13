@@ -9,6 +9,7 @@ import (
 	"net/http"
 	"os"
 	"strconv"
+	"time"
 )
 
 func Backend(target string, algorithm string, maxRecipe int) {
@@ -20,15 +21,21 @@ func Backend(target string, algorithm string, maxRecipe int) {
 	} else {
 		mode = 1;
 	}
-	recipes, time, nodeCount, err := utils.GetRecipes(target, mode, maxRecipe)
+	start := time.Now()
+
+	recipes, nodeCount, err := utils.GetRecipes(target, mode, maxRecipe)
 	if err != nil {
 		log.Fatalf("Failed to read recipes: %v", err)
 	}
+	time := float64(time.Since(start).Milliseconds())
+
 
 	// utils.PrintListOfTree(recipes)
 	fmt.Printf("Recipes found : %d\n", len(recipes))
 	fmt.Printf("Execution time : %f\n", time)
 	fmt.Printf("Node Visited : %d\n", nodeCount)
+
+
 
 	savePath := "data/recipes.json"
 	utils.SaveRecipes(recipes, time, nodeCount, savePath)
@@ -36,7 +43,7 @@ func Backend(target string, algorithm string, maxRecipe int) {
 
 func main() {
 
-	// Backend("Sun","bfs",4)
+	Backend("Alcohol","bfs",1)
 
 	router := gin.Default()
 

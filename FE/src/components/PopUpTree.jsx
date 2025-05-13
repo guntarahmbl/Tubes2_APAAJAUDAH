@@ -34,7 +34,7 @@ function PopUpTree({ visible, onClose, item, treeData, time, nodeCount }) {
             />
           </div>
           <h2>Recipe Tree for: {item.nama}</h2>
-          <h2>Times: {(time*1000000).toFixed(2)} µs</h2>
+          <h2>Times: {(time).toFixed(2)} ms</h2>
           <h2>Node traversed: {nodeCount}</h2>
 
           {/* Zoom controls */}
