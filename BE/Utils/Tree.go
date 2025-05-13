@@ -5,9 +5,6 @@ import (
 	"strings"
 )
 
-// menerapkan memoization, data yang pernah dicari tidak usah dicari lagi
-var memo = make(map[string][]*TreeNode) 
-
 // struktur tree
 type TreeNode struct {
 	Item1    map[string]string
@@ -30,12 +27,7 @@ func isBaseElement(item string) bool {
 	}
 	return false
 }
-func isLeaf(node TreeNode) bool {
-	if node.Item2["Name"] == "" {
-		return true
-	}
-	return isBaseElement(node.Item1["Name"]) && isBaseElement(node.Item2["Name"])
-}
+
 
 // menampilkan tree (secara DFS)
 func PrintTree(node *TreeNode, level int) {
@@ -65,4 +57,64 @@ func PrintListOfTree(recipes []*TreeNode) {
 		PrintTree(recipe, 0)
 	}
 	fmt.Printf("==========================\n")
+}
+
+func isTreeSame(tree1, tree2 *TreeNode) bool {
+	// Jika keduanya nil, mereka sama
+	if tree1 == nil && tree2 == nil {
+		return true
+	}
+
+	// Jika salah satu nil, mereka tidak sama
+	if tree1 == nil || tree2 == nil {
+		return false
+	}
+
+	// Periksa Item1
+	if len(tree1.Item1) != len(tree2.Item1) || !isMapEqual(tree1.Item1, tree2.Item1) {
+		return false
+	}
+
+	// Periksa Item2
+	if len(tree1.Item2) != len(tree2.Item2) || !isMapEqual(tree1.Item2, tree2.Item2) {
+		return false
+	}
+
+	// Periksa jumlah anak di Children1 dan Children2
+	if len(tree1.Children1) != len(tree2.Children1) || len(tree1.Children2) != len(tree2.Children2) {
+		return false
+	}
+
+	// Rekursi untuk setiap anak di Children1
+	for i := 0; i < len(tree1.Children1); i++ {
+		if !isTreeSame(tree1.Children1[i], tree2.Children1[i]) {
+			return false
+		}
+	}
+
+	// Rekursi untuk setiap anak di Children2
+	for i := 0; i < len(tree1.Children2); i++ {
+		if !isTreeSame(tree1.Children2[i], tree2.Children2[i]) {
+			return false
+		}
+	}
+
+	// Jika semua pemeriksaan lulus, pohon identik
+	return true
+}
+
+// Fungsi pembantu untuk membandingkan dua map
+func isMapEqual(map1, map2 map[string]string) bool {
+	if len(map1) != len(map2) {
+		return false
+	}
+
+	for key, val1 := range map1 {
+		val2, exists := map2[key]
+		if !exists || val1 != val2 {
+			return false
+		}
+	}
+
+	return true
 }
