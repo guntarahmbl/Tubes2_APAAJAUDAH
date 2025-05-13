@@ -8,16 +8,27 @@ import zoomOutIcon from "../assets/zoom-out.png";
 
 function PopUpTree({ visible, onClose, item, treeData, time, nodeCount }) {
   const [currentPage, setCurrentPage] = useState(0);
-  const [zoomLevel, setZoomLevel] = useState(1);
+  const [inputPage, setInputPage] = useState(1);
+  const [zoomLevel, setZoomLevel] = useState(0.5);
 
   if (!visible || !item || !treeData || treeData.length === 0) return null;
+  
+    const handleKeyDown = (e) => {
+    if (e.key === "Enter") {
+      const page = parseInt(inputPage, 10);
+      if (!isNaN(page)) {
+        const pageNow = Math.min(Math.max(page - 1, 0), treeData.length - 1);
+        setCurrentPage([pageNow]);
+      }
+    }
+  };
 
   return (
     <div className="popup-overlay">
       <div className="popup-content">
 
         <div className="popup-header">
-          <button className="close-btn" onClick={() => {onClose(); setCurrentPage(0); setZoomLevel(1)}}>X</button>
+          <button className="close-btn" onClick={() => {onClose(); setCurrentPage(0); setZoomLevel(0.5)}}>X</button>
           <div className="zoom-controls">
             <img
               src={zoomOutIcon}
@@ -25,7 +36,7 @@ function PopUpTree({ visible, onClose, item, treeData, time, nodeCount }) {
               className="zoom-icon"
               onClick={() => setZoomLevel(z => Math.max(z - 0.1, 0.1))}
             />
-            <span>{Math.round(zoomLevel * 100)}%</span>
+            <p>{Math.round(zoomLevel * 100)}%</p>
             <img
               src={zoomInIcon}
               alt="Zoom In"
@@ -70,13 +81,20 @@ function PopUpTree({ visible, onClose, item, treeData, time, nodeCount }) {
           </button>
           <p>{currentPage + 1} / {treeData.length}</p>
           <button
-            onClick={() =>
-              setCurrentPage((prev) => Math.min(prev + 1, treeData.length - 1))
-            }
+            onClick={() => setCurrentPage((prev) => Math.min(prev + 1, treeData.length - 1))}
             disabled={currentPage === treeData.length - 1}
           >
             Next
           </button>
+          <p>Go to Page: </p>
+          <input type="number"
+                    className="input"
+                    value={inputPage}
+                    min={1}
+                    max={treeData.length}
+                    onChange={(e) => setInputPage(e.target.value)}
+                    onKeyDown={handleKeyDown}
+            />
         </div>
       </div>
     </div>
