@@ -35,7 +35,7 @@ function TopBarControls({ algorithm, setAlgorithm, jumlahType, setJumlahType, ju
             <label htmlFor="start">Jumlah Resep: </label>
             <input id="start" type="text" className="input" 
                       value={jumlahResep}
-                      onChange={(e) => setJumlahResep(e.target.value)}/>
+                      onChange={(e) => setJumlahResep(Math.max(1, Math.min(Number(e.target.value), 100)))}/>
           </>
         )}
         {/* <button className="button"
